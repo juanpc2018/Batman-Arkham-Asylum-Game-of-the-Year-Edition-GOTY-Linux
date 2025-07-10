@@ -1,1 +1,152 @@
-# Batman-Arkham-Asylum-Game-of-the-Year-Edition-GOTY-Linux
+# Batman Arkham Asylum Game of the Year Edition "GOTY" on Linux
+
+32-Bit game </br>
+Works Ok. </br>
+
+All maximum settings. </br>
+
+3440x1440x50fps  </br>
+incl. [PhysX](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) </br>
+
+[X] VSync in the game. </br>
+[X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
+
+-------------------------
+
+GPU: Nvidia [GTX 1050Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) </br>
+
+Linux Driver: 470-propietary </br>
++ </br>
+Legacy OpenGL drivers: </br>
+Libgl1 </br>
+vdpau to gl </br>
+
+install: </br>
+Synaptic </br>
+
+-------------------------------------
+
+LG [34GP63A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) </br>
+
+can have 160fps using DisplayPort v1.4 </br>
+but... </br>
+Not Real, its compressed h.264, Bits are reduced. </br>
+
+True 160fps at 3440x1440 Requires latest generation DP 2.0 </br>
+HDMI is limited to 50fps at 3440x1440 </br>
+works ok. </br>
+
+is possible to lower resolution and increase frames, </br>
+Hiher resolution does Not require Anti-aliasing, </br>
+Anti-Aliasing consumes more GPU. </br>
+Higher resolution looks better, 50fps is enough. </br>
+
+Latest RTX 5000 GPU's dont work with 32-Bit PhysX on Windows, </br>
+Linux Unknown, probaly the same if its Hardware or Propietary driver feature removed. </br>
+
+Linux is Tricky to make it work with 32-Bit games. </br>
+different GPU require different drivers. </br>
+Not all drivers support Legacy 32-Bit OpenGL on Linux. </br>
+
+1050 Ti Works driver 470, almost Flawless at 3440x1400x50fps. </br>
+requires a Fast CPU like 7600x or 12700k </br>
+install: </br>
+cpupower-gui </br>
+cpu-x </br>
+
+set: CPU in Performance mode. </br>
+
+Maybe other OS & configurations could work, but Untested. </br>
+
+----------------------
+
+Sound: Focusrite Scarlett mk2 USB </br>
+6.3 Kernel lowlatency or liquorix </br>
+requires: Qjackctl, </br>
+does Not sound with Pulse Audio. </br>
+maybe its a configuration problem with Wine, maybe winetricks or protontricks could solve. </br>
+
+JackAudio works "out of the box" </br>
+Sample Rate: 48kHz </br>
+Frames: 256 </br>
+Buffer: 2 </br>
+Latency 10.7ms </br>
+alsa </br>
+i/o Device: hw:USB </br>
+
+----------------------
+
+OS: </br>
+[pearOS 20.04.4 LTS](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) </br>
+"modified Ubuntu/Kubuntu" Not updated to 20.04.6 LTS </br>
+
+Original Ubuntu 20.04.4 has a problem with: </br>
+pulseaudio-module-jack = Not recommended for JackAudio. </br>
+
+Haven't tested [Kubuntu 20.04.4 LTS](https://web.archive.org/web/20220312054528/http://cdimage.ubuntu.com/kubuntu/releases/20.04.4/release/kubuntu-20.04.4-desktop-amd64.iso.torrent) </br>
+[SHA256SUM](https://web.archive.org/web/20220305015630/http://cdimage.ubuntu.com/kubuntu/releases/20.04.4/release/SHA256SUMS) </br>
+[archive](https://web.archive.org/web/20220305014143/https://cdimage.ubuntu.com/kubuntu/releases/20.04.4/release/) </br>
+
+pulseaudio-moduile-jack is required to play audio from Firefox & any other software Not designed for JackAudio. </br>
+
+-------------------
+
+Game installer / Loader: </br>
+[Lutris v0.5.18 .deb](https://github.com/lutris/lutris/releases) </br>
+
+[EAappinstaller.exe](https://www.ea.com/ea-app#downloads) </br>
+
+[Wine 32-Bit Focal stable](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu) </br>
+
+```
+$ sudo dpkg --add-architecture i386 
+$ sudo mkdir -pm755 /etc/apt/keyrings
+$ wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo gpg --dearmor -o /etc/apt/keyrings/winehq-archive.key -
+$ sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources
+$ sudo apt install --install-recommends winehq-stable
+```
+
+------------------------
+
+Game complains twice that 1050 Ti is Not recommended when activating PhysX, because that GPU did Not exist, </br>
+but works Flawless 90% of the time. </br>
+sometimes 1050Ti has frame drops "less than 50fps" at 3440x1440 with all Max. + PhysX </br>
+Sofar the most GPU demanding part / scene is at the begginig, </br> 
+GTX 1060 6GB or GTX 1070 could be better at 50fps "100% stable / No occacional frame drops." </br>
+
+Running the game without Vsync is pointless, unless its a Benchmark. </br>
+generates more fps = consumes more energy = generates more heat = requires louder fans but monitor cannot display. </br>
+
+Batman does [Not have in-game Benchmark GOTY v1.1](https://steamcommunity.com/app/35140/discussions/0/792924412089062355/?ctp=1) </br>
+but... </br>
+[Unigine Tropics-1.3](https://benchmark.unigine.com/tropics) </br>
+[.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) </br>
+
+its a pure 32-Bit benchmark, </br>
+if Tropics works, Batman works. </br>
+
+[Heaven-4.0](https://benchmark.unigine.com/heaven) its a 64-Bit Benchmark </br>
+[.run](https://assets.unigine.com/d/Unigine_Heaven-4.0.run) </br>
+
+If Heaven-4 works, does Not test / guarante if Batman will. </br>
+
+
+OBS 25.03.3 </br>
+AMD 7600x </br>
+ASRock x670e UEFI v2.10 </br>
+
+OBS can record the whole Screen / all Windows with: </br>
+Screen Capture (XSHM) </br>
+3D games look ok on screen, but recording has Tearing... </br>
+Requires another source with higher priority: </br>
+Window Capture (Xcomposite) </br>
+[X] Lock X server when capturing to BATMAN Window when game is Running. </br>
+or Turn Off Screen Capture (XSHM) </br>
+
+--------------------------------------------
+
+#### Quadro 6000 (2010)  
+Requires Driver 390-propietary, </br>
+installing that driver in 20.04.4 LTS is Tricky. </br>
+
+
