@@ -16,7 +16,6 @@ incl. [PhysX](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) </
 GPU: Nvidia [GTX 1050Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) </br>
 
 Linux Driver: 470-propietary </br>
-+ </br>
 Legacy OpenGL drivers: </br>
 Libgl1 </br>
 vdpau to gl </br>
