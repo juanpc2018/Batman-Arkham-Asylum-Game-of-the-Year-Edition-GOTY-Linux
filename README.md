@@ -36,7 +36,7 @@ True 160fps at 3440x1440 Requires latest generation DP 2.0 </br>
 HDMI is limited to 50fps at 3440x1440 </br>
 works ok. </br>
 
-is possible to lower resolution and increase frames, </br>
+is possible to lower resolution & increase frame rate, </br>
 Hiher resolution does Not require Anti-aliasing, </br>
 Anti-Aliasing consumes more GPU. </br>
 Higher resolution looks better, 50fps is enough. </br>
