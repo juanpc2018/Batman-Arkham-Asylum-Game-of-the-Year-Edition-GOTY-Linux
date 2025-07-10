@@ -123,7 +123,7 @@ smoke & particles are working fine "out of the box" </br>
 [Latest v9.19](https://www.nvidia.com/en-us/drivers/physx/9_19_0218/physx-9-19-0218-driver/) </br>
 Untested. </br>
 
-the most GPU demanding part / scene is at the begginig, a lot of steem falling. </br> 
+the most GPU demanding part / scene is at the beginnig, a lot of steem falling. </br> 
 GTX 1060 6GB or GTX 1070 could be better at 50fps "100% stable / No occacional frame drops." </br>
 GTX Titan 6GB / Black are older versions of the GTX 1060 6GB </br>
 GTX 780 / 780-Ti have 3GB of Ram, there is a 4GB version, similar to GTX 1060 3GB. </br>
