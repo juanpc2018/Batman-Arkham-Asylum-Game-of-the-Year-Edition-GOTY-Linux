@@ -30,7 +30,7 @@ the other fan spins at 100% until you manually unstuck the other fan. </br>
 
 -------------------------------------
 
-LG [34GP63A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) </br>
+[LG 34GP63A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) </br>
 
 can have 160fps using DisplayPort v1.4 </br>
 but... </br>
@@ -41,7 +41,7 @@ HDMI is limited to 50fps at 3440x1440 </br>
 works ok. </br>
 
 is possible to lower resolution & increase frame rate, </br>
-Hiher resolution does Not require Anti-aliasing, </br>
+Higher resolution does Not require Anti-aliasing, </br>
 Anti-Aliasing consumes more GPU. </br>
 Higher resolution looks better, 50fps is enough. </br>
 
