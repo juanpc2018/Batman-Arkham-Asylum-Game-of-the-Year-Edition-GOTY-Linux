@@ -24,9 +24,6 @@ Legacy OpenGL drivers: </br>
 Libgl1 </br>
 vdpau to gl </br>
 
-install: </br>
-Synaptic </br>
-
 -------------------------------------
 
 LG [34GP63A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) </br>
@@ -91,6 +88,9 @@ Haven't tested [Kubuntu 20.04.4 LTS](https://web.archive.org/web/20220312054528/
 [archive](https://web.archive.org/web/20220305014143/https://cdimage.ubuntu.com/kubuntu/releases/20.04.4/release/) </br>
 
 pulseaudio-moduile-jack is required to play audio from Firefox & any other software Not designed for JackAudio. </br>
+
+install: </br>
+Synaptic </br>
 
 -------------------
 
