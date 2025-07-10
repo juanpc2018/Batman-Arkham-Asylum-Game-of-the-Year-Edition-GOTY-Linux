@@ -52,7 +52,7 @@ Linux is Tricky to make it work with 32-Bit games. </br>
 different GPU require different drivers. </br>
 Not all drivers support Legacy 32-Bit OpenGL on Linux. </br>
 
-1050 Ti Works driver 470, almost Flawless at 3440x1400x50fps. </br>
+1050 Ti Works driver 470, almost Flawless at 3440x1440x50fps. </br>
 requires a Fast CPU like 7600x or 12700k </br>
 install: </br>
 cpupower-gui </br>
