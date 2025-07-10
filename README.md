@@ -11,6 +11,9 @@ incl. [PhysX](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) </
 [X] VSync in the game. </br>
 [X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
 
+[Steem GOTY](https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/) </br>
+[GOG GOTY](https://www.gog.com/en/game/batman_arkham_asylum_goty).[(2009)](https://www.gog.com/dreamlist/game/batman-arkham-asylum-2009) </br>
+
 -------------------------
 
 GPU: Nvidia [GTX 1050Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) </br>
