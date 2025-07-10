@@ -1,7 +1,7 @@
 # Batman Arkham Asylum Game of the Year Edition "GOTY" on Linux
 
 32-Bit game </br>
-Works Ok. </br>
+[Works Ok](https://odysee.com/@MyAwesomeChannel3:7/2025-07-09-19-59-00:9) </br>
 
 All maximum settings. </br>
 
