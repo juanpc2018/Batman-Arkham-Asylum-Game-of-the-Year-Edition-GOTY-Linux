@@ -116,6 +116,7 @@ but works Flawless 90% of the time. </br>
 sometimes 1050Ti has frame drops "less than 50fps" at 3440x1440 with all Max. + PhysX </br>
 Sofar the most GPU demanding part / scene is at the begginig, </br> 
 GTX 1060 6GB or GTX 1070 could be better at 50fps "100% stable / No occacional frame drops." </br>
+GTX Titan 6GB is an older version of the GTX 1060 6GB </br>
 
 Running the game without Vsync is pointless, unless its a Benchmark. </br>
 generates more fps = consumes more energy = generates more heat = requires louder fans but monitor cannot display. </br>
@@ -138,17 +139,20 @@ OBS 25.03.3 </br>
 AMD 7600x </br>
 ASRock x670e UEFI v2.10 </br>
 
-OBS can record the whole Screen / all Windows with: </br>
+OBS can record the whole Screen / all with: </br>
 Screen Capture (XSHM) </br>
-3D games look ok on screen, but recording has Tearing... </br>
-Requires another source with higher priority: </br>
+3D games look ok on screen, but recording .h264 .mkv has Tearing... </br>
+
+3D Requires another source with higher priority: </br>
 Window Capture (Xcomposite) </br>
-[X] Lock X server when capturing to BATMAN Window when game is Running. </br>
-or Turn Off Screen Capture (XSHM) </br>
+[X] Lock X server when capturing to BATMAN Window,</br>
+Option is only visible when game is Running. </br>
+and/or Turn-Off Screen Capture (XSHM) </br>
 
 --------------------------------------------
 
-#### Quadro 6000 (2010)  
+#### Quadro 6000 (2010) 
+
 Requires Driver 390-propietary, </br>
 installing that driver in 20.04.4 LTS is Tricky. </br>
 
