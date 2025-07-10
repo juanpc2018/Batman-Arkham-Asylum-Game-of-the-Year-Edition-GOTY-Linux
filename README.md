@@ -54,13 +54,6 @@ Not all drivers support Legacy 32-Bit OpenGL on Linux. </br>
 
 1050 Ti Works driver 470, almost Flawless at 3440x1440x50fps. </br>
 requires a Fast CPU like 7600x or 12700k </br>
-install: </br>
-cpupower-gui </br>
-cpu-x </br>
-
-set: CPU in Performance mode. </br>
-
-Maybe other OS & configurations could work, but Untested. </br>
 
 ----------------------
 
@@ -93,6 +86,12 @@ pulseaudio-moduile-jack is required to play audio from Firefox & any other softw
 
 install: </br>
 Synaptic </br>
+cpupower-gui </br>
+cpu-x </br>
+
+set: CPU to: Performance mode. </br>
+
+Maybe other OS & configurations could work, but Untested. </br>
 
 -------------------
 
