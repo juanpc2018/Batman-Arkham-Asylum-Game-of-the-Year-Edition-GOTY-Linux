@@ -119,6 +119,8 @@ So far the most GPU demanding part / scene is at the begginig, </br>
 GTX 1060 6GB or GTX 1070 could be better at 50fps "100% stable / No occacional frame drops." </br>
 GTX Titan 6GB / Black are older versions of the GTX 1060 6GB </br>
 GTX 780 / 780-Ti have 3GB of Ram, there is a 4GB version, same as GTX 1060 3GB. </br>
+AMD HD 7950 = GTX 1050 Ti, but... when PhysX is enabled, 1050 Ti is Far better. </br>
+To play without PhysX removes [Smoke/Fog & particles](https://www.youtube.com/watch?v=ceD4bFi-zk0&t=9s) </br>
 
 Running the game without Vsync is pointless, unless its a Benchmark. </br>
 generates more fps = consumes more energy = generates more heat = requires louder fans but monitor cannot display. </br>
