@@ -13,6 +13,7 @@ incl. [PhysX](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) </
 
 [Steem GOTY](https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/) </br>
 [GOG GOTY](https://www.gog.com/en/game/batman_arkham_asylum_goty).[(2009)](https://www.gog.com/dreamlist/game/batman-arkham-asylum-2009) </br>
+[Epic](https://store.epicgames.com/en-US/p/batman-arkham-asylum) </br>
 
 -------------------------
 
