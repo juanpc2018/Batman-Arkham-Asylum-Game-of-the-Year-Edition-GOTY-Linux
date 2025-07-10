@@ -115,11 +115,19 @@ $ sudo apt install --install-recommends winehq-stable
 Game complains twice that 1050 Ti is Not recommended when activating PhysX, because that GPU did Not exist, </br>
 but works Flawless 90% of the time. </br>
 sometimes 1050Ti has frame drops "less than 50fps" at 3440x1440 with all Max. + PhysX </br>
-So far the most GPU demanding part / scene is at the begginig, </br> 
+
+maybe some effects may require installing PhysX Legacy driver or a better GPU, </br>
+smoke & particles are working fine "out of the box" </br>
+[PhysX v9.13](https://www.nvidia.com/en-us/drivers/physx/physx-9-13-0604-legacy-driver/) </br>
+[PhysX v9.12](https://www.nvidia.com/en-us/drivers/physx/9_12_1031/physx-9-12-1031-legacy-driver/) </br> 
+[Latest v9.19](https://www.nvidia.com/en-us/drivers/physx/9_19_0218/physx-9-19-0218-driver/) </br>
+Untested. </br>
+
+the most GPU demanding part / scene is at the begginig, a lot of steem falling. </br> 
 GTX 1060 6GB or GTX 1070 could be better at 50fps "100% stable / No occacional frame drops." </br>
 GTX Titan 6GB / Black are older versions of the GTX 1060 6GB </br>
-GTX 780 / 780-Ti have 3GB of Ram, there is a 4GB version, same as GTX 1060 3GB. </br>
-AMD HD 7950 = GTX 1050 Ti, but... when PhysX is enabled, 1050 Ti is Far better. </br>
+GTX 780 / 780-Ti have 3GB of Ram, there is a 4GB version, similar to GTX 1060 3GB. </br>
+AMD HD 7950 = GTX 1050 Ti, but... when PhysX is Enabled, 1050-Ti is Far better. </br>
 To play without PhysX removes [Smoke/Fog & particles](https://www.youtube.com/watch?v=ceD4bFi-zk0&t=9s) </br>
 
 Running the game without Vsync is pointless, unless its a Benchmark. </br>
