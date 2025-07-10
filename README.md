@@ -115,7 +115,7 @@ $ sudo apt install --install-recommends winehq-stable
 Game complains twice that 1050 Ti is Not recommended when activating PhysX, because that GPU did Not exist, </br>
 but works Flawless 90% of the time. </br>
 sometimes 1050Ti has frame drops "less than 50fps" at 3440x1440 with all Max. + PhysX </br>
-Sofar the most GPU demanding part / scene is at the begginig, </br> 
+So far the most GPU demanding part / scene is at the begginig, </br> 
 GTX 1060 6GB or GTX 1070 could be better at 50fps "100% stable / No occacional frame drops." </br>
 GTX Titan 6GB is an older version of the GTX 1060 6GB </br>
 
