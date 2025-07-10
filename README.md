@@ -24,6 +24,10 @@ Legacy OpenGL drivers: </br>
 Libgl1 </br>
 vdpau to gl </br>
 
+i have a [dual fan version from MSI](https://latam.msi.com/Graphics-Card/GeForce-GTX-1050-Ti-GAMING-X-4G/Specification) </br>
+when 1x fan gets stuck because a blade bends, and jams the fan, </br>
+the other fan spins at 100% until you manually unstuck the other fan. </br>
+
 -------------------------------------
 
 LG [34GP63A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) </br>
