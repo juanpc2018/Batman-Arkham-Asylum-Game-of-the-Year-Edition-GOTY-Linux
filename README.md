@@ -80,7 +80,7 @@ OS: </br>
 [pearOS 20.04.4 LTS](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) </br>
 "modified Ubuntu/Kubuntu" Not updated to 20.04.6 LTS </br>
 
-Original Ubuntu 20.04.4 has a problem with: </br>
+Original [Ubuntu 20.04.4](https://old-releases.ubuntu.com/releases/focal/) has a problem with: </br>
 pulseaudio-module-jack = Not recommended for JackAudio. </br>
 
 Haven't tested [Kubuntu 20.04.4 LTS](https://web.archive.org/web/20220312054528/http://cdimage.ubuntu.com/kubuntu/releases/20.04.4/release/kubuntu-20.04.4-desktop-amd64.iso.torrent) </br>
