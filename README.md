@@ -167,7 +167,7 @@ Requires Driver 390-propietary, </br>
 installing that driver in 20.04.4 LTS is Tricky. </br>
 
 +/-5%: </br>
-* [Quadro 6000 6GB (2010)](https://www.nvidia.com/docs/IO/40049/NV_DS_QUADRO_6000_Oct10_US_LR.pdf) = GTX 470 </br>
+* [Quadro 6000 6GB (2010)](https://www.nvidia.com/docs/IO/40049/NV_DS_QUADRO_6000_Oct10_US_LR.pdf) = [GTX 470 1.2GB (2010)](https://www.techpowerup.com/gpu-specs/geforce-gtx-470.c267) </br>
 * [Quadro K5200 8GB (2014)](https://images.nvidia.com/aem-dam/en-zz/Solutions/design-visualization/documents/DS-NV-Quadro-K5200-JUL24-US-NV-r-HR.pdf) = GTX 1050Ti 4GB (2016) </br>
 * [GTX Titan 6GB (2013)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan.c1996) = [Quadro K6000 12GB (2013)](https://www.nvidia.com/content/PDF/data-sheet/NV_DS_Quadro_K6000_OCT13_NV_US_LR.pdf)= GTX 1650 = GTX 970 = GTX 780 </br>
 * [Titan Black 6GB (2014)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan-black.c2549)  = [GTX 1060 6GB (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1060-6-gb.c2862) = GTX 780Ti </br>
@@ -188,3 +188,4 @@ Wine vs. [Proton vs. Proton-GE](https://www.reddit.com/r/SteamDeck/comments/wkx8
 
 [Releases](https://github.com/GloriousEggroll/proton-ge-custom/releases) </br>
 
+---------------------------
