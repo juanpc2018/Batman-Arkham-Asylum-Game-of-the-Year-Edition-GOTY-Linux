@@ -166,6 +166,15 @@ and/or Turn-Off Screen Capture (XSHM) </br>
 Requires Driver 390-propietary, </br>
 installing that driver in 20.04.4 LTS is Tricky. </br>
 
++/-5%: </br>
+* Quadro 6000 = GTX 470 </br>
+* Quadro K5200 = GTX 1050Ti 4GB </br>
+* GTX Titan 6GB = Quadro K6000 = GTX 1650 = GTX 970 = GTX 780 </br>*
+* Titan Black = GTX 1060 6GB = GTX 780Ti </br>
+* Titan X Maxwell = Quadro M6000 12GB </br>
+* Quadro M6000 24GB = GTX 1070 = RTX 3050 </br>
+* Titan X Pascal = Quadro P6000 = GTX 1080Ti = Quadro RTX 5000 = RTX 3060Ti </br>
+
 --------------------------
 
 Wine vs. [Proton vs. Proton-GE](https://www.reddit.com/r/SteamDeck/comments/wkx8v9/proton_vs_proton_ge_va_experimental/) </br>
