@@ -168,8 +168,9 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 
 --------------------------
 
-Wine vs. [Proton vs. Proton-GE](https://www.reddit.com/r/SteamDeck/comments/wkx8v9/proton_vs_proton_ge_va_experimental/)
+Wine vs. [Proton vs. Proton-GE](https://www.reddit.com/r/SteamDeck/comments/wkx8v9/proton_vs_proton_ge_va_experimental/) </br>
 
+[what version of Proton?](https://www.gamingonlinux.com/guides/view/why-are-there-so-many-different-proton-versions-proton-8-proton-9-experimental-ge-proton/) </br>
 
 
 
