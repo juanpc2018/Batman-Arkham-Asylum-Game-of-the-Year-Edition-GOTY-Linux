@@ -207,8 +207,8 @@ Server boards have more PCIe lanes, but CPU's are slower, GPU's improve with a f
 
 maybe a P400 with full size bracket, can be used as 2nd GPU + GTX 1050Ti. </br>
 
-problem of gamer boards & CPU's using 2x GPU's is that have very little PCIe lanes [20 vs 24](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_12100-vs-amd_ryzen_5_7600x) </br>
-each GPU has 16x PCIe v3 = 32, some boards halve 8+8 PCIe lanes, others keep 16x + 8x or 4x problem is M.2 NVMe PCIe x4 v5 or v4 </br> 
+problem of gamer boards & CPU's using 2x GPU's is that have very little PCIe lanes [20 vs 24](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_12100-vs-amd_ryzen_5_7600x) each GPU has 16x PCIe v3 = 32, </br>
+some boards halve 8+8 PCIe lanes, others keep 16x + 8x or 4x problem is M.2 NVMe PCIe x4 v5 or v4 </br>
 Linux allows to boot from USB3 10Gbps, some boards have 10G, that could be an option. </br>
 UEFI goes crazy if install more PCIe than available, requires to remove CR2032 battery to restore Defaults, & wait a few minutes to auto-reconfigure again. </br>
 
