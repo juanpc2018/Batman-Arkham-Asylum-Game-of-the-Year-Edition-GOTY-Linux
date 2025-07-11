@@ -169,7 +169,7 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 +/-5%: </br>
 * Quadro 6000 = GTX 470 </br>
 * [Quadro K5200 8GB (2014)](https://images.nvidia.com/aem-dam/en-zz/Solutions/design-visualization/documents/DS-NV-Quadro-K5200-JUL24-US-NV-r-HR.pdf) = GTX 1050Ti 4GB (2016) </br>
-* GTX Titan 6GB = Quadro K6000 = GTX 1650 = GTX 970 = GTX 780 </br>*
+* GTX Titan 6GB = Quadro K6000 = GTX 1650 = GTX 970 = GTX 780 </br>
 * Titan Black = GTX 1060 6GB = GTX 780Ti </br>
 * Titan X Maxwell = Quadro M6000 12GB </br>
 * Quadro M6000 24GB = GTX 1070 = RTX 3050 </br>
