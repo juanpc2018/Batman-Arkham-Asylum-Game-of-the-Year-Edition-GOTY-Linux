@@ -197,7 +197,8 @@ The advantage is compatibility with 32-Bits. </br>
 ![Screenshot_20250711_110808](https://github.com/user-attachments/assets/c42f4984-9755-449a-ba37-e73374ea6296)
 
 HW Accelerated PhysX has 2 settings: Medium & High, </br>
-there is almost No improvement in dropped frames at the beginning Steam falling, 15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB "GTX 1070" </br>
+there is almost No improvement in dropped frames at the beginning Steam falling, </br>
+15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB "GTX 1070" </br>
 i've read somewhere that PhysX is limited by CPU x32 instructions. </br>
 or maybe the game really require 2x GPU's </br>
 
