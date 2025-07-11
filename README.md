@@ -183,10 +183,29 @@ its safe to assume cards [from 2016](https://www.techpowerup.com/gpu-specs/?rele
 from [2011](https://www.techpowerup.com/gpu-specs/?released=2011&sort=name), [2012](https://www.techpowerup.com/gpu-specs/?released=2012&sort=name), [2013](https://www.techpowerup.com/gpu-specs/?released=2013&sort=name), [2014](https://www.techpowerup.com/gpu-specs/?released=2014&sort=name), [2015](https://www.techpowerup.com/gpu-specs/?released=2015&sort=name) maybe, [2017](https://www.techpowerup.com/gpu-specs/?released=2017&sort=name), [2018](https://www.techpowerup.com/gpu-specs/?released=2018&sort=name), [2019](https://www.techpowerup.com/gpu-specs/?released=2019&sort=name), [2020](https://www.techpowerup.com/gpu-specs/?released=2020&sort=name),[2021](https://www.techpowerup.com/gpu-specs/?released=2021&sort=name) </br>
 probably wont work with GPU's from [2022](https://www.techpowerup.com/gpu-specs/?released=2022&sort=name), [2023](https://www.techpowerup.com/gpu-specs/?released=2023&sort=name), [2024](https://www.techpowerup.com/gpu-specs/?released=2024&sort=name), [2025](https://www.techpowerup.com/gpu-specs/?released=2025&sort=name) </br>
 
-Quadro cards usually have more memory vs. GTX "Gaming" cards, but older games do Not use that amount of memory. </br>
+Top of the line Quadro cards usually have more memory vs. GTX "Gaming" cards, but older games do Not use that amount of memory. </br>
 Older cards have Larger transistor size = more power consumption at same performance level. </br>
-and outdated [Legacy CUDA Compute Capability](https://developer.nvidia.com/cuda-legacy-gpus) version, older OpenGL version, [RTX cards "Newer" Compute capability](https://developer.nvidia.com/cuda-gpus) </br>
-The advantage of some cards is the compatibility with 32-Bits </br>
+outdated [Legacy CUDA Compute Capability](https://developer.nvidia.com/cuda-legacy-gpus) version, </br>
+older OpenGL version, [RTX cards "Newer" Compute capability](https://developer.nvidia.com/cuda-gpus) </br>
+The advantage is compatibility with 32-Bits. </br>
+
+[Quadro P400 2GB (2017)](https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20quadro/spanish/pny-nvidia-quadro-p400-spa.pdf) works with driver 470, but barely, 13 fps to 15 fps, All Max. + PhysX </br>
+![Screenshot_20250709_140924](https://github.com/user-attachments/assets/b9fd9a31-76d9-4202-9185-cbf5bf58e95f)
+![Screenshot_20250705_191843](https://github.com/user-attachments/assets/65611782-bb87-4d63-b91e-b372af7ee25d)
+![Screenshot_20250711_124838](https://github.com/user-attachments/assets/ac0648fc-9948-4b34-bc75-bc02c863b2f5)
+![Screenshot_20250711_110606](https://github.com/user-attachments/assets/610e1ccf-5a89-49af-a40e-d87459641599)
+![Screenshot_20250711_110808](https://github.com/user-attachments/assets/c42f4984-9755-449a-ba37-e73374ea6296)
+
+HW Accelerated PhysX has 2 settings: Medium & High, </br>
+there is almost No improvement in dropped frames at the beginning Steam falling, 15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB "GTX 1070" </br>
+i've read somewhere that PhysX is limited by CPU x32 instructions. </br>
+or maybe the game really require 2x GPU's </br>
+
+intel Z790 12100 gen CPU's are faster in 32-Bit vs. AMD x670e 7600x, using Rebirth 338 Benchmark, intel is twice faster. </br>
+problem of New boards using 2x GPU's is that have little PCIe lanes & go crazy very easy if install more than available, </br>
+requires to remove the CR2032 battery to restore defaults, & wait a few minutes to auto-reconfigure again. </br>
+
+maybe the P400 can be used as 2nd GPU + GTX 1050Ti. </br>
 
 --------------------------
 
