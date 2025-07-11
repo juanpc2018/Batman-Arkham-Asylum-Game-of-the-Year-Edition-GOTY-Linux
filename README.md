@@ -179,7 +179,9 @@ GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with a weird name, some c
 but ¿works with driver 470? probably Not, most likely requires driver 5xx ¿works with 32-Bit Legacy LibGL1 ? Unknown. </br>
 
 M6000 24GB (2016) works with driver 470-propietary, havent tested Server-470 driver, GTX 1050Ti feels more stable with driver 470, at 50fps there is little improvement in drop frames, the steam falling down at the beginning. </br>
-its safe to assume cards [from 2016](https://www.techpowerup.com/gpu-specs/?released=2016&sort=name) and around work with driver 470, exept cards from 2010 that require driver 390. </br>
+its safe to assume cards [from 2016](https://www.techpowerup.com/gpu-specs/?released=2016&sort=name) work with driver 470, exept cards from [2010](https://www.techpowerup.com/gpu-specs/?released=2010&sort=name) that require driver 390. </br>
+from [2011](https://www.techpowerup.com/gpu-specs/?released=2011&sort=name), [2012](https://www.techpowerup.com/gpu-specs/?released=2012&sort=name), [2013](https://www.techpowerup.com/gpu-specs/?released=2013&sort=name), [2014](https://www.techpowerup.com/gpu-specs/?released=2014&sort=name), [2015](https://www.techpowerup.com/gpu-specs/?released=2015&sort=name) maybe, [2017](https://www.techpowerup.com/gpu-specs/?released=2017&sort=name), [2018](https://www.techpowerup.com/gpu-specs/?released=2018&sort=name), [2019](https://www.techpowerup.com/gpu-specs/?released=2018&sort=name), [2020](https://www.techpowerup.com/gpu-specs/?released=2020&sort=name),[2021](https://www.techpowerup.com/gpu-specs/?released=2018&sort=name) </br>
+Ubuntu 20.04.4 LTS probably wont work with GPU's from [2022](https://www.techpowerup.com/gpu-specs/?released=2022&sort=name), [2023](https://www.techpowerup.com/gpu-specs/?released=2023&sort=name), [2024](https://www.techpowerup.com/gpu-specs/?released=2024&sort=name), [2025](https://www.techpowerup.com/gpu-specs/?released=2025&sort=name) </br>
 
 Quadro cards usually have more memory vs. GTX "Gaming" cards, but older games do Not use that amount of memory. </br>
 Older cards have Larger transistor size = more power consumption at same performance level. </br>
