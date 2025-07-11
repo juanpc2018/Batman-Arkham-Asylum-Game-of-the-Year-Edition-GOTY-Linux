@@ -168,7 +168,7 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 
 +/-5%: </br>
 * Quadro 6000 = GTX 470 </br>
-* [Quadro K5200](https://images.nvidia.com/aem-dam/en-zz/Solutions/design-visualization/documents/DS-NV-Quadro-K5200-JUL24-US-NV-r-HR.pdf) = GTX 1050Ti 4GB </br>
+* [Quadro K5200 8GB (2014)](https://images.nvidia.com/aem-dam/en-zz/Solutions/design-visualization/documents/DS-NV-Quadro-K5200-JUL24-US-NV-r-HR.pdf) = GTX 1050Ti 4GB (2016) </br>
 * GTX Titan 6GB = Quadro K6000 = GTX 1650 = GTX 970 = GTX 780 </br>*
 * Titan Black = GTX 1060 6GB = GTX 780Ti </br>
 * Titan X Maxwell = Quadro M6000 12GB </br>
@@ -176,9 +176,9 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 * Titan X Pascal = Quadro P6000 = GTX 1080Ti = Quadro RTX 5000 = RTX 3060Ti </br>
 
 Quadro High End cards usually have more memory vs. GTX "Gaming" cards, but older games do Not use that amount of memory. </br>
-older cards have Larger transistor size = more power consumption at same performance level. </br>
-older cards also have outdated [Legacy CUDA Compute Capability](https://developer.nvidia.com/cuda-legacy-gpus) version, and OpenGL version, [RTX cards "Newer" Compute capability](https://developer.nvidia.com/cuda-gpus) </br>
-The only advantage of some older cards is the compatibility with 32-Bits </br>
+older cards also have Larger transistor size = more power consumption at same performance level. </br>
+and outdated [Legacy CUDA Compute Capability](https://developer.nvidia.com/cuda-legacy-gpus) version, & OpenGL version, [RTX cards "Newer" Compute capability](https://developer.nvidia.com/cuda-gpus) </br>
+The advantage of some older cards is the compatibility with 32-Bits </br>
 
 --------------------------
 
