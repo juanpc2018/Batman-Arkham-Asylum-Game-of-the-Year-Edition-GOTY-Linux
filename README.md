@@ -166,4 +166,10 @@ and/or Turn-Off Screen Capture (XSHM) </br>
 Requires Driver 390-propietary, </br>
 installing that driver in 20.04.4 LTS is Tricky. </br>
 
+--------------------------
+
+Wine vs. [Proton vs. Proton-GE](https://www.reddit.com/r/SteamDeck/comments/wkx8v9/proton_vs_proton_ge_va_experimental/)
+
+
+
 
