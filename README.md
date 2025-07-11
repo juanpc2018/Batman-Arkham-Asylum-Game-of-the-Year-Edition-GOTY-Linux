@@ -172,5 +172,5 @@ Wine vs. [Proton vs. Proton-GE](https://www.reddit.com/r/SteamDeck/comments/wkx8
 
 [what version of Proton?](https://www.gamingonlinux.com/guides/view/why-are-there-so-many-different-proton-versions-proton-8-proton-9-experimental-ge-proton/) </br>
 
-
+[Releases](https://github.com/GloriousEggroll/proton-ge-custom/releases) </br>
 
