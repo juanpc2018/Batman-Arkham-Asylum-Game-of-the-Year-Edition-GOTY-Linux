@@ -179,7 +179,7 @@ GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with a weird name, some c
 but ¿works with driver 470? probably Not, most likely requires driver 5xx ¿works with 32-Bit Legacy LibGL1 ? Unknown. </br>
 
 M6000 24GB (2016) works with driver 470-propietary, havent tested Server-470 driver, GTX 1050Ti feels more stable with driver 470, at 50fps there is little improvement in drop frames, the steam falling down at the beginning. </br>
-its safe to assume cards from 2016 and a few years older with with driver 470, exept cards from 2010 that require 390. </br>
+its safe to assume cards from 2016 and around work with driver 470, exept cards from 2010 that require driver 390. </br>
 
 Quadro cards usually have more memory vs. GTX "Gaming" cards, but older games do Not use that amount of memory. </br>
 Older cards have Larger transistor size = more power consumption at same performance level. </br>
