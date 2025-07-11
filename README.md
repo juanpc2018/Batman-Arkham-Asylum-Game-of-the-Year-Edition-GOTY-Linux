@@ -172,7 +172,7 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 * [Quadro K5200 8GB (2014)](https://images.nvidia.com/aem-dam/en-zz/Solutions/design-visualization/documents/DS-NV-Quadro-K5200-JUL24-US-NV-r-HR.pdf) = [GTX 1050Ti 4GB (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) </br>
 * [Titan Black 6GB (2014)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan-black.c2549)  = [GTX 1060 6GB (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1060-6-gb.c2862) = [GTX 780Ti 3GB (2013)](https://www.techpowerup.com/gpu-specs/geforce-gtx-780-ti.c2512) </br>
 * [Titan X Maxwell 12GB (2015)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan-x.c2632) = [Quadro M6000 12GB (2015)](https://images.nvidia.com/content/pdf/quadro/data-sheets/NV_DS_Quadro_M6000_FEB15_NV_US_FNL_HR.pdf) </br>
-* [Quadro M6000 24GB (2016)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) = [GTX 1070 (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1070.c2840) = [RTX 3050 8GB (2022)](https://www.techpowerup.com/gpu-specs/geforce-rtx-3050-8-gb.c3858) </br>
+* [Quadro M6000 24GB (2016)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) = [GTX 980Ti 6GB (2015)](https://www.techpowerup.com/gpu-specs/geforce-gtx-980-ti.c2724) = [GTX 1070 (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1070.c2840) = [RTX 3050 8GB (2022)](https://www.techpowerup.com/gpu-specs/geforce-rtx-3050-8-gb.c3858) </br>
 * [Titan X Pascal 12GB (2016)](https://www.techpowerup.com/gpu-specs/titan-x-pascal.c2863) = [Quadro P6000 24GB (2016)](https://images.nvidia.com/content/pdf/quadro/data-sheets/192152-NV-DS-Quadro-P6000-US-12Sept-NV-FNL-WEB.pdf) = [GTX 1080Ti 11GB (2017)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877) = [Quadro RTX 5000 16GB (2018)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/quadro-rtx-5000-data-sheet-us-nvidia-704120-r4-web.pdf) = [RTX 3060Ti 8GB (2020)](https://www.techpowerup.com/gpu-specs/geforce-rtx-3060-ti.c3681) </br>
 
 GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with a weird name, some claim [+17%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-1650-vs-Nvidia-GTX-1050-Ti/4039vs3649) some [24%](https://technical.city/en/video/GeForce-GTX-1050-Ti-vs-GeForce-GTX-1650), </br>
@@ -189,7 +189,7 @@ outdated [Legacy CUDA Compute Capability](https://developer.nvidia.com/cuda-lega
 older OpenGL version, [RTX cards "Newer" Compute capability](https://developer.nvidia.com/cuda-gpus) </br>
 The advantage is compatibility with 32-Bits. </br>
 
-[Quadro P400 2GB (2017)](https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20quadro/spanish/pny-nvidia-quadro-p400-spa.pdf) works with driver 470, but barely, 13 fps to 15 fps, All Max. + PhysX </br>
+[Quadro P400 2GB (2017)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/productspage/quadro/quadro-desktop/quadro-pascal-p400-data-sheet-us-nv-704503-r1.pdf) works with driver 470, but barely, 13 fps to 15 fps, All Max. + PhysX </br>
 ![Screenshot_20250709_140924](https://github.com/user-attachments/assets/b9fd9a31-76d9-4202-9185-cbf5bf58e95f)
 ![Screenshot_20250705_191843](https://github.com/user-attachments/assets/65611782-bb87-4d63-b91e-b372af7ee25d)
 ![Screenshot_20250711_124838](https://github.com/user-attachments/assets/ac0648fc-9948-4b34-bc75-bc02c863b2f5)
@@ -198,15 +198,18 @@ The advantage is compatibility with 32-Bits. </br>
 
 HW Accelerated PhysX has 2 settings: Medium & High, </br>
 there is almost No improvement in dropped frames at the beginning Steam falling, </br>
-15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB "GTX 1070" </br>
+15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB "GTX 980Ti / 1070" </br>
 i've read somewhere that PhysX is limited by CPU x32 instructions. </br>
-or maybe the game really require 2x GPU's </br>
+or maybe the game really requires 2x GPU's </br>
 
-intel Z790 12100 gen CPU's are faster in 32-Bit vs. AMD x670e 7600x, using Rebirth 338 Benchmark, intel is twice faster. </br>
-problem of New boards using 2x GPU's is that have little PCIe lanes & go crazy very easy if install more than available, </br>
-requires to remove the CR2032 battery to restore defaults, & wait a few minutes to auto-reconfigure again. </br>
+intel Z790 i3-12100 gen CPU's are faster in 32-Bit vs. AMD x670e 7600x, using Rebirth 338 Benchmark, intel is twice faster. </br>
+Server boards have more PCIe lanes, but CPU's are slower, GPU's improve with a fast CPU. </br>
 
 maybe the P400 can be used as 2nd GPU + GTX 1050Ti. </br>
+
+problem of gamer boards & CPU's using 2x GPU's is that have very little PCIe lanes [20 vs 24](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_12100-vs-amd_ryzen_5_7600x) </br>
+Board goes crazy if install more PCIe than available, </br>
+requires to remove CR2032 battery to restore Defaults, & wait a few minutes to auto-reconfigure again. </br>
 
 --------------------------
 
