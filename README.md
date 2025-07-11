@@ -178,6 +178,8 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with a weird name, [+17%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-1650-vs-Nvidia-GTX-1050-Ti/4039vs3649) </br>
 but works with driver 470? probably Not, probably requires 5xx driver, does work with 32-Bit Legacy LibGL1 ? Unknown </br>
 
+M6000 24GB works with driver 470-propietary, havent tested Server-470 propietary driver, GTX 1050Ti feels more stable with driver 470, at 50fps there is little improvement in drop frames. </br>
+
 Quadro cards usually have more memory vs. GTX "Gaming" cards, but older games do Not use that amount of memory. </br>
 Older cards have Larger transistor size = more power consumption at same performance level. </br>
 and outdated [Legacy CUDA Compute Capability](https://developer.nvidia.com/cuda-legacy-gpus) version, older OpenGL version, [RTX cards "Newer" Compute capability](https://developer.nvidia.com/cuda-gpus) </br>
