@@ -218,27 +218,35 @@ or 1920x800 windowed vs. 3440x1440 Fulls screen. </br>
 
 [32-Bit removed in CUDA 12.0 Toolkit](https://nvidia.custhelp.com/app/answers/detail/a_id/5615/) </br>
 
-i've read somewhere that 32-Bit GPU PhysX is limited by CPU 32-Bit SSEinstructions. </br>
+Original [PhysX used X87 instructions](https://www.geeks3d.com/20100711/cpu-physx-x87-sse-and-physx-sdk-3-0/) after Nvidia purchasing the companay, rewrote the code for [CUDA & SSE](https://web.archive.org/web/20170719105146/http://physxinfo.com/news/3391/physx-x87-and-sse/) </br>
+32-Bit PhysX is [limited by CPU](https://hothardware.com/reviews/nvidia-sheds-light-on-lack-of-physx-cpu-optimizations) 32-Bit SSE instructions. </br>
 or maybe the game really requires 2x GPU's </br>
 
-intel Z790 i3-12100 gen CPU's are faster in 32-Bit vs. AMD 7600x + X670E, using Rebirth 338 Benchmark, intel is twice faster. </br>
-Server boards have more PCIe lanes, but CPU's are slower, GPU's improve with a fast CPU. </br>
+Anyway... </br>
+intel Z790 i3-12100 CPU is Twice faster in 32-Bit vs. AMD 7600x + X670E, using Rebirth 338 v2.1 Benchmark,</br>
+Server boards have more PCIe lanes, but CPU's are slower, GPU's improve with faster CPU. </br>
 
 maybe a P400 with full size bracket, can be used as 2nd GPU + GTX 1050Ti. </br>
 
 problem of gamer boards & CPU's using 2x GPU's is that have very little PCIe lanes [20 vs 24](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_12100-vs-amd_ryzen_5_7600x) each GPU has 16x PCIe v3 = 32, </br>
-some boards halve 8+8 PCIe lanes, others keep 16x + 8x or 4x problem is M.2 NVMe PCIe x4 v5 or v4 </br>
-Linux allows to boot from USB3 10Gbps, some boards have 10G, that could be an option. </br>
-UEFI goes crazy if install more PCIe than available, requires to remove CR2032 battery to restore Defaults, & wait a few minutes to auto-reconfigure again. </br>
+some boards halve 8+8 PCIe lanes, others keep 16x + 4x </br> 
+problem is the M.2 NVMe PCIe x4 v5 </br>
+Linux allows to boot from USB3 10Gbps, some boards have 10G, could be an option. </br>
+UEFI goes crazy if install more PCIe lanes than available, </br>
+requires to remove the CR2032 battery to restore Defaults, Turn-On & wait a few minutes to auto-reconfigure again. </br>
 
 ### Dual GPU PhysX on Linux
 
-Nvidia propietary driver 470 detects Both GPU's in NVIDIA X Control  P400 & GTX 1050 Ti </br>
+Nvidia propietary driver 470 detects Both GPU's in NVIDIA X Control </br>
 > /usr/bin/nvidia-settings 
+
+but Linux driver does Not have the option as Windows, </br>
+to [select 1 GPU for PhysX](https://hardforum.com/threads/nvidia-rtx50-series-doesnt-support-gpu-physx-for-32-bit-games.2039832/) </br>
+
 
 > /usr/games/lutris
 
-Detects both GPU's.
+Detects both GPU's. </br>
 but Dual GPU PhysX does Not work, 0% CPU load on the 2nd GPU. </br>
 ![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a) </br>
 ![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0) </br>
@@ -247,15 +255,15 @@ Lutris -> EA app -> Batman Arkham Asylum -> installs NVIDIA PhysX 9.14 by Defaul
 Works ok with 1x GPU. </br>
 but Dual GPU does Not work. </br>
 
-PhysX 9.14 cannot be uninstalled, </br>
+PhysX 9.14 cannot be Uninstalled, </br>
 Lutris cannot be Run in Sudo. </br>
-installing older Legacy PhysX 9.12 at same time </br>
+installing older Legacy PhysX 9.12 for W7 W8.1 at same time </br>
 with Wine Control Panel inside lutris </br>
 Batman does Not work. </br>
 ![Screenshot_20250711_201123](https://github.com/user-attachments/assets/fa8e3a01-ade9-42af-8d74-c90f81004d95) </br>
 ![Screenshot_20250711_202119](https://github.com/user-attachments/assets/454e3b6f-9e11-45d2-9a41-e46f3f55d4e6) </br>
 
-installing PhysX as another program, creates an individual dos_c drive, isolated. </br>
+installing PhysX as another program, creates an individual dos_c drive, isolated Not in Batman dos_c drive. </br>
 
 Lutris has a nice GUI, easy to navigate / easy to use. </br>
 if the problem is Wine-ge 8, </br>
