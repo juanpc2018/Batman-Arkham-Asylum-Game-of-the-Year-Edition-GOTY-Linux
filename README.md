@@ -8,7 +8,8 @@ All maximum settings. </br>
 3440x1440x50fps  </br>
 incl. [PhysX](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) </br>
 but... Dual GPU PhysX does Not work, only 1x GPU. </br>
-Hardware Accelerated PhysX: NORMAL setting, Not High. </br>
+Hardware Accelerated PhysX: NORMAL setting, does Not show flags on the ceiling. </br>
+HIGH setting shows all. </but>
 
 [X] VSync in the game. </br>
 [X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
@@ -61,11 +62,20 @@ requires a Fast CPU like 7600x or 12700k </br>
 
 Sound: Focusrite Scarlett mk2 USB </br>
 6.3 Kernel lowlatency or liquorix </br>
-requires: Qjackctl, </br>
-does Not sound with Pulse Audio. </br>
-maybe its a configuration problem with Wine, maybe winetricks or protontricks could solve. </br>
 
+IF does Not sound </br>
+its a configuration problem with Wine. </br>
+requires manual configuration, </br>
+PulseAudio as Output in Wine configuration. </br>
+![Screenshot_20250711_215841](https://github.com/user-attachments/assets/89b10904-e675-49bb-9033-25386ba6cebd)
+
+Sometimes Wine audio configuration test sound pass, but game does Not sound. </br>
+requires reboot. </br>
+
+Using: Qjackctl </br>
 JackAudio works "out of the box" </br>
+just needs to select Jack Audio Sink as Main output source in Linux </br>
+
 Sample Rate: 48kHz </br>
 Frames: 256 </br>
 Buffer: 2 </br>
