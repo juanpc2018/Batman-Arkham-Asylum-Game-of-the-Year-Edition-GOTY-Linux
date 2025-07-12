@@ -83,6 +83,9 @@ Latency 10.7ms </br>
 alsa </br>
 i/o Device: hw:USB </br>
 
+Lutris has an option to lower latency in PulseAudio. </br>
+but thats Not required using Low latency Kernel or Liquorix. </br>
+
 ----------------------
 
 OS: </br>
@@ -208,13 +211,17 @@ The advantage is compatibility with 32-Bits. </br>
 ![Screenshot_20250711_110606](https://github.com/user-attachments/assets/610e1ccf-5a89-49af-a40e-d87459641599) </br>
 ![Screenshot_20250711_110808](https://github.com/user-attachments/assets/c42f4984-9755-449a-ba37-e73374ea6296) </br>
 
-HW Accelerated PhysX has 2 settings: Medium & High, </br>
-there is almost No improvement in dropped frames at the beginning Steam falling, </br>
-15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB "GTX 980Ti / 1070" </br>
-i've read somewhere that PhysX is limited by CPU x32 instructions. </br>
+HW Accelerated PhysX: </br>
+there is No improvement in dropped frames at the beginning Steam falling, </br>
+15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB / GTX 980Ti / 1070 "twice faster" </br>
+or 1920x800 windowed vs. 3440x1440 Fulls screen. </br>
+
+[32-Bit removed in CUDA 12.0 Toolkit](https://nvidia.custhelp.com/app/answers/detail/a_id/5615/) </br>
+
+i've read somewhere that 32-Bit GPU PhysX is limited by CPU 32-Bit SSEinstructions. </br>
 or maybe the game really requires 2x GPU's </br>
 
-intel Z790 i3-12100 gen CPU's are faster in 32-Bit vs. AMD x670e 7600x, using Rebirth 338 Benchmark, intel is twice faster. </br>
+intel Z790 i3-12100 gen CPU's are faster in 32-Bit vs. AMD 7600x + X670E, using Rebirth 338 Benchmark, intel is twice faster. </br>
 Server boards have more PCIe lanes, but CPU's are slower, GPU's improve with a fast CPU. </br>
 
 maybe a P400 with full size bracket, can be used as 2nd GPU + GTX 1050Ti. </br>
