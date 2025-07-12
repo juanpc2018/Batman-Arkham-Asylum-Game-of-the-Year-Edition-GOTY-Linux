@@ -7,7 +7,8 @@ All maximum settings. </br>
 
 3440x1440x50fps  </br>
 incl. [PhysX](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) </br>
-
+but... Dual GPU PhysX does Not work, only 1x GPU. </br>
+PhysX Recommended setting, Not High setting. </br>
 [X] VSync in the game. </br>
 [X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
 
@@ -190,11 +191,11 @@ older OpenGL version, [RTX cards "Newer" Compute capability](https://developer.n
 The advantage is compatibility with 32-Bits. </br>
 
 [Quadro P400 2GB (2017)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/productspage/quadro/quadro-desktop/quadro-pascal-p400-data-sheet-us-nv-704503-r1.pdf) works with driver 470, but barely, 13 fps to 15 fps, All Max. + PhysX </br>
-![Screenshot_20250709_140924](https://github.com/user-attachments/assets/b9fd9a31-76d9-4202-9185-cbf5bf58e95f)
-![Screenshot_20250705_191843](https://github.com/user-attachments/assets/65611782-bb87-4d63-b91e-b372af7ee25d)
-![Screenshot_20250711_124838](https://github.com/user-attachments/assets/ac0648fc-9948-4b34-bc75-bc02c863b2f5)
-![Screenshot_20250711_110606](https://github.com/user-attachments/assets/610e1ccf-5a89-49af-a40e-d87459641599)
-![Screenshot_20250711_110808](https://github.com/user-attachments/assets/c42f4984-9755-449a-ba37-e73374ea6296)
+![Screenshot_20250709_140924](https://github.com/user-attachments/assets/b9fd9a31-76d9-4202-9185-cbf5bf58e95f) </br>
+![Screenshot_20250705_191843](https://github.com/user-attachments/assets/65611782-bb87-4d63-b91e-b372af7ee25d) </br>
+![Screenshot_20250711_124838](https://github.com/user-attachments/assets/ac0648fc-9948-4b34-bc75-bc02c863b2f5) </br>
+![Screenshot_20250711_110606](https://github.com/user-attachments/assets/610e1ccf-5a89-49af-a40e-d87459641599) </br>
+![Screenshot_20250711_110808](https://github.com/user-attachments/assets/c42f4984-9755-449a-ba37-e73374ea6296) </br>
 
 HW Accelerated PhysX has 2 settings: Medium & High, </br>
 there is almost No improvement in dropped frames at the beginning Steam falling, </br>
@@ -221,8 +222,8 @@ Nvidia propietary driver 470 detects Both GPU's in NVIDIA X Control  P400 & GTX 
 
 Detects both GPU's.
 but Dual GPU PhysX does Not work, 0% CPU load on the 2nd GPU. </br>
-![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a)
-![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0)
+![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a) </br>
+![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0) </br>
 
 EA requires Wine configuration to: Windows10 </br>
 Lutris -> EA app -> Batman Arkham Asylum -> installs NVIDIA PhysX 9.14 by Default. </br>
@@ -232,29 +233,27 @@ but Dual GPU does Not work. </br>
 PhysX 9.14 cannot be uninstalled, Lutris cannot be Run in Sudo. </br>
 installing older Legacy PhysX 9.12 at same time </br>
 using Wine Control Panel inside lutris </br>
-![Screenshot_20250711_201123](https://github.com/user-attachments/assets/fa8e3a01-ade9-42af-8d74-c90f81004d95)
+![Screenshot_20250711_201123](https://github.com/user-attachments/assets/fa8e3a01-ade9-42af-8d74-c90f81004d95) </br>
 Batman does Not work. </br>
-![Screenshot_20250711_202119](https://github.com/user-attachments/assets/454e3b6f-9e11-45d2-9a41-e46f3f55d4e6)
+![Screenshot_20250711_202119](https://github.com/user-attachments/assets/454e3b6f-9e11-45d2-9a41-e46f3f55d4e6) </br>
 
 installing PhysX as another program, creates an individual dos_c drive, isolated. </br>
 Lutris has a nice GUI, easy to navigate / easy to use. </br>
 
 if the problem is Wine-ge 8, </br>
 Lutris allows other "Runners", other install of Proton </br>
-![Screenshot_20250711_110606](https://github.com/user-attachments/assets/4bb96c3e-f8b5-4137-b0f2-6f6d790cbe48)
+![Screenshot_20250711_110606](https://github.com/user-attachments/assets/4bb96c3e-f8b5-4137-b0f2-6f6d790cbe48) </br>
 
-![Screenshot_20250711_213528](https://github.com/user-attachments/assets/5f6a7d88-ee4f-4485-9503-5a8f2462d933)
-![Screenshot_20250711_210020](https://github.com/user-attachments/assets/651d8ce3-e4cc-4807-a2d1-3d4f92b3d0ed)
-![Screenshot_20250711_210128](https://github.com/user-attachments/assets/11863cf8-4012-4946-97da-230616733a58)
+![Screenshot_20250711_213528](https://github.com/user-attachments/assets/5f6a7d88-ee4f-4485-9503-5a8f2462d933) </br>
+![Screenshot_20250711_210020](https://github.com/user-attachments/assets/651d8ce3-e4cc-4807-a2d1-3d4f92b3d0ed) </br>
+![Screenshot_20250711_210128](https://github.com/user-attachments/assets/11863cf8-4012-4946-97da-230616733a58) </br>
 
-![Screenshot_20250711_210012](https://github.com/user-attachments/assets/d2ef9c43-ebcb-40e7-83af-148e2f408cd5)
-![Screenshot_20250711_205917](https://github.com/user-attachments/assets/618080da-36a6-4cd9-91a9-1d7d9f556dcf)
-![Screenshot_20250711_205907](https://github.com/user-attachments/assets/7ea8e940-1125-4486-bdc3-be6ded2663ac)
+![Screenshot_20250711_210012](https://github.com/user-attachments/assets/d2ef9c43-ebcb-40e7-83af-148e2f408cd5) </br>
+![Screenshot_20250711_205917](https://github.com/user-attachments/assets/618080da-36a6-4cd9-91a9-1d7d9f556dcf) </br>
+![Screenshot_20250711_205907](https://github.com/user-attachments/assets/7ea8e940-1125-4486-bdc3-be6ded2663ac) </br>
 
-![Screenshot_20250711_110808](https://github.com/user-attachments/assets/3f71ea2c-b3c1-47ec-b049-1e946d981179)
-
-![Screenshot_20250711_104809](https://github.com/user-attachments/assets/642bca46-41bb-4dee-8cc1-4ff5c957d5d4)
-![Screenshot_20250709_143214](https://github.com/user-attachments/assets/a1f46185-d66d-4eb0-bd11-85f8dd520c86)
+![Screenshot_20250711_104809](https://github.com/user-attachments/assets/642bca46-41bb-4dee-8cc1-4ff5c957d5d4) </br>
+![Screenshot_20250709_143214](https://github.com/user-attachments/assets/a1f46185-d66d-4eb0-bd11-85f8dd520c86) </br>
 
 --------------------------
 
