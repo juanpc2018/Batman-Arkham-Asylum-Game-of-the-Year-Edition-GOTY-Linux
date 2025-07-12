@@ -131,22 +131,24 @@ Game complains twice that 1050 Ti is Not recommended when activating PhysX, beca
 but works Flawless 90% of the time. </br>
 sometimes 1050Ti has frame drops "less than 50fps" at 3440x1440 with all Max. + PhysX </br>
 
-Does Not require installing PhysX Legacy driver, Nor a better GPU, </br>
-smoke & particles are working fine "out of the box" </br>
-[PhysX v9.13](https://www.nvidia.com/en-us/drivers/physx/physx-9-13-0604-legacy-driver/) | [PhysX v9.12](https://www.nvidia.com/en-us/drivers/physx/9_12_1031/physx-9-12-1031-legacy-driver/) | [Latest v9.19](https://www.nvidia.com/en-us/drivers/physx/9_19_0218/physx-9-19-0218-driver/) </br>
+Does Not require installing PhysX driver, Lutris/EA/Batman installs PhysX 9.14 for Win10 </br>
+smoke & particles are working fine "out of the box", with some occacional frame drops </br>
+Legacy [PhysX v9.12](https://www.nvidia.com/en-us/drivers/physx/9_12_1031/physx-9-12-1031-legacy-driver/) </br>
+[PhysX v9.13](https://www.nvidia.com/en-us/drivers/physx/physx-9-13-0604-legacy-driver/) </br>
+are Not compatible with W10 </br>
+[Latest v9.19](https://www.nvidia.com/en-us/drivers/physx/9_19_0218/physx-9-19-0218-driver/) </br>
 *Untested. </br>
 
-the most GPU demanding part / scene is at the beginnig, a lot of steam falling. </br> 
-GTX 1060 6GB or GTX 1070 could be better at 50fps "100% stable / No occacional frame drops." </br>
-GTX Titan 6GB / Black are older versions of the GTX 1060 6GB </br>
-GTX 780 / 780-Ti have 3GB of Ram, there is a 4GB version, similar to GTX 1060 3GB. </br>
+the most GPU demanding part / scene is at the beginnig, the steam falling. </br> 
+No matter what GPU, performance drops in some areas. </br>
+
 AMD HD 7950 = GTX 1050 Ti, but... when PhysX is Enabled, 1050-Ti is Far better. </br>
 To play without PhysX removes [Smoke/Fog & particles](https://www.youtube.com/watch?v=ceD4bFi-zk0&t=9s) </br>
 
 Running the game without Vsync is pointless, unless its a Benchmark. </br>
 generates more fps = consumes more energy = generates more heat = requires louder fans but monitor cannot display. </br>
 
-Batman does [Not have in-game Benchmark GOTY v1.1](https://steamcommunity.com/app/35140/discussions/0/792924412089062355/?ctp=1) </br>
+Batman A.A. GOTY v1.1 does [Not have in-game Benchmark](https://steamcommunity.com/app/35140/discussions/0/792924412089062355/?ctp=1) </br>
 but... </br>
 [Unigine Tropics-1.3](https://benchmark.unigine.com/tropics) </br>
 [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) </br>
@@ -157,7 +159,7 @@ if Tropics works, Batman works. </br>
 [Heaven-4.0](https://benchmark.unigine.com/heaven) its a 64-Bit Benchmark </br>
 [.run](https://assets.unigine.com/d/Unigine_Heaven-4.0.run) </br>
 
-If Heaven-4 works, does Not test / guarante if Batman will. </br>
+If Heaven-4 works, does Not test if Batman will. </br>
 
 
 OBS 25.03.3 </br>
@@ -191,9 +193,9 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 * [Titan X Pascal 12GB (2016)](https://www.techpowerup.com/gpu-specs/titan-x-pascal.c2863) = [Quadro P6000 24GB (2016)](https://images.nvidia.com/content/pdf/quadro/data-sheets/192152-NV-DS-Quadro-P6000-US-12Sept-NV-FNL-WEB.pdf) = [GTX 1080Ti 11GB (2017)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877) = [Quadro RTX 5000 16GB (2018)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/quadro-rtx-5000-data-sheet-us-nvidia-704120-r4-web.pdf) = [RTX 3060Ti 8GB (2020)](https://www.techpowerup.com/gpu-specs/geforce-rtx-3060-ti.c3681) </br>
 
 GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with weird name, some claim [+17%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-1650-vs-Nvidia-GTX-1050-Ti/4039vs3649) some [24%](https://technical.city/en/video/GeForce-GTX-1050-Ti-vs-GeForce-GTX-1650), </br>
-but ¿works with driver 470? probably Not, most likely requires driver 5xx ¿works with 32-Bit Legacy LibGL1 ? Unknown. </br>
+¿works with driver 470? probably Not, most likely requires driver 5xx ¿works with 32-Bit Legacy LibGL1 ? Unknown. </br>
 
-M6000 24GB (2016) works with driver 470-propietary, havent tested Server-470 driver, GTX 1050Ti feels more stable with driver 470, at 50fps there is little improvement in drop frames, the steam falling down at the beginning. </br>
+M6000 24GB (2016) works with driver 470-propietary, havent tested Server-470 driver, at 50fps there is little improvement vs GTX 1050 Ti, steam falling down at the beginning. </br>
 its safe to assume cards [from 2016](https://www.techpowerup.com/gpu-specs/?released=2016&sort=name) work with driver 470, exept cards from [2010](https://www.techpowerup.com/gpu-specs/?released=2010&sort=name) that require driver 390. </br>
 from [2011](https://www.techpowerup.com/gpu-specs/?released=2011&sort=name), [2012](https://www.techpowerup.com/gpu-specs/?released=2012&sort=name), [2013](https://www.techpowerup.com/gpu-specs/?released=2013&sort=name), [2014](https://www.techpowerup.com/gpu-specs/?released=2014&sort=name), [2015](https://www.techpowerup.com/gpu-specs/?released=2015&sort=name) maybe, [2017](https://www.techpowerup.com/gpu-specs/?released=2017&sort=name), [2018](https://www.techpowerup.com/gpu-specs/?released=2018&sort=name), [2019](https://www.techpowerup.com/gpu-specs/?released=2019&sort=name), [2020](https://www.techpowerup.com/gpu-specs/?released=2020&sort=name),[2021](https://www.techpowerup.com/gpu-specs/?released=2021&sort=name) </br>
 probably wont work with GPU's from [2022](https://www.techpowerup.com/gpu-specs/?released=2022&sort=name), [2023](https://www.techpowerup.com/gpu-specs/?released=2023&sort=name), [2024](https://www.techpowerup.com/gpu-specs/?released=2024&sort=name), [2025](https://www.techpowerup.com/gpu-specs/?released=2025&sort=name) </br>
@@ -213,8 +215,8 @@ The advantage is compatibility with 32-Bits. </br>
 
 HW Accelerated PhysX: </br>
 there is No improvement in dropped frames at the beginning Steam falling, </br>
-15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB / GTX 980Ti / 1070 "twice faster" </br>
-or 1920x800 windowed vs. 3440x1440 Fulls screen. </br>
+15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB "GTX 980Ti / 1070" twice faster! </br>
+1920x800 windowed vs. 3440x1440 Fulls screen, same result. </br>
 
 [32-Bit removed in CUDA 12.0 Toolkit](https://nvidia.custhelp.com/app/answers/detail/a_id/5615/) </br>
 
@@ -231,13 +233,14 @@ problem of gamer boards & CPU's using 2x GPU's is that have very little PCIe lan
 some boards halve 8+8 PCIe lanes, others keep 16x + 4x </br> 
 problem is the M.2 NVMe PCIe x4 v5 </br>
 Linux allows to boot from USB3 10Gbps, some boards have 10G, could be an option. </br>
-UEFI goes crazy if install more PCIe lanes than available, </br>
+X670E UEFI v2.10 goes crazy if install more PCIe lanes than available, </br>
 requires to remove the CR2032 battery to restore Defaults, Turn-On & wait a few minutes to auto-reconfigure again. </br>
 
-removing 1x memory stick A2 from a dual channel configuration B2+A2 </br>
+removing 1x memory stick A2 from a dual channel configuration: B2+A2 </br>
 the game fps becomes severe affected by Single Channel RAM, </br>
 both XMP profile-1 ddr5-5600 </br>
 does Not seem its a 32-Bit problem. </br>
+
 GPÜ & CPU utilization is ~20% </br>
 seems to be more a single-core problem, memory problem. </br>
 NVIDIA GPUs are very affected by Single-Core CPU speed & memory speed. </br>
