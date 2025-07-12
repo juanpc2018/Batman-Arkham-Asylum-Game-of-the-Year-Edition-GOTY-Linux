@@ -74,7 +74,7 @@ requires reboot. </br>
 
 Using: Qjackctl </br>
 JackAudio works "out of the box" </br>
-just needs to select Jack Audio Sink as Main output source in Linux </br>
+just needs to select Jack Audio Sink as Main output in Linux </br>
 
 Sample Rate: 48kHz </br>
 Frames: 256 </br>
