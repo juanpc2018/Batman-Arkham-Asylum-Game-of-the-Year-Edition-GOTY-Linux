@@ -212,6 +212,50 @@ some boards halve 8+8 PCIe lanes, others keep 16x + 8x or 4x problem is M.2 NVMe
 Linux allows to boot from USB3 10Gbps, some boards have 10G, that could be an option. </br>
 UEFI goes crazy if install more PCIe than available, requires to remove CR2032 battery to restore Defaults, & wait a few minutes to auto-reconfigure again. </br>
 
+### Dual GPU PhysX on Linux
+
+Nvidia propietary driver 470 detects Both GPU's in NVIDIA X Control  P400 & GTX 1050 Ti </br>
+> /usr/bin/nvidia-settings 
+
+> /usr/games/lutris
+
+Detects both GPU's.
+but Dual GPU PhysX does Not work, 0% CPU load on the 2nd GPU. </br>
+![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a)
+![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0)
+
+EA requires Wine configuration to: Windows10 </br>
+Lutris -> EA app -> Batman Arkham Asylum -> installs NVIDIA PhysX 9.14 by Default. </br>
+Works ok with 1x GPU. </br>
+but Dual GPU does Not work. </br>
+
+PhysX 9.14 cannot be uninstalled, Lutris cannot be Run in Sudo. </br>
+installing older Legacy PhysX 9.12 at same time </br>
+using Wine Control Panel inside lutris </br>
+![Screenshot_20250711_201123](https://github.com/user-attachments/assets/fa8e3a01-ade9-42af-8d74-c90f81004d95)
+Batman does Not work. </br>
+![Screenshot_20250711_202119](https://github.com/user-attachments/assets/454e3b6f-9e11-45d2-9a41-e46f3f55d4e6)
+
+installing PhysX as another program, creates an individual dos_c drive, isolated. </br>
+Lutris has a nice GUI, easy to navigate / easy to use. </br>
+
+if the problem is Wine-ge 8, </br>
+Lutris allows other "Runners", other install of Proton </br>
+![Screenshot_20250711_110606](https://github.com/user-attachments/assets/4bb96c3e-f8b5-4137-b0f2-6f6d790cbe48)
+
+![Screenshot_20250711_213528](https://github.com/user-attachments/assets/5f6a7d88-ee4f-4485-9503-5a8f2462d933)
+![Screenshot_20250711_210020](https://github.com/user-attachments/assets/651d8ce3-e4cc-4807-a2d1-3d4f92b3d0ed)
+![Screenshot_20250711_210128](https://github.com/user-attachments/assets/11863cf8-4012-4946-97da-230616733a58)
+
+![Screenshot_20250711_210012](https://github.com/user-attachments/assets/d2ef9c43-ebcb-40e7-83af-148e2f408cd5)
+![Screenshot_20250711_205917](https://github.com/user-attachments/assets/618080da-36a6-4cd9-91a9-1d7d9f556dcf)
+![Screenshot_20250711_205907](https://github.com/user-attachments/assets/7ea8e940-1125-4486-bdc3-be6ded2663ac)
+
+![Screenshot_20250711_110808](https://github.com/user-attachments/assets/3f71ea2c-b3c1-47ec-b049-1e946d981179)
+
+![Screenshot_20250711_104809](https://github.com/user-attachments/assets/642bca46-41bb-4dee-8cc1-4ff5c957d5d4)
+![Screenshot_20250709_143214](https://github.com/user-attachments/assets/a1f46185-d66d-4eb0-bd11-85f8dd520c86)
+
 --------------------------
 
 Wine vs. [Proton vs. Proton-GE](https://www.reddit.com/r/SteamDeck/comments/wkx8v9/proton_vs_proton_ge_va_experimental/) </br>
