@@ -226,8 +226,7 @@ Anyway... </br>
 intel Z790 i3-12100 CPU is Twice faster in 32-Bit vs. AMD 7600x + X670E, using Rebirth 338 v2.1 Benchmark,</br>
 Server boards have more PCIe lanes, but CPU's are slower, GPU's improve with faster CPU. </br>
 
-maybe a P400 with full size bracket, can be used as 2nd GPU + GTX 1050Ti. </br>
-
+a P400 with full size bracket, can be used as 2nd GPU + GTX 1050Ti. </br>
 problem of gamer boards & CPU's using 2x GPU's is that have very little PCIe lanes [20 vs 24](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_12100-vs-amd_ryzen_5_7600x) each GPU has 16x PCIe v3 = 32, </br>
 some boards halve 8+8 PCIe lanes, others keep 16x + 4x </br> 
 problem is the M.2 NVMe PCIe x4 v5 </br>
@@ -235,35 +234,42 @@ Linux allows to boot from USB3 10Gbps, some boards have 10G, could be an option.
 UEFI goes crazy if install more PCIe lanes than available, </br>
 requires to remove the CR2032 battery to restore Defaults, Turn-On & wait a few minutes to auto-reconfigure again. </br>
 
+removing 1x memory stick A2 from a dual channel configuration B2+A2 </br>
+the game fps becomes severe affected by Single Channel RAM, </br>
+both XMP profile-1 ddr5-5600 </br>
+does Not seem its a 32-Bit problem. </br>
+GPÜ & CPU utilization is ~20% </br>
+seems to be more a single-core problem, memory problem. </br>
+NVIDIA GPUs are very affected by Single-Core CPU speed & memory speed. </br>
+
 ### Dual GPU PhysX on Linux
 
-Nvidia propietary driver 470 detects Both GPU's in NVIDIA X Control </br>
+Nvidia propietary driver 470 detects Both GPU's NVIDIA X Control </br>
 > /usr/bin/nvidia-settings 
 
 but Linux driver does Not have the option as Windows, </br>
 to [select 1 GPU for PhysX](https://hardforum.com/threads/nvidia-rtx50-series-doesnt-support-gpu-physx-for-32-bit-games.2039832/) </br>
 
-
 > /usr/games/lutris
 
-Detects both GPU's. </br>
-but Dual GPU PhysX does Not work, 0% CPU load on the 2nd GPU. </br>
+Also Detects both GPU's. </br>
+but Dual GPU PhysX does Not work, 0% load on the 2nd GPU. </br>
 ![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a) </br>
 ![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0) </br>
 
-Lutris -> EA app -> Batman Arkham Asylum -> installs NVIDIA PhysX 9.14 by Default. </br>
+Lutris -> Wine-ge-8.x -> EA app.exe -> Batman Arkham Asylum -> install NVIDIA PhysX 9.14 by Default. </br>
 Works ok with 1x GPU. </br>
 but Dual GPU does Not work. </br>
 
 PhysX 9.14 cannot be Uninstalled, </br>
 Lutris cannot be Run in Sudo. </br>
 installing older Legacy PhysX 9.12 for W7 W8.1 at same time </br>
-with Wine Control Panel inside lutris </br>
+with Wine Control Panel inside Lutris </br>
 Batman does Not work. </br>
 ![Screenshot_20250711_201123](https://github.com/user-attachments/assets/fa8e3a01-ade9-42af-8d74-c90f81004d95) </br>
 ![Screenshot_20250711_202119](https://github.com/user-attachments/assets/454e3b6f-9e11-45d2-9a41-e46f3f55d4e6) </br>
 
-installing PhysX as another program, creates an individual dos_c drive, isolated Not in Batman dos_c drive. </br>
+installing PhysX as another program, creates an individual dos_c drive, isolated from Batman dos_c drive. </br>
 
 Lutris has a nice GUI, easy to navigate / easy to use. </br>
 if the problem is Wine-ge 8, </br>
