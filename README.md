@@ -8,7 +8,8 @@ All maximum settings. </br>
 3440x1440x50fps  </br>
 incl. [PhysX](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) </br>
 but... Dual GPU PhysX does Not work, only 1x GPU. </br>
-PhysX Recommended setting, Not High setting. </br>
+Hardware Accelerated PhysX: NORMAL setting, Not High. </br>
+
 [X] VSync in the game. </br>
 [X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
 
