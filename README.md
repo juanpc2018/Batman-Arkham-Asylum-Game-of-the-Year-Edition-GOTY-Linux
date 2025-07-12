@@ -241,9 +241,10 @@ the game fps becomes severe affected by Single Channel RAM, </br>
 both XMP profile-1 ddr5-5600 </br>
 does Not seem its a 32-Bit problem. </br>
 
-GPÜ & CPU utilization is ~20% </br>
+GPU & CPU utilization is ~20% </br>
 seems to be more a single-core problem, memory problem. </br>
 NVIDIA GPUs are very affected by Single-Core CPU speed & memory speed. </br>
+Faster Single-core tests: [2003](https://web.archive.org/web/*/http://http.maxon.net/pub/benchmarks/*), [R10](https://archive.org/download/cinebench_201907), [R11.5](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r11.5_64bit_single_core), [R15](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r15_single_core), [R20](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r20_single_core), [R23](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r23_single_core), [2024](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_2024_single_core) </br>
 
 ### Dual GPU PhysX on Linux
 
