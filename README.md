@@ -150,9 +150,9 @@ sometimes GPU' ive tested have frame drops "less than 50fps" at 3440x1440 with a
 Does Not require installing PhysX driver, Lutris/EA/Batman installs PhysX 9.14 </br>
 smoke & particles are working "out of the box", with some occacional frame drops </br>
 [PhysX v9.12.10](https://www.nvidia.com/en-us/drivers/physx/9_12_1031/physx-9-12-1031-legacy-driver/) Legacy **</br>
-[PhysX v9.13.06](https://www.nvidia.com/en-us/drivers/physx/physx-9-13-0604-legacy-driver/) Legacy </br>
+[PhysX v9.13.06](https://www.nvidia.com/en-us/drivers/physx/physx-9-13-0604-legacy-driver/) Legacy * </br>
 [PhysX v9.13.12](https://www.nvidia.com/en-us/drivers/physx/9_13_1220/physx-9-13-1220-driver/) * </br>
-[PhysX v9.14.07](https://www.nvidia.com/en-us/drivers/physx/9_14_0702/physx-9-14-0702-driver/) by Default. </br>
+[PhysX v9.14.07](https://www.nvidia.com/en-us/drivers/physx/9_14_0702/physx-9-14-0702-driver/) Default. </br>
 [PhysX v9.15.04](https://www.nvidia.com/en-us/drivers/physx/9_15_0428/physx-9-15-0428-driver/) Works the same. </br>
 [PhysX v9.16.03](https://www.nvidia.com/en-us/drivers/physx/9_16_0318/physx-9-16-0318-driver/) *</br>
 [PhysX v9.17.05](https://www.nvidia.com/en-us/drivers/physx/9_17_0524/physx-9-17-0524-driver/) *</br>
