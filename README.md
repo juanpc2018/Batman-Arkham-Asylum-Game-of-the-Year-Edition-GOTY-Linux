@@ -69,7 +69,7 @@ IF does Not sound, its a problem in Wine. </br>
 requires manual configuration: PulseAudio as Output. </br>
 ![Screenshot_20250711_215841](https://github.com/user-attachments/assets/89b10904-e675-49bb-9033-25386ba6cebd)
 
-Sometimes Wine configuration audio test sound pass, but game does Not sound. </br>
+Sometimes Wine configuration audio test pass, but game does Not sound. </br>
 requires reboot. </br>
 
 Using: Qjackctl </br>
