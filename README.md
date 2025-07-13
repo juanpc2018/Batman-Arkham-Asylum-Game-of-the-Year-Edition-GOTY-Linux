@@ -227,7 +227,7 @@ The advantage is compatibility with 32-Bits. </br>
 HW Accelerated PhysX: </br>
 there is No improvement in dropped frames at the beginning Steam falling, </br>
 15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB twice faster! "GTX 980Ti / 1070"  </br>
-1920x800 windowed vs. 3440x1440 Fulls screen, same. </br>
+1920x800 windowed vs. 3440x1440 Full screen, same. </br>
 
 [32-Bit removed in CUDA 12.0 Toolkit](https://nvidia.custhelp.com/app/answers/detail/a_id/5615/) </br>
 
