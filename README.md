@@ -267,13 +267,13 @@ but Dual GPU PhysX does Not work, 0% load on the 2nd GPU. </br>
 ![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a) </br>
 ![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0) </br>
 
-Lutris -> Wine-ge-8.x -> EA app.exe -> Batman Arkham Asylum -> install NVIDIA PhysX 9.14 by Default. </br>
+Lutris -> Wine-ge-8.x -> EA app.exe -> Batman Arkham Asylum -> NVIDIA PhysX 9.14 by Default. </br>
 Works ok with 1x GPU. </br>
 but Dual GPU does Not work. </br>
 
 PhysX 9.14 cannot be Uninstalled, </br>
 Lutris cannot be Run in Sudo. </br>
-installing older Legacy PhysX 9.12 for W7 W8.1 at same time </br>
+installing older Legacy PhysX 9.12 for W7 / W8.1 at same time, </br>
 with Wine Control Panel inside Lutris </br>
 Batman does Not work. </br>
 ![Screenshot_20250711_201123](https://github.com/user-attachments/assets/fa8e3a01-ade9-42af-8d74-c90f81004d95) </br>
