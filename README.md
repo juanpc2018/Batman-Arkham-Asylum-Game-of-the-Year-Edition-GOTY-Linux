@@ -49,8 +49,8 @@ Higher resolution does Not require Anti-aliasing, </br>
 Anti-Aliasing consumes more GPU. </br>
 Higher resolution looks better, 50fps is enough. </br>
 
-Latest RTX 5000 GPU's dont work with 32-Bit PhysX on Windows, </br>
-Linux Unknown, probaly the same if its Hardware or Propietary driver feature removed. </br>
+[RTX 5000 (2025)](https://www.techpowerup.com/gpu-specs/geforce-rtx-5050.c4220) GPU's dont work with 32-Bit PhysX on Windows, </br>
+Linux Unknown, probaly same if is Hardware or Propietary driver feature removed. </br>
 
 Linux is Tricky to make it work with 32-Bit games. </br>
 different GPU require different drivers. </br>
@@ -63,14 +63,13 @@ requires a Fast CPU like 7600x or 12700k </br>
 
 Sound: Focusrite Scarlett mk2 USB </br>
 6.3 Kernel lowlatency or liquorix </br>
+Also works with on-board Z790 / X670E HD / AC 97 audio. </br>
 
-IF does Not sound </br>
-its a configuration problem with Wine. </br>
-requires manual configuration, </br>
-PulseAudio as Output in Wine configuration. </br>
+IF does Not sound, its a problem in Wine. </br>
+requires manual configuration: PulseAudio as Output. </br>
 ![Screenshot_20250711_215841](https://github.com/user-attachments/assets/89b10904-e675-49bb-9033-25386ba6cebd)
 
-Sometimes Wine audio configuration test sound pass, but game does Not sound. </br>
+Sometimes Wine configuration audio test sound pass, but game does Not sound. </br>
 requires reboot. </br>
 
 Using: Qjackctl </br>
@@ -85,7 +84,7 @@ alsa </br>
 i/o Device: hw:USB </br>
 
 Lutris has an option to lower latency in PulseAudio. </br>
-but thats Not required using Low latency Kernel or Liquorix. </br>
+Not required using Low latency Kernel or Liquorix. </br>
 
 ----------------------
 
@@ -107,7 +106,7 @@ cpu-x </br>
 
 set: CPU to: Performance mode. </br>
 
-Maybe other OS & configurations could work, but Untested. </br>
+Maybe other OS & configurations could work, Untested. </br>
 
 -------------------
 
@@ -129,52 +128,51 @@ $ sudo apt install --install-recommends winehq-stable
 ------------------------
 
 Game complains twice that 1050 Ti is Not recommended when activating PhysX, because that GPU did Not exist, </br>
-but works Flawless 90% of the time. </br>
-sometimes 1050Ti has frame drops "less than 50fps" at 3440x1440 with all Max. + PhysX </br>
+but works Flawless 99% of the time. </br>
+sometimes GPU' ive tested have frame drops "less than 50fps" at 3440x1440 with all Max. + PhysX </br>
 
 Does Not require installing PhysX driver, Lutris/EA/Batman installs PhysX 9.14 for Win10 </br>
-smoke & particles are working fine "out of the box", with some occacional frame drops </br>
+smoke & particles are working "out of the box", with some occacional frame drops </br>
 Legacy [PhysX v9.12](https://www.nvidia.com/en-us/drivers/physx/9_12_1031/physx-9-12-1031-legacy-driver/) </br>
 [PhysX v9.13](https://www.nvidia.com/en-us/drivers/physx/physx-9-13-0604-legacy-driver/) </br>
 are Not compatible with W10 </br>
 [Latest v9.19](https://www.nvidia.com/en-us/drivers/physx/9_19_0218/physx-9-19-0218-driver/) </br>
 *Untested. </br>
 
-the most GPU demanding part / scene is at the beginnig, the steam falling. </br> 
-No matter what GPU, performance drops in some areas. </br>
+the most GPU demanding part is at the beginnig, steam falling in a tunnel. </br> 
+No matter what GPU, performance drops. </br>
 
-AMD HD 7950 = GTX 1050 Ti, but... when PhysX is Enabled, 1050-Ti is Far better. </br>
-To play without PhysX removes [Smoke/Fog & particles](https://www.youtube.com/watch?v=ceD4bFi-zk0&t=9s) </br>
+[AMD HD 7950](https://www.techpowerup.com/gpu-specs/radeon-hd-7950.c307) = [GTX 1050 Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) but... when PhysX is Enabled, 1050-Ti is Far better. </br>
+without PhysX removes [Smoke/Fog & particles](https://www.youtube.com/watch?v=ceD4bFi-zk0&t=9s) </br>
 
 Running the game without Vsync is pointless, unless its a Benchmark. </br>
 generates more fps = consumes more energy = generates more heat = requires louder fans but monitor cannot display. </br>
 
 Batman A.A. GOTY v1.1 does [Not have in-game Benchmark](https://steamcommunity.com/app/35140/discussions/0/792924412089062355/?ctp=1) </br>
 but... </br>
-[Unigine Tropics-1.3](https://benchmark.unigine.com/tropics) </br>
-[.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) </br>
-
+[Unigine Tropics-1.3](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) </br>
 its a pure 32-Bit benchmark, </br>
 if Tropics works, Batman works. </br>
 
-[Heaven-4.0](https://benchmark.unigine.com/heaven) its a 64-Bit Benchmark </br>
-[.run](https://assets.unigine.com/d/Unigine_Heaven-4.0.run) </br>
-
+[Heaven-4.0](https://benchmark.unigine.com/heaven) [.run](https://assets.unigine.com/d/Unigine_Heaven-4.0.run) </br>
+its a 64-Bit Benchmark </br>
 If Heaven-4 works, does Not test if Batman will. </br>
 
-
+tested: </br>
 OBS 25.03.3 </br>
 AMD 7600x </br>
 ASRock x670e UEFI v2.10 </br>
+intel i3-12100 </br>
+ASRock Z790 UEFI v9.04 </br>
 
-OBS can record the whole Screen / all with: </br>
+OBS can record the whole Screen with: </br>
 Screen Capture (XSHM) </br>
-3D games look ok on screen, but recording .h264 .mkv has Tearing... </br>
+3D games look ok on screen, but recorded .h264 .mkv has Tearing... .mp4 untested. </br>
 
 3D Requires another source with higher priority: </br>
 Window Capture (Xcomposite) </br>
 [X] Lock X server when capturing to BATMAN Window,</br>
-Option is only visible when game is Running. </br>
+Option is only visible when game is Running, </br>
 and/or Turn-Off Screen Capture (XSHM) </br>
 
 --------------------------------------------
@@ -194,10 +192,11 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 * [GTX 1070Ti 8GB (2017)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1070-ti.c3010) = [Quadro RTX 4000 8GB (2019)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/quadro-rtx-4000-datasheet.pdf) </br>
 * [Titan X Pascal 12GB (2016)](https://www.techpowerup.com/gpu-specs/titan-x-pascal.c2863) = [Quadro P6000 24GB (2016)](https://images.nvidia.com/content/pdf/quadro/data-sheets/192152-NV-DS-Quadro-P6000-US-12Sept-NV-FNL-WEB.pdf) = [GTX 1080Ti 11GB (2017)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877) = [Quadro RTX 5000 16GB (2018)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/quadro-rtx-5000-data-sheet-us-nvidia-704120-r4-web.pdf) = [RTX 3060Ti 8GB (2020)](https://www.techpowerup.com/gpu-specs/geforce-rtx-3060-ti.c3681) </br>
 
-GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with weird name, some claim [+17%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-1650-vs-Nvidia-GTX-1050-Ti/4039vs3649) some [24%](https://technical.city/en/video/GeForce-GTX-1050-Ti-vs-GeForce-GTX-1650), </br>
-¿works with driver 470? probably Not, most likely requires driver 5xx ¿works with 32-Bit Legacy LibGL1 ? Unknown. </br>
+GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with weird name, some claim [+17%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-1650-vs-Nvidia-GTX-1050-Ti/4039vs3649) some [+24%](https://technical.city/en/video/GeForce-GTX-1050-Ti-vs-GeForce-GTX-1650), </br>
+¿works with driver 470 ? probably Not, most likely requires driver 5xx </br>
+¿works with 32-Bit Legacy LibGL1 ? Unknown. </br>
 
-M6000 24GB (2016) works with driver 470-propietary, havent tested Server-470 driver, at 50fps there is little No improvement vs. GTX 1050 Ti, steam falling down at the beginning. </br>
+M6000 24GB (2016) works with driver 470-propietary, havent tested Server-470 driver, at 50fps there is No improvement vs. GTX 1050 Ti, steam falling down at the beginning. </br>
 its safe to assume cards [from 2016](https://www.techpowerup.com/gpu-specs/?released=2016&sort=name) work with driver 470, exept cards from [2010](https://www.techpowerup.com/gpu-specs/?released=2010&sort=name) that require driver 390. </br>
 from [2011](https://www.techpowerup.com/gpu-specs/?released=2011&sort=name), [2012](https://www.techpowerup.com/gpu-specs/?released=2012&sort=name), [2013](https://www.techpowerup.com/gpu-specs/?released=2013&sort=name), [2014](https://www.techpowerup.com/gpu-specs/?released=2014&sort=name), [2015](https://www.techpowerup.com/gpu-specs/?released=2015&sort=name) maybe, [2017](https://www.techpowerup.com/gpu-specs/?released=2017&sort=name), [2018](https://www.techpowerup.com/gpu-specs/?released=2018&sort=name), [2019](https://www.techpowerup.com/gpu-specs/?released=2019&sort=name), [2020](https://www.techpowerup.com/gpu-specs/?released=2020&sort=name),[2021](https://www.techpowerup.com/gpu-specs/?released=2021&sort=name) </br>
 probably wont work with GPU's from [2022](https://www.techpowerup.com/gpu-specs/?released=2022&sort=name), [2023](https://www.techpowerup.com/gpu-specs/?released=2023&sort=name), [2024](https://www.techpowerup.com/gpu-specs/?released=2024&sort=name), [2025](https://www.techpowerup.com/gpu-specs/?released=2025&sort=name) </br>
@@ -217,8 +216,8 @@ The advantage is compatibility with 32-Bits. </br>
 
 HW Accelerated PhysX: </br>
 there is No improvement in dropped frames at the beginning Steam falling, </br>
-15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB "GTX 980Ti / 1070" twice faster! </br>
-1920x800 windowed vs. 3440x1440 Fulls screen, same result. </br>
+15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB twice faster! "GTX 980Ti / 1070"  </br>
+1920x800 windowed vs. 3440x1440 Fulls screen, same. </br>
 
 [32-Bit removed in CUDA 12.0 Toolkit](https://nvidia.custhelp.com/app/answers/detail/a_id/5615/) </br>
 
@@ -238,14 +237,20 @@ Linux allows to boot from USB3 10Gbps, some boards have 10G, could be an option.
 X670E UEFI v2.10 goes crazy if install more PCIe lanes than available, </br>
 requires to remove the CR2032 battery to restore Defaults, Turn-On & wait a few minutes to auto-reconfigure again. </br>
 
-removing 1x memory stick A2 from a dual channel configuration: B2+A2 </br>
-the game fps becomes severe affected by Single Channel RAM, </br>
+removing 1x memory stick "A2" from a dual-channel: B2+A2 </br>
+game fps becomes severe affected by Single Channel RAM, </br>
 both XMP profile-1 ddr5-5600 </br>
-does Not seem its a 32-Bit problem. </br>
+does Not seem its a 32-Bit issue. </br>
 
-GPU & CPU utilization is ~20% </br>
-NVIDIA GPUs are very affected by Single-Core CPU speed & memory speed. </br>
+GPU & CPU utilization is ~20% each </br>
+NVIDIA GPUs are very affected by Single-Core CPU speed & single channel memory. </br>
 Single-core tests: [2003](https://web.archive.org/web/*/http://http.maxon.net/pub/benchmarks/*), [R10](https://archive.org/download/cinebench_201907), [R11.5](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r11.5_64bit_single_core), [R15](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r15_single_core), [R20](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r20_single_core), [R23](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r23_single_core), [2024](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_2024_single_core) </br>
+
+[Memtest86 Passmark version](https://www.memtest86.com/download.htm) </br>
+[Memtest86+](https://github.com/memtest86plus/memtest86plus/releases) [precompiled binary](https://memtest.org/) </br>
+
+[Comparison](https://forums.passmark.com/memtest86/53706-memtest86-v10-vs-memtest86-v6-comparison) </br>
+[Ventoy](https://www.ventoy.net/en/download.html) </br>
 
 ### Dual GPU PhysX on Linux
 
