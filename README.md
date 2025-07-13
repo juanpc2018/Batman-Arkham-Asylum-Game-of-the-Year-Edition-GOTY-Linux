@@ -168,9 +168,9 @@ If Heaven-4 works, does Not test if Batman will. </br>
 
 tested: </br>
 AMD 7600x </br>
-ASRock x670e UEFI v2.10 </br>
+[ASRock X670e PG](https://pg.asrock.com/mb/AMD/X670E%20PG%20Lightning/index.asp) UEFI v2.10 </br>
 intel i3-12100 </br>
-ASRock Z790 UEFI v9.04 </br>
+[ASRock Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) UEFI v9.04 </br>
 
 ---------------------
 
