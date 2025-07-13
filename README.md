@@ -34,7 +34,7 @@ the other fan spins at 100% until you manually unstuck the other fan. </br>
 
 -------------------------------------
 
-[LG 34GP63A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) </br>
+### [LG 34GP63A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) </br>
 
 can have 160fps using DisplayPort v1.4 </br>
 but... </br>
@@ -262,6 +262,8 @@ Single-core tests: [2003](https://web.archive.org/web/*/http://http.maxon.net/pu
 [Comparison](https://forums.passmark.com/memtest86/53706-memtest86-v10-vs-memtest86-v6-comparison) </br>
 [Ventoy](https://www.ventoy.net/en/download.html) </br>
 
+------------------------------------
+
 ### Dual GPU PhysX on Linux
 
 Nvidia propietary driver 470 detects Both GPU's NVIDIA X Control </br>
@@ -274,6 +276,10 @@ to [select 1 GPU for PhysX](https://hardforum.com/threads/nvidia-rtx50-series-do
 
 Also Detects both GPU's. </br>
 but Dual GPU PhysX does Not work, 0% load on the 2nd GPU. </br>
+
+Game recommends [GTX 260 + 9800 GTX](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-260-vs-Nvidia-GeForce-9800-GTX/3160vsm8342) </br>
+1050 Ti its 400% faster, but still has frame drops in some parts. </br>
+
 ![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a) </br>
 ![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0) </br>
 
