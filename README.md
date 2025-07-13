@@ -278,8 +278,8 @@ Also Detects both GPU's. </br>
 but Dual GPU PhysX does Not work, 0% load on the 2nd GPU. </br>
 
 Game recommends: [GTX 260 (2008) + 9800 GTX (2014)](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-260-vs-Nvidia-GeForce-9800-GTX/3160vsm8342) </br>
-1050 Ti (2016) its 300% faster, M6000 24GB (2016) is 900% faster, but still has frame drops!. </br>
-The fastest 4-core/8-thread intel CPU in (2011) X5687 vs. i3-12100 (2022) some test say [+100%](https://gadgetversus.com/processor/intel-xeon-x5687-vs-intel-core-i3-12100/) others [+122%](https://technical.city/en/cpu/Xeon-X5687-vs-Core-i3-12100) & still has frame drops!</br>
+GTX 1050 Ti (2016) its 300% faster, M6000 24GB (2016) is 900% faster, but still has frame drops! </br>
+fastest 4-core/8-thread intel CPU in (2011) X5687 vs. i3-12100 (2022) is [+100%](https://gadgetversus.com/processor/intel-xeon-x5687-vs-intel-core-i3-12100/) ~ [+122%](https://technical.city/en/cpu/Xeon-X5687-vs-Core-i3-12100) but still has frame drops!</br>
 DDR3-1333 vs. DDR5-5600 XMP1, same. </br>
 ¿where is the problem? </br>
 
