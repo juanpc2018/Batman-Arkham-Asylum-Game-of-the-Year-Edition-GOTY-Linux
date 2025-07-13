@@ -277,8 +277,8 @@ to [select 1 GPU for PhysX](https://hardforum.com/threads/nvidia-rtx50-series-do
 Also Detects both GPU's. </br>
 but Dual GPU PhysX does Not work, 0% load on the 2nd GPU. </br>
 
-Game recommends [GTX 260 (2008) + 9800 GTX (2014)](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-260-vs-Nvidia-GeForce-9800-GTX/3160vsm8342) </br>
-1050 Ti (2016) its 300% faster, M6000 24GB (2016) is 900% faster, but still have frame drops in some parts. </br>
+Game recommends: [GTX 260 (2008) + 9800 GTX (2014)](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-260-vs-Nvidia-GeForce-9800-GTX/3160vsm8342) </br>
+1050 Ti (2016) its 300% faster, M6000 24GB (2016) is 900% faster, but still have frame drops!. </br>
 
 ![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a) </br>
 ![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0) </br>
