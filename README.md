@@ -106,7 +106,7 @@ cpu-x </br>
 
 set: CPU to: Performance mode. </br>
 
-Maybe other OS & configurations could work, Untested. </br>
+Maybe [other OS & configurations could work](https://github.com/lutris/docs/blob/master/InstallingDrivers.md) Untested. </br>
 
 -------------------
 
