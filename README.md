@@ -264,7 +264,7 @@ Single-core tests: [2003](https://web.archive.org/web/*/http://http.maxon.net/pu
 
 ------------------------------------
 
-### Dual GPU PhysX on Linux
+## Dual GPU PhysX on Linux
 
 Nvidia propietary driver 470 detects Both GPU's NVIDIA X Control </br>
 > /usr/bin/nvidia-settings 
