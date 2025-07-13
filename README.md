@@ -282,7 +282,8 @@ GTX 1050 Ti (2016) its 300% faster | M6000 24GB (2016) is 900% faster, but still
 Fastest 4-core/8-thread intel CPU in (2011) X5687 vs. i3-12100 (2022) is [+100%](https://gadgetversus.com/processor/intel-xeon-x5687-vs-intel-core-i3-12100/) ~ [+122%](https://technical.city/en/cpu/Xeon-X5687-vs-Core-i3-12100) but still has frame drops!</br>
 Fastest 4-core AMD CPU [Opteron 6308 (2012)](https://www.techpowerup.com/cpu-specs/opteron-6308.c3731) & [8-core 6328](https://www.techpowerup.com/cpu-specs/opteron-6328.c3729) - [vs. 7600x](https://www.cpubenchmark.net/compare/1982vs5033vs4687vs4609/AMD-Opteron-6328-vs-AMD-Ryzen-5-7600X-vs-Intel-i3-12100-vs-Intel-i7-12700K), same, </br>
 DDR3-1333 vs. DDR5-5600 XMP1, same. </br>
-#### ¿where is the problem? </br>
+GPUs with PCIe v2 vs. PCIe v3 </br>
+### ¿where is the problem? </br>
 
 ![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a) </br>
 ![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0) </br>
