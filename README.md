@@ -8,8 +8,9 @@ All maximum settings. </br>
 3440x1440x50fps  </br>
 incl. [Phys](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) [X](https://list.fandom.com/wiki/List_of_games_with_hardware-accelerated_PhysX_support) </br>
 but... Dual GPU PhysX does Not work, only 1x GPU. </br>
-Hardware Accelerated PhysX: NORMAL setting, does Not show flags on the ceiling. </br>
-HIGH setting shows all. </but>
+Hardware Accelerated PhysX: </br>
+NORMAL setting, does Not show flags on the ceiling. </br>
+HIGH shows all. </but>
 
 [X] VSync in the game. </br>
 [X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
