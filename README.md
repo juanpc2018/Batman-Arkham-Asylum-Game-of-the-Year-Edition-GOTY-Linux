@@ -107,6 +107,21 @@ cpu-x </br>
 set: CPU to: Performance mode. </br>
 
 Maybe [other OS & configurations could work](https://github.com/lutris/docs/blob/master/InstallingDrivers.md) Untested. </br>
+Batman A.A. GOTY v1.1 does [Not have in-game Benchmark](https://steamcommunity.com/app/35140/discussions/0/792924412089062355/?ctp=1), older 2009 version did, </br>
+anyway... </br>
+[Unigine Tropics-1.3](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) </br>
+its a pure 32-Bit benchmark, </br>
+if Tropics works, Batman works. </br>
+
+[Heaven-4.0](https://benchmark.unigine.com/heaven) [.run](https://assets.unigine.com/d/Unigine_Heaven-4.0.run) </br>
+its a 64-Bit Benchmark </br>
+If Heaven-4 works, does Not test if Batman will. </br>
+
+HW tested: </br>
+AMD 7600x </br>
+[ASRock X670e PG](https://pg.asrock.com/mb/AMD/X670E%20PG%20Lightning/index.asp) UEFI v2.10 </br>
+intel i3-12100 </br>
+[ASRock Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) UEFI v9.04 </br>
 
 -------------------
 
@@ -155,22 +170,6 @@ without PhysX removes [Smoke/Fog & particles](https://www.youtube.com/watch?v=ce
 
 Running the game without Vsync is pointless, unless its a Benchmark. </br>
 generates more fps = consumes more energy = generates more heat = requires louder fans but monitor cannot display. </br>
-
-Batman A.A. GOTY v1.1 does [Not have in-game Benchmark](https://steamcommunity.com/app/35140/discussions/0/792924412089062355/?ctp=1) </br>
-but... </br>
-[Unigine Tropics-1.3](https://benchmark.unigine.com/tropics) [.run](https://assets.unigine.com/d/Unigine_Tropics-1.3.run) </br>
-its a pure 32-Bit benchmark, </br>
-if Tropics works, Batman works. </br>
-
-[Heaven-4.0](https://benchmark.unigine.com/heaven) [.run](https://assets.unigine.com/d/Unigine_Heaven-4.0.run) </br>
-its a 64-Bit Benchmark </br>
-If Heaven-4 works, does Not test if Batman will. </br>
-
-tested: </br>
-AMD 7600x </br>
-[ASRock X670e PG](https://pg.asrock.com/mb/AMD/X670E%20PG%20Lightning/index.asp) UEFI v2.10 </br>
-intel i3-12100 </br>
-[ASRock Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) UEFI v9.04 </br>
 
 ---------------------
 
