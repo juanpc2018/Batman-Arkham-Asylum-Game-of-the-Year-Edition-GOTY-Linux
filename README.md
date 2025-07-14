@@ -299,7 +299,7 @@ CPU have the same strange result: </br>
 havent tested Real Windows8.1x64 to see if has the same problem. </br>
 Linux does have a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
 
-Batman is from 2009, Cinebench 2010, seems there is a problem with Visual Studio from 2008 2009 2010. </br>
+Batman was released in 2009, Cinebench R10 released in 2007-2008, seems there is a problem with Visual Studio from 2007, and error was corrected / minimized in later versions. </br>
 
 Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
 Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
