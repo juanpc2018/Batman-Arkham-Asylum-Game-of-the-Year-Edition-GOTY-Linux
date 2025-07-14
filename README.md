@@ -311,7 +311,7 @@ Cinebench 2003 does Not have 64-Bit & 32-Bit .exe Proton is a bit faster. </br>
 ![Screenshot_20250714_095125](https://github.com/user-attachments/assets/db8fe8d3-abf0-4f42-af20-9bce559308a9) </br>
 havent tested [POL5](https://github.com/PhoenicisOrg/phoenicis) </br>
 [4.4-src](https://github.com/PlayOnLinux/POL-POM-4/releases) </br>
-POL [Wine-9. x86](https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/) & POL [Wine-6.5 x64](https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-amd64/) </br> 
+POL [Wine-9.0 x86](https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/) & POL [Wine-6.17 x64](https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-amd64/) </br> 
 
 ![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a) </br>
 ![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0) </br>
