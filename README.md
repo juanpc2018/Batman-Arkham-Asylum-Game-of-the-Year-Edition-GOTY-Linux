@@ -299,6 +299,7 @@ CPU's have a strange result: </br>
 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe always gives 60% of the 64-bit result, does Not matter CPU brand or Wine version. </br>
 havent tested Real Windows8.1x64 to see if has the same problem. </br>
 Linux has a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
+other people also have [Strange Results](https://commons.m.wikimedia.org/wiki/File:Cinebench_R10_%E2%80%93_Benchmark_Intel_Core_i9-9900K,_Gigabyte_GeForce_RTX%E2%84%A2_3090_EAGLE_OC_24G_2024-04-03_08_24_34-Greenshot_CROP02.png) </br>
 
 Batman was released in 2009, requires DirectX 9 from 2009, GOTY v1.1 requires VC 2015 </br>
 Cinebench R10 released 5 April 2007 </br>
