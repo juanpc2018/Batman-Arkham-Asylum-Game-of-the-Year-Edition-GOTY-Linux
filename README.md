@@ -57,7 +57,7 @@ Linux Unknown, probaly same if is Hardware or Propietary driver feature removed.
 Linux is Tricky to make it work with 32-Bit games. </br>
 different GPU require different drivers, </br>
 Not all drivers support Legacy 32-Bit OpenGL on Linux. </br>
-LibGL Mesa Vulkan v21.6 requires Nvidia 470 driver. </br>
+20.04.4 requires LibGL Mesa Vulkan v21.6, and v21.6 requires Nvidia 470 driver. </br>
 
 1050 Ti Works driver 470, almost Flawless at 3440x1440x50fps. </br>
 requires a Fast CPU like 7600x or 12700k </br>
@@ -296,6 +296,9 @@ but CPU have ~ same results.. 32-Bit Cinebench [R10](https://archive.org/downloa
 havent tested Real Windows8.1x64 to see if there is the same limit. </br>
 but Linux does have a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
 Proton-GE OpenGL optimization is very impressive vs. Normal Wine 7.4 / 6.18 gives 34% vs. Proton-GE 8.4 </br>
+but... Cinebench [R11.5](https://archive.org/download/cinebench_201907) results are different, Proton-GE 8.4 is 86% vs. POL 4.3.4 64-Bit, All tests OpenGL & CPU single & multi. </br>
+R11 can only be extracted with Xarchive, contains OSX partition / files gives Error in Ark. </br>
+
 ![Screenshot_20250714_095125](https://github.com/user-attachments/assets/db8fe8d3-abf0-4f42-af20-9bce559308a9) </br>
 havent tested [POL5](https://github.com/PhoenicisOrg/phoenicis) </br>
 [4.4-src](https://github.com/PlayOnLinux/POL-POM-4/releases) </br>
