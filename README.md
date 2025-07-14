@@ -289,7 +289,7 @@ GTX 1050 Ti (2016) its 300% faster | M6000 24GB (2016) is 900% faster, but still
 DDR3-1333 / 1600 vs. DDR5-5600 XMP1, same. </br>
 PCIe v2 vs. PCIe v3 v4 v5 </br>
 ### ¿where is the problem? </br>
-Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: PlayOnLinux 4.3.4 + POL Wine 7.4, 6.18, 5, 4, Lutris UMU Proton-GE 8.4 </br>
+Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine 7.4, 6.18, 5, 4, Lutris UMU Proton-GE 8.4 </br>
 Cinebench [R10](https://archive.org/download/cinebench_201907) has 32-bit .exe & 64-Bit .exe </br>
 Proton-GE has much higher OpenGL score vs. standard POL Wine versions. </br>
 but CPU have ~ same results.. 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe always gives 60% of the 64-bit result, does Not matter CPU brand. </br>
@@ -297,6 +297,9 @@ havent tested Real Windows8.1x64 to see if there is the same limit. </br>
 but Linux does have a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
 Proton-GE OpenGL optimization is very impressive vs. Normal Wine 7.4 / 6.18 gives 34% vs. Proton-GE 8.4 </br>
 ![Screenshot_20250714_095125](https://github.com/user-attachments/assets/db8fe8d3-abf0-4f42-af20-9bce559308a9) </br>
+havent tested [POL5](https://github.com/PhoenicisOrg/phoenicis) </br>
+[4.4-src](https://github.com/PlayOnLinux/POL-POM-4/releases) </br>
+POL [Wine-9. x86](https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/) & POL [Wine-6.5 x64](https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-amd64/) </br> 
 
 ![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a) </br>
 ![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0) </br>
