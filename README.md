@@ -289,9 +289,9 @@ GTX 1050 Ti (2016) its 300% faster | M6000 24GB (2016) is 900% faster, but still
 DDR3-1333 / 1600 vs. DDR5-5600 XMP1, same. </br>
 PCIe v2 vs. PCIe v3 v4 v5 </br>
 ### ¿where is the problem? </br>
-Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions, PlayOnLinux 4.3.4 + Wine 7.4, 6.18, 5, 4, Lutris UMU Proton-GE 8.4 </br>
+Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: PlayOnLinux 4.3.4 + POL Wine 7.4, 6.18, 5, 4, Lutris UMU Proton-GE 8.4 </br>
 Cinebench [R10](https://archive.org/download/cinebench_201907) has 32-bit .exe & 64-Bit .exe </br>
-Proton-GE has much higher OpenGL score vs. standard Wine versions. </br>
+Proton-GE has much higher OpenGL score vs. standard POL Wine versions. </br>
 but CPU have ~ same results.. 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe always gives 60% of the 64-bit result, does Not matter CPU brand. </br>
 havent tested Real Windows8.1x64 to see if there is the same limit. </br>
 but Linux does have a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
