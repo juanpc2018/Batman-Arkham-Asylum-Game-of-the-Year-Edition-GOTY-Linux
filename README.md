@@ -304,23 +304,22 @@ POL [Wine-9. x86](https://www.playonlinux.com/wine/binaries/phoenicis/upstream-l
 ![Screenshot_20250711_181300](https://github.com/user-attachments/assets/af6c3f81-29a7-48d5-80b7-832b75e6541a) </br>
 ![Screenshot_20250711_181232](https://github.com/user-attachments/assets/10869173-d961-47df-ad51-fbdfd5a907f0) </br>
 
-Lutris -> Wine-ge-8.x -> EA app.exe -> Batman Arkham Asylum -> NVIDIA PhysX 9.14 by Default. </br>
+Lutris -> UWU -> Wine-ge-8.x -> EA app.exe -> Batman Arkham Asylum -> NVIDIA PhysX 9.14 by Default. </br>
 Works ok with 1x GPU. </br>
-but Dual GPU does Not work. </br>
+but Dual GPU does Not. </br>
 
-PhysX 9.14 cannot be Uninstalled, </br>
 Lutris cannot be Run in Sudo. </br>
-installing older Legacy PhysX 9.12 for W7 / W8.1 at same time, </br>
-with Wine Control Panel inside Lutris </br>
+PhysX 9.14 cannot be Uninstalled, but New installer can override, </br>
+installing older Legacy PhysX 9.12 for W7 / W8.1 at same time, with Wine Control Panel inside Lutris </br>
 Batman does Not work. </br>
 ![Screenshot_20250711_201123](https://github.com/user-attachments/assets/fa8e3a01-ade9-42af-8d74-c90f81004d95) </br>
 ![Screenshot_20250711_202119](https://github.com/user-attachments/assets/454e3b6f-9e11-45d2-9a41-e46f3f55d4e6) </br>
 
 installing PhysX as another program, creates an individual dos_c drive, isolated from Batman dos_c drive. </br>
 
-Lutris has a nice GUI, easy to navigate / easy to use. </br>
-if the problem is Wine-ge 8, </br>
-Lutris allows other "Runners", other install of Proton </br>
+Lutris has a nice GUI, easy to navigate / easy to use, more minimalistic vs. PlayOnLinux 4.3.4 </br>
+
+Lutris allows other "Runners" / versions of Wine, Proton, similar vs. PlayOnLinux </br>
 ![Screenshot_20250711_110606](https://github.com/user-attachments/assets/4bb96c3e-f8b5-4137-b0f2-6f6d790cbe48) </br>
 
 ![Screenshot_20250711_213528](https://github.com/user-attachments/assets/5f6a7d88-ee4f-4485-9503-5a8f2462d933) </br>
