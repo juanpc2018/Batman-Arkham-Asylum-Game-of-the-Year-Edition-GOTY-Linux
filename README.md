@@ -24,13 +24,15 @@ HIGH shows all. </but>
 GPU: Nvidia [GTX 1050Ti 4GB (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) </br>
 
 Linux Driver: 470-propietary </br>
-Legacy OpenGL drivers: </br>
+Legacy OpenGL drivers both 64-Bit & i386 </br>
 Libgl1 </br>
-vdpau to gl </br>
+libgl1-mesa-dri </br>
+mesa-vulkan-drivers </br>
+libvdpau-va-gl1 </br>
 
-i have a [dual fan version from MSI](https://msi.com/Graphics-Card/GeForce-GTX-1050-Ti-GAMING-X-4G/Specification) </br>
-when 1x fan gets stuck because a blade bends, and jams the fan, </br>
-the other fan spins at 100% until you manually unstuck the other fan. </br>
+i have [dual fan 1050Ti from msi](https://msi.com/Graphics-Card/GeForce-GTX-1050-Ti-GAMING-X-4G/Specification) </br>
+when 1x fan gets stuck because a blade bends and jams the fan, </br>
+the other fan spins at 100% until manually unstuck the other fan. </br>
 
 -------------------------------------
 
