@@ -300,9 +300,10 @@ CPU's have a strange result: </br>
 havent tested Real Windows8.1x64 to see if has the same problem. </br>
 Linux has a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
 
-Batman was released in 2009 </br>
+Batman was released in 2009, requires DirectX 9 from 2009, GOTY v1.1 requires VC 2015 </br>
 Cinebench R10 released 5 April 2007 </br>
-seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org/wiki/Visual_Studio#History) and error was corrected / minimized in later versions. </br>
+seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org/wiki/Visual_Studio#History) and error was minimized in later versions. </br>
+would be interesting to test the Original game, The Offline version from 2009, to see if has the same problem in Linux. </br>
 
 Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
 Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
