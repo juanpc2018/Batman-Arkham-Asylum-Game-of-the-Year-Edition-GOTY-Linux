@@ -292,12 +292,14 @@ PCIe v2 vs. PCIe v3 v4 v5 </br>
 Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine 7.4 x32, 6.17 x64, Lutris UMU Proton-GE 8.4 </br>
 Cinebench [R10](https://archive.org/download/cinebench_201907) has 32-bit .exe & 64-Bit .exe </br>
 Proton-GE has much higher OpenGL score vs. standard POL Wine versions. </br>
-Probably because POL Wine some times has Vsync Activated, Proton-Ge does Not, difference in score. </br>
+because POL Wine some times has Vsync Activated, Proton-Ge does Not, difference in score. </br>
 
-CPU have ~ same strange results: </br>
-32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe always gives 60% of the 64-bit result, does Not matter CPU brand. </br>
-havent tested Real Windows8.1x64 to see if there is the same limit. </br>
+CPU have the same strange result: </br>
+32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe always gives 60% of the 64-bit result, does Not matter CPU brand or Wine version. </br>
+havent tested Real Windows8.1x64 to see if has the same problem. </br>
 Linux does have a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
+
+Batman is from 2009, Cinebench 2010, seems there is a problem with Visual Studio from 2008 2009 2010. </br>
 
 Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
 Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
