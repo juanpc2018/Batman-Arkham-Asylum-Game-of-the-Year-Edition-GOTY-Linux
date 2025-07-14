@@ -55,8 +55,9 @@ Higher resolution looks better, 50fps is enough. </br>
 Linux Unknown, probaly same if is Hardware or Propietary driver feature removed. </br>
 
 Linux is Tricky to make it work with 32-Bit games. </br>
-different GPU require different drivers. </br>
+different GPU require different drivers, </br>
 Not all drivers support Legacy 32-Bit OpenGL on Linux. </br>
+LibGL Mesa Vulkan v21.6 requires Nvidia 470 driver. </br>
 
 1050 Ti Works driver 470, almost Flawless at 3440x1440x50fps. </br>
 requires a Fast CPU like 7600x or 12700k </br>
