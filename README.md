@@ -289,17 +289,20 @@ GTX 1050 Ti (2016) its 300% faster | M6000 24GB (2016) is 900% faster, but still
 DDR3-1333 / 1600 vs. DDR5-5600 XMP1, same. </br>
 PCIe v2 vs. PCIe v3 v4 v5 </br>
 ### ¿where is the problem? </br>
-Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine 7.4 x32, 6.17 x64, Lutris UMU Proton-GE 8.4 </br>
 Cinebench [R10](https://archive.org/download/cinebench_201907) has 32-bit .exe & 64-Bit .exe </br>
-Proton-GE has much higher OpenGL score vs. standard POL Wine versions. </br>
-because POL Wine some times has Vsync Activated, Proton-Ge does Not, difference in score. </br>
+Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine x32, x64, Lutris UMU Proton-GE 8.4 x64 </br>
 
-CPU have the same strange result: </br>
+Proton-GE has much higher OpenGL score vs. standard POL Wine versions. </br>
+because POL Wine sometimes has Vsync Activated, Proton-Ge does Not, difference in score, maybe winetricks can solve that. </br>
+but... </br>
+CPU's have a strange result: </br>
 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe always gives 60% of the 64-bit result, does Not matter CPU brand or Wine version. </br>
 havent tested Real Windows8.1x64 to see if has the same problem. </br>
-Linux does have a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
+Linux has a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
 
-Batman was released in 2009, Cinebench R10 released in 2007-2008, seems there is a problem with Visual Studio from 2007, and error was corrected / minimized in later versions. </br>
+Batman was released in 2009 </br>
+Cinebench R10 released 5 April 2007 </br>
+seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org/wiki/Visual_Studio#History) and error was corrected / minimized in later versions. </br>
 
 Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
 Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
