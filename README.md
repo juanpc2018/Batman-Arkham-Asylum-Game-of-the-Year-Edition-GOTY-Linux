@@ -289,15 +289,22 @@ GTX 1050 Ti (2016) its 300% faster | M6000 24GB (2016) is 900% faster, but still
 DDR3-1333 / 1600 vs. DDR5-5600 XMP1, same. </br>
 PCIe v2 vs. PCIe v3 v4 v5 </br>
 ### ¿where is the problem? </br>
-Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine 7.4, 6.18, 5, 4, Lutris UMU Proton-GE 8.4 </br>
+Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine 7.4 x32, 6.17 x64, Lutris UMU Proton-GE 8.4 </br>
 Cinebench [R10](https://archive.org/download/cinebench_201907) has 32-bit .exe & 64-Bit .exe </br>
 Proton-GE has much higher OpenGL score vs. standard POL Wine versions. </br>
-but CPU have ~ same results.. 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe always gives 60% of the 64-bit result, does Not matter CPU brand. </br>
+Probably because POL Wine some times has Vsync Activated, Proton-Ge does Not, difference in score. </br>
+
+CPU have ~ same strange results: </br>
+32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe always gives 60% of the 64-bit result, does Not matter CPU brand. </br>
 havent tested Real Windows8.1x64 to see if there is the same limit. </br>
-but Linux does have a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
-Proton-GE OpenGL optimization is very impressive vs. Normal Wine 7.4 / 6.18 gives 34% vs. Proton-GE 8.4 </br>
-but... Cinebench [R11.5](https://archive.org/download/cinebench_201907) results are different, Proton-GE 8.4 is 86% vs. POL 4.3.4 64-Bit, All tests OpenGL & CPU single & multi. </br>
-R11 can only be extracted with Xarchive, contains OSX partition / files gives Error in Ark. </br>
+Linux does have a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
+
+Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
+Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
+R11.zip can only be extracted with Xarchive, Ark gives Error. </br>
+better download [R11.529.zip](https://web.archive.org/web/*/http://http.maxon.net/pub/benchmarks/*) </br>
+
+Cinebench 2003 does Not have 64-Bit & 32-Bit .exe Proton is a bit faster. </br>
 
 ![Screenshot_20250714_095125](https://github.com/user-attachments/assets/db8fe8d3-abf0-4f42-af20-9bce559308a9) </br>
 havent tested [POL5](https://github.com/PhoenicisOrg/phoenicis) </br>
