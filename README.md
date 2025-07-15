@@ -305,8 +305,8 @@ Batman was released in 2009, requires DirectX 9 from 2009, GOTY v1.1 requires VC
 Cinebench R10 released 5 April 2007 </br>
 seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org/wiki/Visual_Studio#History) and error was minimized in later versions. </br>
 
-Original game DVD (2009) v1.0 requires MS Live account to save the game, but works ok, has PhysX v9.04, if install v12 breaks the system, </br>
-does Not have PhysX menu like v1.1, seems to be automatic, if detects 2x GPU's activates PhysX. </br>
+Original game DVD (2009) v1.0 requires MS Live account instead of EAapp to save the game, but works ok, has PhysX v9.04, if install v12 breaks the system, </br>
+does Not have PhysX menu like v1.1, seems automatic, if detects 2x GPU's activates PhysX, Default: Disabled. </br>
 
 Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
 Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
