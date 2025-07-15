@@ -304,7 +304,9 @@ other people also have [Strange Results](https://commons.m.wikimedia.org/wiki/Fi
 Batman was released in 2009, requires DirectX 9 from 2009, GOTY v1.1 requires VC 2015 </br>
 Cinebench R10 released 5 April 2007 </br>
 seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org/wiki/Visual_Studio#History) and error was minimized in later versions. </br>
-would be interesting to test the Original game, The Offline version from 2009, to see if has the same problem in Linux. </br>
+
+Original game DVD (2009) v1.0 requires MS Live account to save the game, but works ok, has PhysX v9.04, if install v12 breaks the system, </br>
+does Not have PhysX menu like v1.1, seems to be automatic, if detects 2x GPU's activates PhysX. </br>
 
 Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
 Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
