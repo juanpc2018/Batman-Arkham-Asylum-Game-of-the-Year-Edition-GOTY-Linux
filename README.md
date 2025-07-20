@@ -284,7 +284,9 @@ but Dual GPU PhysX does Not work, 0% load on the 2nd GPU. </br>
 
 Game recommends: </br>
 [GTX 260 (2008)](https://www.techpowerup.com/gpu-specs/geforce-gtx-260.c217) + [9800 GTX (2008)](https://www.techpowerup.com/gpu-specs/geforce-9800-gtx.c207).[+(2009)](https://www.techpowerup.com/gpu-specs/geforce-9800-gtx.c237) similar [+3%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-260-vs-Nvidia-GeForce-9800-GTX/3160vsm8342) </br>
-GTX 1050 Ti (2016) its 300% faster | M6000 24GB (2016) is 900% faster, but still has frame drops! </br>
+GTX 1050 Ti (2016) its 300% faster, M6000 24GB (2016) is 900% faster, but has severe frame drops in some parts of the game with PhysX HIGH, </br>
+IF game does Not detect 2x GPU with PhysX HIGH, falls back to 32-Bit CPU SSE instructions to emulate the 2nd GPU with CPU. </br>
+
 2011 fastest 4-core/8-thread intel CPU X5687 vs. i3-12100 (2022) is [+100%](https://gadgetversus.com/processor/intel-xeon-x5687-vs-intel-core-i3-12100/) ~ [+122%](https://technical.city/en/cpu/Xeon-X5687-vs-Core-i3-12100) but still has frame drops!</br>
 2012 fastest 4-core AMD CPU [Opteron 6308 (2012)](https://www.techpowerup.com/cpu-specs/opteron-6308.c3731) & [8-core 6328](https://www.techpowerup.com/cpu-specs/opteron-6328.c3729) - [vs. 7600x](https://www.cpubenchmark.net/compare/1982vs5033vs4687vs4609/AMD-Opteron-6328-vs-AMD-Ryzen-5-7600X-vs-Intel-i3-12100-vs-Intel-i7-12700K), same, </br>
 DDR3-1333 / 1600 vs. DDR5-5600 XMP1, same. </br>
@@ -292,11 +294,8 @@ PCIe v2 vs. PCIe v3 v4 v5 </br>
 ### ¿where is the problem? </br>
 Cinebench [R10](https://archive.org/download/cinebench_201907) has 32-bit .exe & 64-Bit .exe </br>
 Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine x32, x64, Lutris UMU Proton-GE 8.4 x64 </br>
+[CPU-Z v2.16 .ZIP](https://www.cpuid.com/softwares/cpu-z.html) also has x32 & x64 .exe same strange result, x32 has lower score. </br>
 
-Proton-GE has much higher OpenGL score vs. standard POL Wine versions. </br>
-because POL Wine sometimes has Vsync Activated, Proton-Ge does Not by Default, maybe winetricks can solve that. </br>
-but... </br>
-CPU's have a strange result: </br>
 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe always gives 60% of the 64-bit result, does Not matter CPU brand or Wine version. </br>
 havent tested Real Windows8.1x64 to see if has the same problem. </br>
 Linux has a strange 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
@@ -305,8 +304,6 @@ other people also have [Strange Results](https://commons.m.wikimedia.org/wiki/Fi
 Batman was released in 2009, requires DirectX 9 from 2009, GOTY v1.1 requires VC 2015 </br>
 Cinebench R10 released 5 April 2007 </br>
 seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org/wiki/Visual_Studio#History) and error was minimized in later versions. </br>
-but... </br>
-[CPU-Z v2.16 .ZIP](https://www.cpuid.com/softwares/cpu-z.html) also has x32 & x64 .exe same strange result, x32 has lower score. </br>
 
 Original game DVD (2009) v1.0 requires MS Live account instead of EAapp to save the game, has PhysX v9.04, if install v12 breaks the system, </br>
 does Not have PhysX menu like v1.1, seems automatic, if detects 2x GPU's activates PhysX, Default: Disabled, No PhysX. </br>
@@ -316,7 +313,10 @@ Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU sin
 R11.zip can only be extracted with Xarchive, Ark gives Error. </br>
 better download [R11.529.zip](https://web.archive.org/web/*/http://http.maxon.net/pub/benchmarks/*) </br>
 
-Cinebench 2003 does Not have 64-Bit & 32-Bit .exe Proton is a bit faster. </br>
+Proton-GE has much higher OpenGL score vs. standard POL Wine versions. </br>
+because POL Wine sometimes has Vsync Activated, Proton-Ge does Not by Default, maybe winetricks can solve that. </br>
+
+Cinebench 2003 does Not have 64-Bit & 32-Bit .exe but Proton is a bit faster. </br>
 
 ![Screenshot_20250714_095125](https://github.com/user-attachments/assets/db8fe8d3-abf0-4f42-af20-9bce559308a9) </br>
 havent tested [POL5](https://github.com/PhoenicisOrg/phoenicis) </br>
