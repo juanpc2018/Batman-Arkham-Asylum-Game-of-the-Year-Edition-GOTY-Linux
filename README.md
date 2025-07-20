@@ -151,7 +151,7 @@ $ sudo apt install --install-recommends winehq-stable
 Game complains twice that 1050 Ti is Not recommended when activating PhysX, because that GPU did Not exist, </br>
 but works Flawless 99% of the time with PhysX NORMAL setting. </br>
 All GPU's i've tested have frame drops "10fps" in some parts of the game with PhysX set to HIGH "Requires 2x GPU's" </br>
-at the beggining, steam falling, and outside the asylym 4% of the Game, has severe frame drops with HIGH 1x GPU, but works ok with PhysX Normal. </br>
+at the beggining, steam falling, and outside the asylum 4% of the Game, has severe frame drops with HIGH 1x GPU, but works ok with PhysX Normal. </br>
 No matter what GPU, performance drops. </br>
 
 [AMD HD 7950](https://www.techpowerup.com/gpu-specs/radeon-hd-7950.c307) = [GTX 1050 Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) but... when PhysX is Enabled, 1050-Ti is Far better. </br>
