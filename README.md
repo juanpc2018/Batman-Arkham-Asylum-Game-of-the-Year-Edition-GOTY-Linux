@@ -209,7 +209,7 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 
 GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with weird name, some claim [+17%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-1650-vs-Nvidia-GTX-1050-Ti/4039vs3649) some [+24%](https://technical.city/en/video/GeForce-GTX-1050-Ti-vs-GeForce-GTX-1650), </br>
 ¿works with driver 470 ? probably Not, most likely requires driver 5xx </br>
-¿works with 32-Bit Legacy LibGL1 ? probably Not, most likely requires OS 22.04 LTS with Newer LibGL1, Not v21.6 </br>
+¿works with 32-Bit Legacy LibGL1 / Mesa v21.6 ? probably Not, most likely requires OS 22.04 LTS or 24.04 LTS with Newer LibGL1 </br>
 
 M6000 24GB (2016) works with driver 470-propietary, havent tested Server-470 driver, at 50fps there is No improvement vs. GTX 1050 Ti, with PhysX HIGH. </br>
 its safe to assume cards [from 2016](https://www.techpowerup.com/gpu-specs/?released=2016&sort=name) work with driver 470, exept cards from [2010](https://www.techpowerup.com/gpu-specs/?released=2010&sort=name) that require driver 390. </br>
