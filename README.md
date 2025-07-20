@@ -10,7 +10,7 @@ incl. [Phys](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) [X]
 but... Dual GPU PhysX does Not work, only 1x GPU. </br>
 Hardware Accelerated PhysX: </br>
 NORMAL does Not show flags on the ceiling. </br>
-HIGH shows all. </but>
+HIGH shows all, but requires 2x GPU. </but>
 
 [X] VSync in the game. </br>
 [X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
@@ -57,10 +57,11 @@ Linux Unknown, probaly same if is Hardware or Propietary driver feature removed.
 Linux is Tricky to make it work with 32-Bit games. </br>
 different GPU require different drivers, </br>
 Not all drivers support Legacy 32-Bit OpenGL on Linux. </br>
-20.04.4 requires LibGL Mesa Vulkan v21.6, and v21.6 requires Nvidia 470 driver. </br>
+20.04.4 requires LibGL1 Mesa Vulkan v21.6, and v21.6 requires Nvidia 470 driver. </br>
 
-1050 Ti Works driver 470, almost Flawless at 3440x1440x50fps. </br>
+1050 Ti Works with driver 470, almost Flawless at 3440x1440x50fps. </br>
 requires a Fast CPU like 7600x or 12700k </br>
+PhysX High setting is designed to require dual GPU. </br>
 
 ----------------------
 
@@ -148,11 +149,19 @@ $ sudo apt install --install-recommends winehq-stable
 ------------------------
 
 Game complains twice that 1050 Ti is Not recommended when activating PhysX, because that GPU did Not exist, </br>
-but works Flawless 99% of the time. </br>
-sometimes GPU' ive tested have frame drops "less than 50fps" at 3440x1440 with all Max. + PhysX </br>
+but works Flawless 99% of the time with PhysX NORMAL setting. </br>
+All GPU's i've tested have frame drops "10fps" in some parts of the game with PhysX set to HIGH "Requires 2x GPU's" </br>
+at the beggining, steam falling, and outside the asylym 4% of the Game, has severe frame drops with HIGH 1x GPU, but works ok with PhysX Normal. </br>
+No matter what GPU, performance drops. </br>
+
+[AMD HD 7950](https://www.techpowerup.com/gpu-specs/radeon-hd-7950.c307) = [GTX 1050 Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) but... when PhysX is Enabled, 1050-Ti is Far better. </br>
+without PhysX removes [Smoke/Fog & particles](https://www.youtube.com/watch?v=ceD4bFi-zk0&t=9s) </br>
+
+Running the game without Vsync is pointless, unless its a Benchmark. </br>
+generates more fps = consumes more energy = more heat = louder fans but monitor cannot display. </br>
 
 Does Not require installing PhysX driver, Lutris/EA/Batman installs PhysX 9.14 </br>
-smoke & particles are working "out of the box", with some occacional frame drops </br>
+smoke & particles work ok "out of the box", with some occacional frame drops with NORMAL setting. </br>
 [PhysX v9.12.10](https://www.nvidia.com/en-us/drivers/physx/9_12_1031/physx-9-12-1031-legacy-driver/) Legacy **</br>
 [PhysX v9.13.06](https://www.nvidia.com/en-us/drivers/physx/physx-9-13-0604-legacy-driver/) Legacy * </br>
 [PhysX v9.13.12](https://www.nvidia.com/en-us/drivers/physx/9_13_1220/physx-9-13-1220-driver/) * </br>
@@ -166,15 +175,6 @@ smoke & particles are working "out of the box", with some occacional frame drops
 ** Fail. </br>
 
 [Overview](https://web.archive.org/web/20211225054318/https://developer.nvidia.com/gameworks-physx-overview) </br>
-
-the most GPU demanding part is at the beginnig, steam falling in a tunnel. </br> 
-No matter what GPU, performance drops. </br>
-
-[AMD HD 7950](https://www.techpowerup.com/gpu-specs/radeon-hd-7950.c307) = [GTX 1050 Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) but... when PhysX is Enabled, 1050-Ti is Far better. </br>
-without PhysX removes [Smoke/Fog & particles](https://www.youtube.com/watch?v=ceD4bFi-zk0&t=9s) </br>
-
-Running the game without Vsync is pointless, unless its a Benchmark. </br>
-generates more fps = consumes more energy = generates more heat = requires louder fans but monitor cannot display. </br>
 
 ---------------------
 
@@ -210,7 +210,7 @@ GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with weird name, some cla
 ¿works with driver 470 ? probably Not, most likely requires driver 5xx </br>
 ¿works with 32-Bit Legacy LibGL1 ? Unknown. </br>
 
-M6000 24GB (2016) works with driver 470-propietary, havent tested Server-470 driver, at 50fps there is No improvement vs. GTX 1050 Ti, steam falling down at the beginning. </br>
+M6000 24GB (2016) works with driver 470-propietary, havent tested Server-470 driver, at 50fps there is No improvement vs. GTX 1050 Ti, with PhysX HIGH. </br>
 its safe to assume cards [from 2016](https://www.techpowerup.com/gpu-specs/?released=2016&sort=name) work with driver 470, exept cards from [2010](https://www.techpowerup.com/gpu-specs/?released=2010&sort=name) that require driver 390. </br>
 from [2011](https://www.techpowerup.com/gpu-specs/?released=2011&sort=name), [2012](https://www.techpowerup.com/gpu-specs/?released=2012&sort=name), [2013](https://www.techpowerup.com/gpu-specs/?released=2013&sort=name), [2014](https://www.techpowerup.com/gpu-specs/?released=2014&sort=name), [2015](https://www.techpowerup.com/gpu-specs/?released=2015&sort=name) maybe, [2017](https://www.techpowerup.com/gpu-specs/?released=2017&sort=name), [2018](https://www.techpowerup.com/gpu-specs/?released=2018&sort=name), [2019](https://www.techpowerup.com/gpu-specs/?released=2019&sort=name), [2020](https://www.techpowerup.com/gpu-specs/?released=2020&sort=name),[2021](https://www.techpowerup.com/gpu-specs/?released=2021&sort=name) </br>
 probably wont work with GPU's from [2022](https://www.techpowerup.com/gpu-specs/?released=2022&sort=name), [2023](https://www.techpowerup.com/gpu-specs/?released=2023&sort=name), [2024](https://www.techpowerup.com/gpu-specs/?released=2024&sort=name), [2025](https://www.techpowerup.com/gpu-specs/?released=2025&sort=name) </br>
@@ -219,7 +219,7 @@ Top of the line Quadro cards usually have more memory vs. GTX "Gaming" cards, bu
 Older cards have Larger transistor size = more power consumption at same performance level. </br>
 outdated [Legacy CUDA Compute Capability](https://developer.nvidia.com/cuda-legacy-gpus) version, </br>
 older OpenGL version, [RTX cards "Newer" Compute capability](https://developer.nvidia.com/cuda-gpus) </br>
-The advantage is compatibility with 32-Bits. </br>
+Advantage is compatibility with 32-Bits. </br>
 
 [Quadro P400 2GB (2017)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/productspage/quadro/quadro-desktop/quadro-pascal-p400-data-sheet-us-nv-704503-r1.pdf) works with driver 470, but barely, 13 fps to 15 fps, All Max. + PhysX </br>
 ![Screenshot_20250709_140924](https://github.com/user-attachments/assets/b9fd9a31-76d9-4202-9185-cbf5bf58e95f) </br>
@@ -229,15 +229,15 @@ The advantage is compatibility with 32-Bits. </br>
 ![Screenshot_20250711_110808](https://github.com/user-attachments/assets/c42f4984-9755-449a-ba37-e73374ea6296) </br>
 
 HW Accelerated PhysX: </br>
-there is No improvement in dropped frames at the beginning Steam falling, </br>
+there is No improvement in dropped frames </br>
 15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB twice faster! "GTX 980Ti / 1070"  </br>
 1920x800 windowed vs. 3440x1440 Full screen, same. </br>
 
-[32-Bit removed in CUDA 12.0 Toolkit](https://nvidia.custhelp.com/app/answers/detail/a_id/5615/) </br>
+[CUDA 12.' Toolkit removed 32-Bit](https://nvidia.custhelp.com/app/answers/detail/a_id/5615/) </br>
 
-Original [PhysX used X87 instructions](https://www.geeks3d.com/20100711/cpu-physx-x87-sse-and-physx-sdk-3-0/) after Nvidia purchasing the companay, rewrote the code for [CUDA & SSE](https://web.archive.org/web/20170719105146/http://physxinfo.com/news/3391/physx-x87-and-sse/) </br>
+Original [PhysX used X87 instructions](https://www.geeks3d.com/20100711/cpu-physx-x87-sse-and-physx-sdk-3-0/) after Nvidia purchasing the companay, re-wrote the code for [CUDA & SSE](https://web.archive.org/web/20170719105146/http://physxinfo.com/news/3391/physx-x87-and-sse/) </br>
 32-Bit PhysX is [limited by CPU](https://hothardware.com/reviews/nvidia-sheds-light-on-lack-of-physx-cpu-optimizations) 32-Bit SSE instructions. </br>
-or maybe the game really requires 2x GPU's </br>
+The game was designed to require 2x GPU's with PhysX HIGH setting. </br>
 
 Anyway... </br>
 intel Z790 i3-12100 CPU is Twice faster in 32-Bit vs. AMD 7600x + X670E, using Rebirth 338 v2.1 Benchmark,</br>
@@ -247,15 +247,15 @@ a P400 with full size bracket, can be used as 2nd GPU + GTX 1050Ti. </br>
 problem of gamer boards & CPU's using 2x GPU's is that have very little PCIe lanes [20 vs 24](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_12100-vs-amd_ryzen_5_7600x) each GPU has 16x PCIe v3 = 32, </br>
 some boards halve 8+8 PCIe lanes, others keep 16x + 4x </br> 
 problem is the M.2 NVMe PCIe x4 v5 </br>
-Linux allows to boot from USB3 10Gbps, some boards have 10G, could be an option. </br>
+Linux allows to boot from USB3 10Gbps, could be an option. </br>
 X670E UEFI v2.10 goes crazy if install more PCIe lanes than available, </br>
 requires to remove the CR2032 battery to restore Defaults, Turn-On & wait a few minutes to auto-reconfigure again. </br>
 
 removing 1x memory stick "A2" from a dual-channel: B2+A2 </br>
 game fps becomes severe affected by Single Channel RAM, </br>
 both XMP profile-1 ddr5-5600 </br>
-does Not seem its a 32-Bit issue. </br>
 
+PhysX HIGH problem is Not a 32-Bit only issue. </br>
 GPU & CPU utilization is ~20% each </br>
 NVIDIA GPUs are very affected by Single-Core CPU speed & single channel memory. </br>
 Single-core tests: [2003](https://web.archive.org/web/*/http://http.maxon.net/pub/benchmarks/*), [R10](https://archive.org/download/cinebench_201907), [R11.5](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r11.5_64bit_single_core), [R15](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r15_single_core), [R20](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r20_single_core), [R23](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_r23_single_core), [2024](https://www.cpu-monkey.com/en/cpu_benchmark-cinebench_2024_single_core) </br>
@@ -273,12 +273,12 @@ Single-core tests: [2003](https://web.archive.org/web/*/http://http.maxon.net/pu
 Nvidia propietary driver 470 detects Both GPU's NVIDIA X Control </br>
 > /usr/bin/nvidia-settings 
 
-but Linux driver does Not have the option as Windows, </br>
+but Linux driver does Not have PhysX option as Windows, </br>
 to [select 1 GPU for PhysX](https://hardforum.com/threads/nvidia-rtx50-series-doesnt-support-gpu-physx-for-32-bit-games.2039832/) </br>
 
 > /usr/games/lutris
 
-Also Detects both GPU's. </br>
+Detects both GPU's. </br>
 but Dual GPU PhysX does Not work, 0% load on the 2nd GPU. </br>
 
 Game recommends: </br>
@@ -293,7 +293,7 @@ Cinebench [R10](https://archive.org/download/cinebench_201907) has 32-bit .exe &
 Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine x32, x64, Lutris UMU Proton-GE 8.4 x64 </br>
 
 Proton-GE has much higher OpenGL score vs. standard POL Wine versions. </br>
-because POL Wine sometimes has Vsync Activated, Proton-Ge does Not, difference in score, maybe winetricks can solve that. </br>
+because POL Wine sometimes has Vsync Activated, Proton-Ge does Not by Default, maybe winetricks can solve that. </br>
 but... </br>
 CPU's have a strange result: </br>
 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe always gives 60% of the 64-bit result, does Not matter CPU brand or Wine version. </br>
@@ -307,8 +307,8 @@ seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org
 but... </br>
 [CPU-Z v2.16 .ZIP](https://www.cpuid.com/softwares/cpu-z.html) also has x32 & x64 .exe same strange result, x32 has lower score. </br>
 
-Original game DVD (2009) v1.0 requires MS Live account instead of EAapp to save the game, but works ok, has PhysX v9.04, if install v12 breaks the system, </br>
-does Not have PhysX menu like v1.1, seems automatic, if detects 2x GPU's activates PhysX, Default: Disabled. </br>
+Original game DVD (2009) v1.0 requires MS Live account instead of EAapp to save the game, has PhysX v9.04, if install v12 breaks the system, </br>
+does Not have PhysX menu like v1.1, seems automatic, if detects 2x GPU's activates PhysX, Default: Disabled, No PhysX. </br>
 
 Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
 Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
@@ -330,8 +330,8 @@ Works ok with 1x GPU. </br>
 but Dual GPU does Not. </br>
 
 Lutris cannot be Run in Sudo. </br>
-PhysX 9.14 cannot be Uninstalled, but New installer can override, </br>
-installing older Legacy PhysX 9.12 for W7 / W8.1 at same time, with Wine Control Panel inside Lutris </br>
+PhysX 9.14 cannot be Uninstalled, but New installer can Override, </br>
+installing older Legacy PhysX 9.12 at same time, with Wine Control Panel inside Lutris </br>
 Batman does Not work. </br>
 ![Screenshot_20250711_201123](https://github.com/user-attachments/assets/fa8e3a01-ade9-42af-8d74-c90f81004d95) </br>
 ![Screenshot_20250711_202119](https://github.com/user-attachments/assets/454e3b6f-9e11-45d2-9a41-e46f3f55d4e6) </br>
