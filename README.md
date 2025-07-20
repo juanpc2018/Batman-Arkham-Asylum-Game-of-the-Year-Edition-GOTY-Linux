@@ -61,7 +61,7 @@ Not all drivers support Legacy 32-Bit OpenGL on Linux. </br>
 
 1050 Ti Works with driver 470, almost Flawless at 3440x1440x50fps. </br>
 requires a Fast CPU: AMD 7600x or intel 12100 </br>
-PhysX High setting is designed to require dual GPU or a much faster CPU. </br>
+PhysX High setting is designed to require dual GPU or much faster CPU. </br>
 
 ----------------------
 
