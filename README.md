@@ -27,18 +27,19 @@ HIGH shows all, but requires 2x GPU. </but>
 Windows driver allows to select PhysX mode: </br>
 CPU, GPU1 or GPU2 </br>
 GPU1 is main GPU used for video. </br>
-Linux Driver does Not. </br>
+Linux Driver 470.xx does Not allow to select PhysX mode. </br>
 
-Problem is that Nvidia Deleted 32-Bit PhysX Hardware support since 2012-2013 </br>
+Problem is: </br>
+Nvidia Deleted 32-Bit PhysX Hardware support since 2012-2013 </br>
 if you install a (2016) GPU like GTX 1050 Ti + Quadro P400 or similar </br>
 Nvidia driver 416.xx allows to select PhysX GPU, but does Not work with Batman Arkham Asylum v1.1 </br>
 
 At the beginning of the game, there is a tunnel with steam falling. </br>
 IF you activate PhysX HIGH setting in Linux or Windows,  </br>
-Only works using CPU, Linux driver 470.xx is Default PhysX to CPU </br>
+Only works using CPU, Linux driver 470.xx Default is PhysX to CPU. </br>
 
 Win8.1x64 Nvidia driver 416.xx allows to select GPU as PhysX, but does Not work, only works CPU, same as Linux. </br>
-The only way to make PhysX work in GPU HW, is installing an older GPU from 2010, </br>
+The only way to make PhysX work in GPU HW, is installing an older GPU from (2010), </br>
 that requires Windows driver 377.xx or Linux 390.xx </br>
 
 NVIDIA GPU´s dont have Hardware 32-Bit PhysX support since 2013. </br>
@@ -48,8 +49,8 @@ Unknown: </br>
 GTX 680, GTX Titan 6GB, GTX Titan Black or similar </br>
 
 32-Bit PhysX on CPU Requires the fastest CPU or will drop to 15fps,  </br>
-Quadro 6000 (2010) drops to 30fps. </br>
-installing the fastest GPU from (2016), only increase to 16fps when PhysX are on CPU. </br>
+Quadro 6000 (2010) drops to 30fps + Quadro P400 as Main GPU. </br>
+installing the fastest Main GPU from (2016), only increase to 16fps when PhysX is on CPU. </br>
 
 #### Recommended:
 Main GPU: Quadro P400 "full size bracket" or better, like GTX 1050Ti </br>
