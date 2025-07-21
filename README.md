@@ -313,6 +313,7 @@ Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
 Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
 R11.zip can only be extracted with Xarchive, Ark gives Error. </br>
 better download [R11.529.zip](https://web.archive.org/web/*/http://http.maxon.net/pub/benchmarks/*) </br>
+Real Win8.1x64 is 88% avg. 32-Bit vs. 64-Bit. single-core 87.7%, multi 88.5%, OpenGL very similar Result almost "No change." </br>
 
 Proton-GE has much higher OpenGL score vs. standard POL Wine versions. </br>
 because POL Wine sometimes has Vsync Activated, Proton-Ge does Not by Default, maybe winetricks can solve that. </br>
