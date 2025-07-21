@@ -309,9 +309,36 @@ Batman was released in 2009, requires DirectX 9 "from 2009", GOTY v1.1 requires 
 Cinebench R10 released 5 April 2007 </br>
 seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org/wiki/Visual_Studio#History) and error was minimized in later versions. </br>
 
-Original game DVD (2009) v1.0 requires MS Live account instead of EAapp to save the game, has PhysX v9.04, if install v12 breaks the system, </br>
-does Not have PhysX menu like v1.1, seems automatic, if detects 2x GPU's activates PhysX, Default: Disabled, No PhysX. </br>
-works with 64-Bit POL Wine 4.0.4 but No PhysX </br>
+Original game DVD (2009) v1.0 requires MS Live account instead of EAapp to save the game, has PhysX v9.04, if install v12 on POL breaks the system, </br>
+does Not have PhysX menu like v1.1, Default: Disabled, No PhysX. </br>
+64-Bit POL Wine 4.0.4, PhysX Needs manual configuration or installing v1.1 update </br>
+Win8.1x64 Requires [xlib.dll 3.5.88.0](https://www.dll-files.com/xlive.dll.html) in: </br>
+C:\Windows\System32 </br>
+C:\Program Files (x86)\Eidos\Batman Arkham Asylum\Binaries </br>
+Requires v1.1 update to have PhysX menu in BmLauncher.exe </br>
+Links: </br>
+[1](https://www.gamepressure.com/download/batman-arkham-asylum-v11-eng-patch/z3625f).[2](https://www.moddb.com/games/batman-arkham-asylum/downloads/patch-1-1-11).[3](https://www.patches-scrolls.com/batman_arkham_asylum.php).[3a](https://www.patches-scrolls.com/dl.php?file=batmanaa_gtx480and470_physx_patch.zip).[3b](https://www.patches-scrolls.com/dl.php?file=batman_tu_v1.1_efigs.zip).[4](https://en.ds-servers.com/gf/batman-arkham-asylum/official-patches/batman-arkham-asylum-v1-1-patch.html).[5](https://www.nexusmods.com/batmanarkhamasylum/mods/16).[6](https://www.nexusmods.com/batmanarkhamasylum/mods/16).[]().[]().[]() </br>
+
+````
+Physx disabled in Batman Arkham Asylum v1.0 by Default
+How to Enable Batman Arkham Asylum Physx
+Solution : (posted on filenetworks)
+v1.0 PhysX is missing from the BmLauncher.exe Configuration menu.
+
+1. Browse to directory C:\Users\YOURNAME\Documents\Eidos\Batman Arkham Asylum\BmGameConfig
+2. Open UserEngine.ini file with a text editor such as Notepad.
+3. Change the line PhysXLevel=0 so that it reads
+PhysXLevel=1 = NORMAL
+PhysXLevel=2 = HIGH
+4. Save & close. Run the game
+````
+BUT...
+Win8.1x64 has defailt Nvidia driver 416.34 for GTX 1050 Ti and similar </br>
+PhysX=2 works ok with CPU, but GPU does Not have smoke / steam, invastigating the issue. </br>
+v1.1 installs PhysX 9.09, but does Not work in Win8.1x64, could be PhysX version. </br>
+PhysX 9.19 also does Not work. </br>
+
+-----------------------------------
 
 Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
 Proton-GE 8.4 is 86% vs. POL 4.3.4 + Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
