@@ -48,7 +48,9 @@ GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 </br>
 Unknown: </br>
 GTX 680, GTX Titan 6GB, GTX Titan Black or similar </br>
 
-32-Bit PhysX on CPU Requires the fastest CPU or will drop to 15fps.  </br>
+32-Bit PhysX on CPU Requires the fastest CPU or will drop to 15fps,  </br>
+Quadro 6000 (2010) drops to 30fps. </br>
+installing the fastest GPU from (2016), only increase to 16fps when PhysX are on CPU. </br>
 
 #### Recommended:
 Main GPU: Quadro P400 "full size bracket" or better, like GTX 1050Ti </br>
