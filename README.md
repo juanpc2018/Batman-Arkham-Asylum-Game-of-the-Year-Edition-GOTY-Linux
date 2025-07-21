@@ -41,7 +41,6 @@ Win8.1x64 Nvidia driver 416.xx allows to select GPU as PhysX, but does Not work,
 The only way to make PhysX work in GPU HW, is installing an older GPU from 2010, </br>
 that requires Windows driver 377.xx or Linux 390.xx </br>
 
-RTX 50x0 deleted 32-Bit PhysX CPU support, </br>
 NVIDIA GPU´s dont have Hardware 32-Bit PhysX support since 2013. </br>
 Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
 GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 </br>
@@ -88,9 +87,6 @@ is possible to lower resolution & increase frame rate, </br>
 Higher resolution does Not require Anti-aliasing, </br>
 Anti-Aliasing consumes more GPU. </br>
 Higher resolution looks better, 50fps is enough. </br>
-
-[RTX 5000 (2025)](https://www.techpowerup.com/gpu-specs/geforce-rtx-5050.c4220) GPU's dont work with 32-Bit PhysX on Windows, </br>
-Linux Unknown, probaly same if is Hardware or Propietary driver feature removed. </br>
 
 Linux is Tricky to make it work with 32-Bit games. </br>
 different GPU require different drivers, </br>
@@ -253,6 +249,7 @@ M6000 24GB (2016) works with driver 470-propietary, havent tested Server-470 dri
 its safe to assume cards [from 2016](https://www.techpowerup.com/gpu-specs/?released=2016&sort=name) work with driver 470, exept cards from [2010](https://www.techpowerup.com/gpu-specs/?released=2010&sort=name) that require driver 390. </br>
 from [2011](https://www.techpowerup.com/gpu-specs/?released=2011&sort=name), [2012](https://www.techpowerup.com/gpu-specs/?released=2012&sort=name), [2013](https://www.techpowerup.com/gpu-specs/?released=2013&sort=name), [2014](https://www.techpowerup.com/gpu-specs/?released=2014&sort=name), [2015](https://www.techpowerup.com/gpu-specs/?released=2015&sort=name) maybe, [2017](https://www.techpowerup.com/gpu-specs/?released=2017&sort=name), [2018](https://www.techpowerup.com/gpu-specs/?released=2018&sort=name), [2019](https://www.techpowerup.com/gpu-specs/?released=2019&sort=name), [2020](https://www.techpowerup.com/gpu-specs/?released=2020&sort=name),[2021](https://www.techpowerup.com/gpu-specs/?released=2021&sort=name) </br>
 probably wont work with GPU's from [2022](https://www.techpowerup.com/gpu-specs/?released=2022&sort=name), [2023](https://www.techpowerup.com/gpu-specs/?released=2023&sort=name), [2024](https://www.techpowerup.com/gpu-specs/?released=2024&sort=name), [2025](https://www.techpowerup.com/gpu-specs/?released=2025&sort=name) </br>
+[RTX 5000 (2025)](https://www.techpowerup.com/gpu-specs/geforce-rtx-5050.c4220) dont work with 32-Bit PhysX, Only CPU. </br>
 
 Top of the line Quadro cards usually have more memory vs. GTX "Gaming" cards, but older games do Not use that amount of memory. </br>
 Older cards have Larger transistor size = more power consumption at same performance level. </br>
