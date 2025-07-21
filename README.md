@@ -295,6 +295,7 @@ PCIe v2 vs. PCIe v3 v4 v5 </br>
 Cinebench [R10](https://archive.org/download/cinebench_201907) has 32-bit .exe & 64-Bit .exe </br>
 Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine x32, x64, Lutris UMU Proton-GE 8.4 x64 </br>
 [CPU-Z v2.16 .ZIP](https://www.cpuid.com/softwares/cpu-z.html) also has x32 & x64 .exe same strange result, x32 has lower score. </br>
+![i3-12100-vs-i7-7700k](https://github.com/user-attachments/assets/18618cec-c32e-412b-b18a-c6aaff4972c5)![cpu-zx32](https://github.com/user-attachments/assets/95628498-f41c-40b2-b67c-664ff236c2ed) </br>
 
 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe always gives 60% of the 64-bit result, does Not matter CPU brand or Wine version. </br>
 havent tested Real Windows8.1x64 to see if has the same problem. </br>
