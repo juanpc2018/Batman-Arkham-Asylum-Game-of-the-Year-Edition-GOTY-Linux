@@ -21,6 +21,42 @@ HIGH shows all, but requires 2x GPU. </but>
 
 -------------------------
 
+### Mistery Solved: </br>
+
+2x GPU does Not work, Not Windows8.1 x64 Not Linux 20.04.4 LTS. </br>
+Windows driver allows to select PhysX mode: </br>
+CPU, GPU1 or GPU2 </br>
+GPU1 is main GPU used for video. </br>
+Linux Driver does Not. </br>
+
+Problem is that Nvidia Deleted 32-Bit PhysX Hardware support since 2012-2013 </br>
+if you install a (2016) GPU like GTX 1050 Ti + Quadro P400 or similar </br>
+Nvidia driver 416.xx allows to select PhysX GPU, but does Not work with Batman Arkham Asylum v1.1 </br>
+
+At the beginning of the game, there is a tunnel with steam falling. </br>
+IF you activate PhysX HIGH setting in Linux or Windows,  </br>
+Only works using CPU, Linux driver 470.xx is Default PhysX to CPU </br>
+
+Win8.1x64 Nvidia driver 416.xx allows to select GPU as PhysX, but does Not work, only works CPU, same as Linux. </br>
+The only way to make PhysX work in GPU HW, is installing an older GPU from 2010, </br>
+that requires Windows driver 377.xx or Linux 390.xx </br>
+
+RTX 50x0 deleted 32-Bit PhysX CPU support, </br>
+NVIDIA GPU´s dont have Hardware PhysX support since 2013. </br>
+Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
+GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 </br>
+Unknown: </br>
+GTX 680, GTX Titan 6GB, GTX Titan Black or similar </br>
+
+32-Bit PhysX on CPU Requires the fastest CPU or will drop to 15fps.  </br>
+
+#### Recommended:
+Main GPU: Quadro P400 "full size bracket" or better, like GTX 1050Ti </br>
+PhysX GPU: 2010 like GTX 580 or similar. </br>
+
+--------------------------
+
+
 GPU: Nvidia [GTX 1050Ti 4GB (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) </br>
 
 Linux Driver: 470-propietary </br>
@@ -222,8 +258,9 @@ outdated [Legacy CUDA Compute Capability](https://developer.nvidia.com/cuda-lega
 older OpenGL version, [RTX cards "Newer" Compute capability](https://developer.nvidia.com/cuda-gpus) </br>
 Advantage is compatibility with 32-Bits. </br>
 
-[Quadro P400 2GB (2017)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/productspage/quadro/quadro-desktop/quadro-pascal-p400-data-sheet-us-nv-704503-r1.pdf) works with driver 470, but barely, 13 fps to 15 fps, All Max. + PhysX </br>
-P400 is inferior vs. 1050 Ti, but faster vs. recommended GPU´s GTX 260 + 8800 GTX </br>
+[Quadro P400 2GB (2017)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/productspage/quadro/quadro-desktop/quadro-pascal-p400-data-sheet-us-nv-704503-r1.pdf) works with driver 470, but barely at 3440x1440x50 13 fps to 15 fps, All Max. + PhysX </br>
+P400 works at 1920x1080x60 at 100% GPU load. </br>
+P400 is inferior vs. 1050 Ti, but faster vs. recommended GPU´s GTX 260 + 9800 GTX </br>
 ![Screenshot_20250709_140924](https://github.com/user-attachments/assets/b9fd9a31-76d9-4202-9185-cbf5bf58e95f) </br>
 ![Screenshot_20250705_191843](https://github.com/user-attachments/assets/65611782-bb87-4d63-b91e-b372af7ee25d) </br>
 ![Screenshot_20250711_124838](https://github.com/user-attachments/assets/ac0648fc-9948-4b34-bc75-bc02c863b2f5) </br>
@@ -245,7 +282,6 @@ Anyway... </br>
 intel Z790 i3-12100 CPU is Twice faster in 32-Bit vs. AMD 7600x + X670E, using Rebirth 338 v2.1 Benchmark,</br>
 Server boards have more PCIe lanes, but CPU's are slower, GPU's improve with faster CPU. </br>
 
-a P400 with full size bracket, can be used as 2nd GPU + GTX 1050Ti. </br>
 problem of gamer boards & CPU's using 2x GPU's is that have very little PCIe lanes [20 vs 24](https://www.cpu-monkey.com/en/compare_cpu-intel_core_i3_12100-vs-amd_ryzen_5_7600x) each GPU has 16x PCIe v3 = 32, </br>
 some boards halve 8+8 PCIe lanes, others keep 16x + 4x </br> 
 problem is the M.2 NVMe PCIe x4 v5 </br>
