@@ -284,7 +284,8 @@ but Dual GPU PhysX does Not work, 0% load on the 2nd GPU. </br>
 
 Game recommends: </br>
 [GTX 260 (2008)](https://www.techpowerup.com/gpu-specs/geforce-gtx-260.c217) + [9800 GTX (2008)](https://www.techpowerup.com/gpu-specs/geforce-9800-gtx.c207).[+(2009)](https://www.techpowerup.com/gpu-specs/geforce-9800-gtx.c237) similar [+3%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-260-vs-Nvidia-GeForce-9800-GTX/3160vsm8342) </br>
-GTX 1050 Ti (2016) its 300% faster, M6000 24GB (2016) is 900% faster, but has severe frame drops in some parts of the game with PhysX HIGH, </br>
+GTX 1050 Ti (2016) its 300% faster, </br>
+M6000 24GB (2016) is 900% faster, but has severe frame drops in some parts of the game with PhysX HIGH </br>
 IF game does Not detect 2x GPU with PhysX HIGH, falls back to 32-Bit CPU SSE instructions to emulate the 2nd GPU with CPU. </br>
 
 2011 fastest 4-core/8-thread intel CPU X5687 vs. i3-12100 (2022) is [+100%](https://gadgetversus.com/processor/intel-xeon-x5687-vs-intel-core-i3-12100/) ~ [+122%](https://technical.city/en/cpu/Xeon-X5687-vs-Core-i3-12100) but still has frame drops!</br>
