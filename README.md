@@ -299,11 +299,12 @@ Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on di
 Real Windows8.1x64 has 40% "39.37%" limit on 32-bits. </br>
 ![i3-12100-vs-i7-7700k](https://github.com/user-attachments/assets/18618cec-c32e-412b-b18a-c6aaff4972c5)![cpu-zx32](https://github.com/user-attachments/assets/95628498-f41c-40b2-b67c-664ff236c2ed) </br>
 
-32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on Linux gives 60% of the 64-bit result, does Not matter CPU brand or Wine version. </br>
-Linux has a 60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
+32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe gives ~60% of the 64-bit result, does Not matter CPU brand or Wine version or OS. </br>
+Linux or Win8.1x64 has a ~60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
 other people also have [Strange Results](https://commons.m.wikimedia.org/wiki/File:Cinebench_R10_%E2%80%93_Benchmark_Intel_Core_i9-9900K,_Gigabyte_GeForce_RTX%E2%84%A2_3090_EAGLE_OC_24G_2024-04-03_08_24_34-Greenshot_CROP02.png) </br>
+OpenGL No change, same result. </br>
 
-Batman was released in 2009, requires DirectX 9 from 2009, GOTY v1.1 requires VC 2015 </br>
+Batman was released in 2009, requires DirectX 9 "from 2009", GOTY v1.1 requires VC 2015 </br>
 Cinebench R10 released 5 April 2007 </br>
 seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org/wiki/Visual_Studio#History) and error was minimized in later versions. </br>
 
@@ -312,9 +313,10 @@ does Not have PhysX menu like v1.1, seems automatic, if detects 2x GPU's activat
 
 Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
 Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
-R11.zip can only be extracted with Xarchive, Ark gives Error. </br>
+Real Win8.1x64 is ~88% avg. 32-Bit vs. 64-Bit. single-core 87.7%, multi 88.5%, OpenGL very similar Result almost "No change." </br>
+
+R11.zip can only be extracted with Xarchive, Ark gives Error on Linux. </br>
 better download [R11.529.zip](https://web.archive.org/web/*/http://http.maxon.net/pub/benchmarks/*) </br>
-Real Win8.1x64 is 88% avg. 32-Bit vs. 64-Bit. single-core 87.7%, multi 88.5%, OpenGL very similar Result almost "No change." </br>
 
 Proton-GE has much higher OpenGL score vs. standard POL Wine versions. </br>
 because POL Wine sometimes has Vsync Activated, Proton-Ge does Not by Default, maybe winetricks can solve that. </br>
