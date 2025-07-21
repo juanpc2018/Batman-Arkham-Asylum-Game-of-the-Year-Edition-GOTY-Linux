@@ -49,8 +49,8 @@ Unknown: </br>
 GTX 680, GTX Titan 6GB, GTX Titan Black, Quadro K6000 or similar </br>
 
 32-Bit PhysX on CPU Requires the fastest CPU or will drop to 15fps,  </br>
-Quadro 6000 (2010) drops to 30fps + Quadro P400 as Main GPU. </br>
-installing the fastest Main GPU from (2016), only increase to 16fps when PhysX is on CPU. </br>
+Quadro 6000 (2010) drops to 30fps + Quadro P400 (2017) as Main GPU. </br>
+installing the fastest Main GPU from (2016) only increase to 16fps when PhysX is on CPU. </br>
 
 #### Recommended:
 Main GPU: Quadro P400 "full size bracket" or better, like GTX 1050Ti </br>
