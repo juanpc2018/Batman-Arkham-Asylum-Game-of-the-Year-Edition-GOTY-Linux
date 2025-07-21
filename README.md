@@ -42,7 +42,7 @@ The only way to make PhysX work in GPU HW, is installing an older GPU from 2010,
 that requires Windows driver 377.xx or Linux 390.xx </br>
 
 RTX 50x0 deleted 32-Bit PhysX CPU support, </br>
-NVIDIA GPU´s dont have Hardware PhysX support since 2013. </br>
+NVIDIA GPU´s dont have Hardware 32-Bit PhysX support since 2013. </br>
 Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
 GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 </br>
 Unknown: </br>
