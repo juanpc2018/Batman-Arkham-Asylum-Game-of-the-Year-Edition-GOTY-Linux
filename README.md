@@ -310,9 +310,10 @@ seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org
 
 Original game DVD (2009) v1.0 requires MS Live account instead of EAapp to save the game, has PhysX v9.04, if install v12 breaks the system, </br>
 does Not have PhysX menu like v1.1, seems automatic, if detects 2x GPU's activates PhysX, Default: Disabled, No PhysX. </br>
+works with 64-Bit POL Wine 4.0.4 but No PhysX </br>
 
 Cinebench [R11.5](https://archive.org/download/cinebench_201907) results: </br>
-Proton-GE 8.4 is 86% vs. POL 4.3.4 Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
+Proton-GE 8.4 is 86% vs. POL 4.3.4 + Wine v6.17 64-Bit, All tests OpenGL & CPU single & multi. </br>
 Real Win8.1x64 is ~88% avg. 32-Bit vs. 64-Bit. single-core 87.7%, multi 88.5%, OpenGL very similar Result almost "No change." </br>
 
 R11.zip can only be extracted with Xarchive, Ark gives Error on Linux. </br>
