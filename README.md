@@ -30,19 +30,21 @@ GPU1 is main GPU used for video. </br>
 Linux Driver 470.xx does Not allow to select PhysX mode. </br>
 
 Problem is: </br>
-Nvidia Deleted 32-Bit PhysX Hardware support since 2015 </br>
+Nvidia DELETED 32-Bit PhysX Hardware support since 2015 </br>
 if you install a (2016) GPU like GTX 1050 Ti + Quadro P400 (2017) or similar M6000 24GB (2016) </br>
 Nvidia driver 416.xx allows to select PhysX GPU, but does Not work with Batman Arkham Asylum v1.1 </br>
 
 At the beginning of the game, there is a tunnel with steam falling. </br>
 IF you activate PhysX HIGH setting in Linux or Windows,  </br>
 Only works using CPU, </br>
+problem with using PhysX on CPU is that frames drop to 15fps using a modern i3-12100 or 7600x </br>
 
-Linux Default is PhysX to CPU. </br>
-Win8.1x64 Nvidia driver 416.xx allows to select GPU as PhysX, but does Not work. </br>
 CPU PhysX works both Windows & Linux. </br>
+Linux Default is PhysX to CPU. </br>
 
-The only way to make PhysX work with GPU HW in Windows, is installing an older GPU from (2009-2015) </br>
+Win8.1x64 Nvidia driver 416.xx allows to select GPU as PhysX, but does Not work. </br>
+
+to make PhysX work with GPU HW in Windows, is installing an older GPU from (2009-2015) </br>
 that requires Windows driver 377.xx to 416.xx </br>
 haven't tested Linux 390.xx / 340.xx drivers </br>
 
