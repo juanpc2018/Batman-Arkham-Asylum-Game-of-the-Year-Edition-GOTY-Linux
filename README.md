@@ -88,6 +88,8 @@ Unknown why Linux 470 driver does Not have PhysX option. </br>
 Tutorial to compile [PhysX 3.3.4 + NVIDIA GeForce GTX 750 Ti + Ubuntu 14.04](https://codeyarns.com/tech/2015-12-03-how-to-use-physx-on-linux.html#gsc.tab=0) </br>
 Tutorial for [20.04.x LTS](https://stackoverflow.com/questions/62894488/how-do-you-compile-standalone-snippets-in-nvidia-physx) </br>
 
+[CodeWeavers CrossOver](https://www.codeweavers.com/compatibility/crossover/nvidia-physx) seems to have better PhysX support since Ubuntu 10.10 vs. WineHQ </br>
+
 --------------------------
 
 
