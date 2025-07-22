@@ -82,6 +82,10 @@ GPU load increase a lot more, but "fps" does Not drop as much as CPU PhysX. </br
 
 The only way to play with CPU PhysX is using NORMAL setting, on i3-12100 or 7600x CPU's. </br>
 
+
+There is PhysX [v3](https://developer.nvidia.com/rdp/physx-downloads), [v4](https://github.com/NVIDIAGameWorks/PhysX), & [v5](https://github.com/NVIDIA-Omniverse/PhysX) for Linux </br>
+Unknown why Linux 470 driver does Not have PhysX option. </br>
+
 --------------------------
 
 
@@ -231,7 +235,8 @@ smoke & particles work ok "out of the box", with some occacional frame drops wit
 [PhysX v9.16.03](https://www.nvidia.com/en-us/drivers/physx/9_16_0318/physx-9-16-0318-driver/) *</br>
 [PhysX v9.17.05](https://www.nvidia.com/en-us/drivers/physx/9_17_0524/physx-9-17-0524-driver/) *</br>
 [PhysX v9.18.09](https://www.nvidia.com/en-us/drivers/physx/9_18_0907/physx-9-18-0907-driver/) *</br>
-[Latest v9.19.02](https://www.nvidia.com/en-us/drivers/physx/9_19_0218/physx-9-19-0218-driver/) *</br>
+[PhysX v9.19.02](https://www.nvidia.com/en-us/drivers/physx/9_19_0218/physx-9-19-0218-driver/) *</br>
+[PhysX v9.23.10](https://www.nvidia.com/en-us/drivers/physx/physx-9-23-1019-driver/) *</br>
 *Untested. </br>
 ** Fail. </br>
 
