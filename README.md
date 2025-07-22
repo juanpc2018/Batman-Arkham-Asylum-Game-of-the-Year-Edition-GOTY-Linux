@@ -38,13 +38,13 @@ At the beginning of the game, there is a tunnel with steam falling. </br>
 IF you activate PhysX HIGH setting in Linux or Windows,  </br>
 Only works using CPU, </br>
 
-Linux driver 470.xx Default is PhysX to CPU. </br>
+Linux Default is PhysX to CPU. </br>
 Win8.1x64 Nvidia driver 416.xx allows to select GPU as PhysX, but does Not work. </br>
 CPU PhysX works both Windows & Linux. </br>
 
-The only way to make PhysX work with GPU HW in Windows, is installing an older GPU from (2010-2015) </br>
+The only way to make PhysX work with GPU HW in Windows, is installing an older GPU from (2009-2015) </br>
 that requires Windows driver 377.xx to 416.xx </br>
-haven't tested Linux 390.xx / 340.xx driver </br>
+haven't tested Linux 390.xx / 340.xx drivers </br>
 
 ### Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
 GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000, Quadro M2000 </br>
@@ -66,12 +66,16 @@ WQHD monitors 3440x1440x50fps require faster GPU Quadro P1000 or GTX 1050Ti </br
 P600 Unknown, probably works 2560x1440x30. </br>
 
 #### Recommended: </br>
-Main GPU:  </br>
+Main 3D GPU:  </br>
 1920x1080x60 Quadro P400 "full size bracket" in Win8.1 or better  </br>
-3440x1440x50 GTX 1050Ti </br>
-PhysX GPU: (2010)  </br>
+3440x1440x50 Quadro P1000 or better, GTX 1050Ti </br>
+#### PhysX GPU: (2009-2015) </br>
 GTX 580 </br>
 Quadro M2000 </br>
+
+Batman Arkham Asylum v1.1 GPU load is low 20% 3D & PhysX. </br>
+Windows Nvidia driver allows PhysX to be activated to the Main GPU "Only 1x GPU"
+GPU load increasing a lot more, but performance "fps" does Not drop as much as CPU PhysX. </br>
 
 --------------------------
 
