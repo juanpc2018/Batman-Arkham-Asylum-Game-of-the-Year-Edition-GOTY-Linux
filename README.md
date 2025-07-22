@@ -77,8 +77,8 @@ GTX 580 </br>
 Quadro M2000 </br>
 
 Batman Arkham Asylum v1.1 GPU load is low: 20% 3D & 20% PhysX. </br>
-Windows Nvidia driver allows PhysX to be activated to the Main GPU "Only 1x GPU"
-GPU load increase a lot more, "fps" does Not drop as much as CPU PhysX. </br>
+Windows Nvidia driver allows PhysX to be activated to the Main GPU "Only 1x GPU" </br>
+GPU load increase a lot more, but "fps" does Not drop as much as CPU PhysX. </br>
 
 --------------------------
 
