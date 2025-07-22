@@ -44,7 +44,8 @@ Linux Default is PhysX to CPU. </br>
 
 Win8.1x64 Nvidia driver 416.xx allows to select GPU as PhysX, but does Not work. </br>
 
-to make PhysX work with GPU HW in Windows, is installing an older GPU from (2009-2015) </br>
+to make PhysX work with GPU HW in Windows: </br>
+Requires installing an older GPU from (2009-2015) </br>
 that requires Windows driver 377.xx to 416.xx </br>
 haven't tested Linux 390.xx / 340.xx drivers </br>
 
@@ -58,26 +59,26 @@ Quadro M6000 24GB (2016) does Not work,
 BUT... M6000 12GB (2015) should work ok. </br>
 
 32-Bit PhysX on CPU Requires the fastest CPU or will drop to 15fps,  </br>
-CPUs are slower in 32-Bit </br>
-installing the fastest GPU from (2016) only increase to 16fps when PhysX is on CPU. </br>
+CPU's are slower in 32-Bit </br>
+installing the fastest GPU from (2016) with CPU PhysX only increase to 16fps. </br>
 
 PhysX on GPU HW: </br>
 Quadro 6000 (2010) drops to 30fps + Quadro P400 (2017) as Main GPU in Win8.1x64 at FullHD 1920x1080 </br>
-Quadro P400 works ok at FullHD 60fps, </br> 
-WQHD monitors 3440x1440x50fps require faster GPU Quadro P1000 or GTX 1050Ti </br>
-P600 Unknown, probably works 2560x1440x30. </br>
+Quadro P400 works ok at FullHD 60fps but requires other card for PhysX, </br> 
+WQHD monitors 3440x1440x50fps require faster GPU: Quadro P1000, M2000, or GTX 1050Ti </br>
+Quadro P600 probably works 2560x1440x30. </br>
 
 #### Recommended: </br>
-Main 3D GPU:  </br>
+Main GPU (2016 or better):  </br>
 1920x1080x60 Quadro P400 "full size bracket" in Win8.1 or better  </br>
 3440x1440x50 Quadro P1000 or better, GTX 1050Ti </br>
 #### PhysX GPU: (2009-2015) </br>
 GTX 580 </br>
 Quadro M2000 </br>
 
-Batman Arkham Asylum v1.1 GPU load is low 20% 3D & PhysX. </br>
+Batman Arkham Asylum v1.1 GPU load is low: 20% 3D & 20% PhysX. </br>
 Windows Nvidia driver allows PhysX to be activated to the Main GPU "Only 1x GPU"
-GPU load increasing a lot more, but performance "fps" does Not drop as much as CPU PhysX. </br>
+GPU load increase a lot more, "fps" does Not drop as much as CPU PhysX. </br>
 
 --------------------------
 
