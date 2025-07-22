@@ -85,6 +85,7 @@ The only way to play with CPU PhysX is using NORMAL setting, on i3-12100 or 7600
 
 There is PhysX [v3.2.x | v3.3.x](https://developer.nvidia.com/rdp/physx-downloads), [v3.4.x](https://github.com/NVIDIAGameWorks/PhysX-3.4), [v4.x](https://github.com/NVIDIAGameWorks/PhysX), & [v5.x](https://github.com/NVIDIA-Omniverse/PhysX) for Linux </br>
 Unknown why Linux 470 driver does Not have PhysX option. </br>
+Tutorial to compile [PhysX 3.3.4 + NVIDIA GeForce GTX 750 Ti + Ubuntu 14.04](https://codeyarns.com/tech/2015-12-03-how-to-use-physx-on-linux.html#gsc.tab=0) </br>
 
 --------------------------
 
