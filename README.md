@@ -83,7 +83,7 @@ GPU load increase a lot more, but "fps" does Not drop as much as CPU PhysX. </br
 The only way to play with CPU PhysX is using NORMAL setting, on i3-12100 or 7600x CPU's. </br>
 
 
-There is PhysX [v3](https://developer.nvidia.com/rdp/physx-downloads), [v4](https://github.com/NVIDIAGameWorks/PhysX), & [v5](https://github.com/NVIDIA-Omniverse/PhysX) for Linux </br>
+There is PhysX [v3.2.x | v3.3.x](https://developer.nvidia.com/rdp/physx-downloads), [v3.4.x](https://github.com/NVIDIAGameWorks/PhysX-3.4), [v4.x](https://github.com/NVIDIAGameWorks/PhysX), & [v5.x](https://github.com/NVIDIA-Omniverse/PhysX) for Linux </br>
 Unknown why Linux 470 driver does Not have PhysX option. </br>
 
 --------------------------
