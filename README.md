@@ -90,6 +90,8 @@ Tutorial for [20.04.x LTS](https://stackoverflow.com/questions/62894488/how-do-y
 
 [CodeWeavers CrossOver](https://www.codeweavers.com/compatibility/crossover/nvidia-physx) seems to have better PhysX support since Ubuntu 10.10 vs. WineHQ </br>
 
+there is an [Protontricks Tutorial for Linux](https://www.youtube.com/watch?v=pS9OQ7CW6hE) but seems has the same problem: PhysX on CPU. </br>
+
 --------------------------
 
 
