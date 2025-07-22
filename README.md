@@ -10,7 +10,7 @@ incl. [Phys](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) [X]
 but... Dual GPU PhysX does Not work, only 1x GPU. </br>
 Hardware Accelerated PhysX: </br>
 NORMAL does Not show flags on the ceiling. </br>
-HIGH shows all, but requires 2x GPU. </but>
+HIGH shows all, but requires 2x GPU or a very fast CPU. </but>
 
 [X] VSync in the game. </br>
 [X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
