@@ -59,7 +59,7 @@ GTX 680, GTX Titan 6GB, GTX Titan Black, Quadro K6000, K5200 or similar </br>
 Quadro M6000 24GB (2016) does Not work, </br>
 BUT... M6000 12GB (2015) should work ok. </br>
 
-### people with mini-ATX boards / with 1x PCIe x16 slot </br>
+### people with mini-ATX boards / 1x PCIe x16 slot: </br>
 the perfect GPU to play 32-Bit PhysX games are: </br>
 GTX 590, GTX 690, or Titan Z. </br>
 All should work the same with Vsync=On. </br>
