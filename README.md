@@ -52,7 +52,7 @@ haven't tested Linux 390.xx / 340.xx drivers </br>
 ### Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
 
 GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000, Quadro M2000 </br>
-Unknown but Probably work: </br>
+Probably work: </br>
 GTX 680, GTX Titan 6GB, GTX Titan Black, Quadro K6000, K5200 or similar </br>
 
 ### Don't work: </br>
