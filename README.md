@@ -58,30 +58,37 @@ GTX 680, GTX Titan 6GB, GTX Titan Black, Quadro K6000, K5200 or similar </br>
 Quadro M6000 24GB (2016) does Not work, 
 BUT... M6000 12GB (2015) should work ok. </br>
 
-32-Bit PhysX on CPU Requires the fastest CPU or will drop to 15fps,  </br>
-CPU's are slower in 32-Bit </br>
-installing the fastest GPU from (2016) with CPU PhysX only increase to 16fps. </br>
+for people with mini-ATX boards "1x PCIe x16 slot" </br>
+the perfect GPU to play 32-Bit PhysX games are: </br>
+GTX 590, GTX 690, or Titan Z. </br>
+All should work the same with Vsync=On. </br>
 
-PhysX on GPU HW: </br>
-Quadro 6000 (2010) drops to 30fps + Quadro P400 (2017) as Main GPU in Win8.1x64 at FullHD 1920x1080 </br>
-Quadro P400 works ok at FullHD 60fps but requires other card for PhysX, </br> 
-WQHD monitors 3440x1440x50fps require faster GPU: Quadro P1000, M2000, or GTX 1050Ti </br>
-Quadro P600 probably works 2560x1440x30. </br>
+32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps,  </br>
+CPU's are slower in 32-Bit </br>
+installing the fastest GPU from (2016) CPU PhysX only increase to 16fps. </br>
+
+Quadro 6000 (2010) drops to 30fps + Quadro P400 (2017) as Main-GPU in Win8.1x64 at FullHD 1920x1080 </br>
+Quadro P400 works ok as main GPU, FullHD 60fps, 100% GPU load, but requires other card for PhysX, </br> 
+WQHD monitors 3440x1440x50fps require faster main-GPU: Quadro P1000, M2000, or GTX 1050Ti </br>
+Quadro P600 as main GPU probably works at 2560x1440x30. </br>
 
 #### Recommended: </br>
-Main GPU (2016 or better):  </br>
+Main-GPU (2016 or better):  </br>
 1920x1080x60 Quadro P400 "full size bracket" in Win8.1 or better  </br>
 3440x1440x50 Quadro P1000 or better, GTX 1050Ti </br>
 #### PhysX GPU: (2009-2015) </br>
 GTX 580 </br>
 Quadro M2000 </br>
+but GTX 280 or 9800 GTX should work ok. </br>
 
-Batman Arkham Asylum v1.1 GPU load is low: 20% 3D & 20% PhysX. </br>
+Batman Arkham Asylum v1.1 GPU load is low: 20% 3D & 20% PhysX on GTX 1060 Ti + Quadro M2000. </br>
 Windows Nvidia driver allows PhysX to be activated to the Main GPU "Only 1x GPU" </br>
 GPU load increase a lot more, but "fps" does Not drop as much as CPU PhysX. </br>
 
-The only way to play with CPU PhysX is using NORMAL setting, on i3-12100 or 7600x CPU's. </br>
+2017 or Newer GPUs have higher HDMI resoution, more power efficient, </br>
+Lower fan noise. </br>
 
+The only way to play with CPU PhysX is using NORMAL setting, on i3-12100 or 7600x CPU's. </br>
 
 There is PhysX [v3.2.x](https://developer.nvidia.com/rdp/physx-downloads), [v3.3.x](https://github.com/yangzhengxing/PhysX-3.3), [v3.4.x](https://github.com/NVIDIAGameWorks/PhysX-3.4), [v4.x](https://github.com/NVIDIAGameWorks/PhysX), & [v5.x](https://github.com/NVIDIA-Omniverse/PhysX) for Linux </br>
 Unknown why Linux 470 driver does Not have PhysX option. </br>
