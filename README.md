@@ -68,8 +68,8 @@ All should work the same with Vsync=On. </br>
 CPU's are slower in 32-Bit </br>
 installing the fastest GPU from (2016) CPU PhysX only increase to 16fps. </br>
 
-Quadro 6000 (2010) drops to 30fps + Quadro P400 (2017) as Main-GPU in Win8.1x64 at FullHD 1920x1080 </br>
-Quadro P400 works as main-GPU, FullHD 60fps, 100% GPU load, requires other card for PhysX </br> 
+Quadro 6000 (2010) "GTX 470" drops to 30fps + Quadro P400 (2017) as Main-GPU in Win8.1x64 at FullHD 1920x1080 </br>
+Quadro P400 works as main-GPU, FullHD, 100% GPU load, requires other card for PhysX </br> 
 
 WQHD monitors 3440x1440x50fps require faster main-GPU: Quadro P1000, M2000, or GTX 1050Ti </br>
 Quadro P600 as main-GPU probably works at 2560x1440x30. </br>
