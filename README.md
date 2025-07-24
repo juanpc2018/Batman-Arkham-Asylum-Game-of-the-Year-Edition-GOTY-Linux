@@ -104,9 +104,14 @@ No need for Dual-GPU´s. </br>
 [GRID M6-8Q](https://www.techpowerup.com/gpu-specs/grid-m6-8q.c3052) ** | [GRID M60](https://www.techpowerup.com/gpu-specs/grid-m60-1q.c3087) </br>
 [Tesla M4 LowProfile](https://www.techpowerup.com/gpu-specs/tesla-m4.c2770) * | [Tesla M40](https://www.techpowerup.com/gpu-specs/tesla-m40.c2771) * | [Tesla M40 24GB](https://www.techpowerup.com/gpu-specs/tesla-m40-24-gb.c3838) * | [Tesla M6](https://www.techpowerup.com/gpu-specs/tesla-m6-mobile.c2818) [x2](https://www.techpowerup.com/gpu-specs/tesla-m6-x2-mobile.c4123) ** | [Tesla M60](https://www.techpowerup.com/gpu-specs/tesla-m60.c2760) *</br>
 #### [2016:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2016&sort=name) </br>
-Q1 & Q2 should work ok, </br>
-Q3 Uknown, </br>
+Q1 & Q2 should work </br>
+[M500M](https://www.techpowerup.com/gpu-specs/quadro-m500m.c2843) ** | [M5500](https://www.techpowerup.com/gpu-specs/quadro-m5500-mobile.c2838) ** | [GRID M10-8Q](https://www.techpowerup.com/gpu-specs/grid-m10-8q.c3086) * | [GRID M3-3020](https://www.techpowerup.com/gpu-specs/grid-m3-3020.c3084) | [GRID M40](https://www.techpowerup.com/gpu-specs/grid-m40.c2518) </br> 
+[Tesla M10](https://www.techpowerup.com/gpu-specs/tesla-m10.c3035) | [Tesla P100 DGXS](https://www.techpowerup.com/gpu-specs/tesla-p100-dgxs.c3285) | [Tesla P100 12GB](https://www.techpowerup.com/gpu-specs/tesla-p100-pcie-12-gb.c2915) [16GB](https://www.techpowerup.com/gpu-specs/tesla-p100-pcie-16-gb.c2888) | [P100 SXM2](https://www.techpowerup.com/gpu-specs/tesla-p100-sxm2.c3183) **** | </br>
+Q3 Uknown: </br>
+[Titan X Pascal "Not Xp"](https://www.techpowerup.com/gpu-specs/titan-x-pascal.c2863) </br>
+[Tesla P4](https://www.techpowerup.com/gpu-specs/tesla-p4.c2879) | [Tesla P10](https://www.techpowerup.com/gpu-specs/tesla-p10.c3750) | [Tesla P40](https://www.techpowerup.com/gpu-specs/tesla-p40.c2878) </br>
 Q4 does Not work. </br>
+[Quadro GP100](https://www.techpowerup.com/gpu-specs/quadro-gp100.c2994) | [Quadro P5000](https://www.techpowerup.com/gpu-specs/quadro-p5000.c2864) | [Quadro P6000](https://www.techpowerup.com/gpu-specs/quadro-p6000.c2865) |  </br>
 
 32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps.  </br>
 CPU's are slower in 32-Bit </br>
