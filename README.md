@@ -105,13 +105,24 @@ No need for Dual-GPU´s. </br>
 [Tesla M4 LowProfile](https://www.techpowerup.com/gpu-specs/tesla-m4.c2770) * | [Tesla M40](https://www.techpowerup.com/gpu-specs/tesla-m40.c2771) * | [Tesla M40 24GB](https://www.techpowerup.com/gpu-specs/tesla-m40-24-gb.c3838) * | [Tesla M6](https://www.techpowerup.com/gpu-specs/tesla-m6-mobile.c2818) [x2](https://www.techpowerup.com/gpu-specs/tesla-m6-x2-mobile.c4123) ** | [Tesla M60](https://www.techpowerup.com/gpu-specs/tesla-m60.c2760) *</br>
 #### [2016:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2016&sort=name) </br>
 Q1 & Q2 should work </br>
-[M500M](https://www.techpowerup.com/gpu-specs/quadro-m500m.c2843) ** | [M5500](https://www.techpowerup.com/gpu-specs/quadro-m5500-mobile.c2838) ** | [GRID M10-8Q](https://www.techpowerup.com/gpu-specs/grid-m10-8q.c3086) * | [GRID M3-3020](https://www.techpowerup.com/gpu-specs/grid-m3-3020.c3084) | [GRID M40](https://www.techpowerup.com/gpu-specs/grid-m40.c2518) </br> 
+[920MX](https://www.techpowerup.com/gpu-specs/geforce-920mx.c2826) ** | [945M](https://www.techpowerup.com/gpu-specs/geforce-945m.c2836) ** | [M6000 24GB](https://www.techpowerup.com/gpu-specs/quadro-m6000-24-gb.c2824) </br>
+[Quadro M2000](https://www.techpowerup.com/gpu-specs/quadro-m2000.c2837) </br>
+[GTX 1070](https://www.techpowerup.com/gpu-specs/geforce-gtx-1070.c2840) | [GTX 1080](https://www.techpowerup.com/gpu-specs/geforce-gtx-1080.c2839) </br>
+[M500M](https://www.techpowerup.com/gpu-specs/quadro-m500m.c2843) ** | [M5500](https://www.techpowerup.com/gpu-specs/quadro-m5500-mobile.c2838) ** | [GTX 980MX](https://www.techpowerup.com/gpu-specs/geforce-gtx-980mx.c2808) ** </br>
+[GRID M10-8Q](https://www.techpowerup.com/gpu-specs/grid-m10-8q.c3086) * | [GRID M3-3020](https://www.techpowerup.com/gpu-specs/grid-m3-3020.c3084) | [GRID M40](https://www.techpowerup.com/gpu-specs/grid-m40.c2518) </br> 
 [Tesla M10](https://www.techpowerup.com/gpu-specs/tesla-m10.c3035) | [Tesla P100 DGXS](https://www.techpowerup.com/gpu-specs/tesla-p100-dgxs.c3285) | [Tesla P100 12GB](https://www.techpowerup.com/gpu-specs/tesla-p100-pcie-12-gb.c2915) [16GB](https://www.techpowerup.com/gpu-specs/tesla-p100-pcie-16-gb.c2888) | [P100 SXM2](https://www.techpowerup.com/gpu-specs/tesla-p100-sxm2.c3183) **** | </br>
 Q3 Uknown: </br>
+[M3000 SE](https://www.techpowerup.com/gpu-specs/quadro-m3000-se.c2886) | [GTX 1060 3GB](https://www.techpowerup.com/gpu-specs/geforce-gtx-1060-3-gb.c2867) | [GTX 1060 6GB](https://www.techpowerup.com/gpu-specs/geforce-gtx-1060-6-gb.c2862) | [1060M](https://www.techpowerup.com/gpu-specs/geforce-gtx-1060-mobile.c3016) | [1070M](https://www.techpowerup.com/gpu-specs/geforce-gtx-1070-mobile.c2869) | [1080M](https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-mobile.c2870) </br>
 [Titan X Pascal "Not Xp"](https://www.techpowerup.com/gpu-specs/titan-x-pascal.c2863) </br>
 [Tesla P4](https://www.techpowerup.com/gpu-specs/tesla-p4.c2879) | [Tesla P10](https://www.techpowerup.com/gpu-specs/tesla-p10.c3750) | [Tesla P40](https://www.techpowerup.com/gpu-specs/tesla-p40.c2878) </br>
 Q4 does Not work. </br>
+[GTX 760](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-oem.c3743) </br>
 [Quadro GP100](https://www.techpowerup.com/gpu-specs/quadro-gp100.c2994) | [Quadro P5000](https://www.techpowerup.com/gpu-specs/quadro-p5000.c2864) | [Quadro P6000](https://www.techpowerup.com/gpu-specs/quadro-p6000.c2865) |  </br>
+Unknown Release date: </br>
+[940MX](https://www.techpowerup.com/gpu-specs/geforce-940mx.c2797) ** [GTX 965M](https://www.techpowerup.com/gpu-specs/geforce-gtx-965m.c2796) ** | [Jetson TX2](https://www.techpowerup.com/gpu-specs/jetson-tx2.c3231) </br>
+
+GTX 1070 & 1080 GPUs for PCIe were released on 2016-Q2 but Mobile MXM versions were released on 2016-Q3, </br>
+Uknown if 2016-Q3 Mobile could work, but IF PCIe version works, has same GP, should work. </br>
 
 32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps.  </br>
 CPU's are slower in 32-Bit </br>
