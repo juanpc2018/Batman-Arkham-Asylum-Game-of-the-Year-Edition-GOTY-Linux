@@ -10,7 +10,7 @@ incl. [Phys](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) [X]
 but... Dual GPU PhysX does Not work, only 1x GPU. </br>
 Hardware Accelerated PhysX: </br>
 NORMAL does Not show flags on the ceiling. </br>
-HIGH shows all, but requires 2x GPU or a very fast CPU. </but>
+HIGH shows all, but requires 2x GPU or very fast CPU. </but>
 
 [X] VSync in the game. </br>
 [X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
@@ -23,40 +23,40 @@ HIGH shows all, but requires 2x GPU or a very fast CPU. </but>
 
 ### Mistery Solved: </br>
 
-2x GPU does Not work, Not Win8.1 x64, Nor Linux 20.04.4 LTS. </br>
+2x GPU does Not work, Not Win8.1 x64, Not Linux 20.04.4 LTS. </br>
 Windows driver allows to select PhysX mode: </br>
 CPU, GPU1 or GPU2 </br>
 GPU1 is main GPU used for video. </br>
 Linux Driver 470.xx does Not allow to select PhysX mode. </br>
 
 Problem is: </br>
-Nvidia DELETED 32-Bit PhysX Hardware support since mid 2016 </br>
-if you install a (mid 2016) GPU like GTX 1050 Ti + Quadro P400 (2017) or similar </br>
-Nvidia driver 416.xx allows to select PhysX GPU, but does Not work, with Batman Arkham Asylum v1.1 </br>
+Nvidia DELETED 32-Bit PhysX Hardware support since 2016-Q4, </br>
+if you install a (2016-Q4) GPU like GTX 1050 Ti + Quadro P400 (2017) or similar </br>
+Nvidia driver 416.xx allows to select PhysX GPU, but does Not work with Batman Arkham Asylum v1.1 </br>
 
 At the beginning of the game, there is a tunnel with steam falling. </br>
 IF you activate PhysX HIGH setting in Linux or Windows,  </br>
 Only works using CPU, </br>
-problem with using PhysX on CPU is that frames drop to 15fps using a modern i3-12100 or 7600x </br>
-
-CPU PhysX works Windows & Linux. </br>
+problem using PhysX on CPU is that frames drop to 15fps using a modern i3-12100 or 7600x </br>
+Requires 1-core, 100% CPU load, CPU PhysX does Not have Multi-Thread. </br>
+but CPU PhysX works Windows & Linux. </br>
 Linux 470 driver Default: PhysX CPU. </br>
 *haven't tested Linux 390.xx / 340.xx drivers </br>
 
-to make PhysX work with GPU HW in Windows: </br>
-Requires installing an older GPU from (2008-2016 Q1) </br>
+to make PhysX work with GPU HW, in Windows: </br>
+Requires installing an older GPU from (2008-2016-Q1/Q2) </br>
+2016-Q3 Unknown. </br>
 
 ### Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
 
 GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 (2010) </br>
 Quadro M6000 24GB (March 5th, 2016-Q1) Works OK, </br>
 Quadro M6000 12GB (2015) should work ok. </br>
-Quadro M2000 (April 8th, 2016-Q2)
+Quadro M2000 (April 8th, 2016-Q2) </br>
 Probably work: </br>
-GTX 680, GTX Titan 6GB, GTX Titan Black, Quadro K6000, K5200 or similar </br>
-2016-Q2
+GTX 680, GTX Titan 6GB, GTX Titan Black (2014), Quadro K6000 (2013), K5200 (2014) or similar </br>
 
-Unkwonw 2016-Q3 </br>
+Unknown: 2016-Q3 </br>
 
 ### Don't work: </br>
 GTX 1050 Ti (October 25th, 2016-Q4), P400 (2017) </br>
@@ -66,43 +66,47 @@ Seems NVIDIA Christmas Gift for December of 2016 was Deleting 32-Bit PhysX. </br
 ### people with mini-ATX boards "1x PCIe x16 slot": </br>
 Dual-GPU´s for 32-Bit PhysX are: </br>
 [GTX 590 (2011)](https://www.techpowerup.com/gpu-specs/geforce-gtx-590.c281), [GTX 690 (2012)](https://www.techpowerup.com/gpu-specs/geforce-gtx-690.c361), or [Titan Z (2014)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan-z.c2575) </br>
-should work "the same" with Vsync=On. </br>
-Nvidia driver 416.xx for Win8.1x64, allows to force Video GPU + PhysX Dedicated, </br>
-A Fast GPU´s from 2015-2016-Q1/Q2 with 32-Bit PhysX, can be Forced to use Video + PhysX on the same GPU, works Ok </br>
+all should work "the same" with Vsync=On. </br>
+Nvidia driver 416.xx for Win8.1x64, allows to force Video + PhysX Dedicated, </br>
+A Fast GPU from 2015-2016-Q1/Q2 with 32-Bit PhysX, can be Forced to use Video + PhysX on the same GPU, works Ok </br>
 No need for Dual-GPU´s. </br>
 
-2011-2015 Server GPU´s depends on [drivers](https://www.nvidia.com/en-us/drivers/) Could Work, Untested.</br>
+2011-2016-Q1/Q2 Server GPU´s depends on [drivers](https://www.nvidia.com/en-us/drivers/) Could Work, Untested.</br>
 *3D printed Fan duct required from Thingiverse or similar. </br> 
 ** [MXM to PCIe adapter](https://github.com/a-little-wifi/mxm-immobilizer) required. </br>
-2008: </br>
+#### 2008: </br>
 [FX-3600m](https://www.techpowerup.com/gpu-specs/quadro-fx-3600m.c1440) ** | [FX-3800m](https://www.techpowerup.com/gpu-specs/quadro-fx-3800m.c1392) ** | </br>
 [Quadro CX](https://www.techpowerup.com/gpu-specs/quadro-cx.c1326) | [FX-4700x2](https://www.techpowerup.com/gpu-specs/quadro-fx-4700-x2.c1337) | [Quadro FX-4800 PC](https://www.techpowerup.com/gpu-specs/quadro-fx-4800.c1320) [Mac Edition](https://www.techpowerup.com/gpu-specs/quadro-fx-4800-mac-edition.c1322) | [FX-5800](https://www.techpowerup.com/gpu-specs/quadro-fx-5800.c1319) </br>
 [Tesla M1060](https://www.techpowerup.com/gpu-specs/tesla-m1060.c1888) </br>
 [S1070](https://www.techpowerup.com/gpu-specs/tesla-s1070.c1540) * | [S1075](https://www.techpowerup.com/gpu-specs/tesla-s1075.c1541) *</br>
-2009: </br>
+#### 2009: </br>
 [FX 580](https://www.techpowerup.com/gpu-specs/quadro-fx-580.c1324) | [FX 3800](https://www.techpowerup.com/gpu-specs/quadro-fx-3800.c1321) </br>
 [Tesla C1060](https://www.techpowerup.com/gpu-specs/tesla-c1060.c1539) | [Tesla C1080](https://www.techpowerup.com/gpu-specs/tesla-c1080.c2449) </br>
-2010: </br>
+#### 2010: </br>
 [NVS-5100m](https://www.techpowerup.com/gpu-specs/nvs-5100m.c1466) ** | [Quadro FX-880m](https://www.techpowerup.com/gpu-specs/quadro-fx-880m.c1394) **</br>
-2011: </br>
+#### 2011: </br>
 [C2050](https://www.techpowerup.com/gpu-specs/tesla-c2050.c923) | [C2070](https://www.techpowerup.com/gpu-specs/tesla-c2070.c924) | [C2075](https://www.techpowerup.com/gpu-specs/tesla-c2075.c563) | [C2090](https://www.techpowerup.com/gpu-specs/tesla-c2090.c2317) </br>
 [M2050](https://www.techpowerup.com/gpu-specs/tesla-m2050.c1534) | [M2070](https://www.techpowerup.com/gpu-specs/tesla-m2070.c1535) | [M2070-Q](https://www.techpowerup.com/gpu-specs/tesla-m2070-q.c1536) | [M2075](https://www.techpowerup.com/gpu-specs/tesla-m2075.c2025) | [M2090](https://www.techpowerup.com/gpu-specs/tesla-m2090.c1537) *</br>
 [X2070](https://www.techpowerup.com/gpu-specs/tesla-x2070.c2024) ** | [X2090](https://www.techpowerup.com/gpu-specs/tesla-x2090.c1887) **</br>
 [Tesla S2050](https://www.techpowerup.com/gpu-specs/tesla-s2050.c1538) *</br>
-2012: </br>
+#### 2012: </br>
 [K10](https://www.techpowerup.com/gpu-specs/tesla-k10.c918) *</br>
 [K20X](https://www.techpowerup.com/gpu-specs/tesla-k20x.c2315) *</br>
 [K20Xm](https://www.techpowerup.com/gpu-specs/tesla-k20xm.c1884) *</br>
 [K20Xc](https://www.techpowerup.com/gpu-specs/tesla-k20c.c564) </br>
-2013: </br>
+#### 2013: </br>
 [GRID K520](https://www.techpowerup.com/gpu-specs/grid-k520.c2312) * | [GRID K2](https://www.techpowerup.com/gpu-specs/grid-k2.c1700) * | [GRID K1](https://www.techpowerup.com/gpu-specs/grid-k1.c1699) *</br>
 [Tesla K20m](https://www.techpowerup.com/gpu-specs/tesla-k20m.c2029) * | [Tesla K20s](https://www.techpowerup.com/gpu-specs/tesla-k20s.c2044) * | [Tesla K40c](https://www.techpowerup.com/gpu-specs/tesla-k40c.c2505) | [Tesla K40d](https://www.techpowerup.com/gpu-specs/tesla-k40d.c3402) | [Tesla K40m](https://www.techpowerup.com/gpu-specs/tesla-k40m.c2529) | [Tesla K40s](https://www.techpowerup.com/gpu-specs/tesla-k40s.c2528) | [Tesla K40st](https://www.techpowerup.com/gpu-specs/tesla-k40st.c2530) | [Tesla K40t](https://www.techpowerup.com/gpu-specs/tesla-k40t.c3403) </br>
-2014: </br>
+#### 2014: </br>
 [GRID K500](https://www.techpowerup.com/gpu-specs/grid-k500.c2597) </br>
 [Tesla K8](https://www.techpowerup.com/gpu-specs/tesla-k8.c2619) | [Tesla K80](https://www.techpowerup.com/gpu-specs/tesla-k80.c2616) *</br>
-2015: </br>
+#### 2015: </br>
 [GRID M6-8Q](https://www.techpowerup.com/gpu-specs/grid-m6-8q.c3052) ** | [GRID M60](https://www.techpowerup.com/gpu-specs/grid-m60-1q.c3087) </br>
 [Tesla M4 LowProfile](https://www.techpowerup.com/gpu-specs/tesla-m4.c2770) * | [Tesla M40](https://www.techpowerup.com/gpu-specs/tesla-m40.c2771) * | [Tesla M40 24GB](https://www.techpowerup.com/gpu-specs/tesla-m40-24-gb.c3838) * | [Tesla M6](https://www.techpowerup.com/gpu-specs/tesla-m6-mobile.c2818) [x2](https://www.techpowerup.com/gpu-specs/tesla-m6-x2-mobile.c4123) ** | [Tesla M60](https://www.techpowerup.com/gpu-specs/tesla-m60.c2760) *</br>
+#### [2016:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2016&sort=name) </br>
+Q1 & Q2 should work ok, </br>
+Q3 Uknown, </br>
+Q4 does Not work. </br>
 
 32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps.  </br>
 CPU's are slower in 32-Bit </br>
