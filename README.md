@@ -23,16 +23,16 @@ HIGH shows all, but requires 2x GPU or a very fast CPU. </but>
 
 ### Mistery Solved: </br>
 
-2x GPU does Not work, Not Windows8.1 x64 Not Linux 20.04.4 LTS. </br>
+2x GPU does Not work, Not Win8.1 x64, Nor Linux 20.04.4 LTS. </br>
 Windows driver allows to select PhysX mode: </br>
 CPU, GPU1 or GPU2 </br>
 GPU1 is main GPU used for video. </br>
 Linux Driver 470.xx does Not allow to select PhysX mode. </br>
 
 Problem is: </br>
-Nvidia DELETED 32-Bit PhysX Hardware support since 2015 </br>
-if you install a (2016) GPU like GTX 1050 Ti + Quadro P400 (2017) or similar M6000 24GB (2016) </br>
-Nvidia driver 416.xx allows to select PhysX GPU, but does Not work with Batman Arkham Asylum v1.1 </br>
+Nvidia DELETED 32-Bit PhysX Hardware support since mid 2016 </br>
+if you install a (mid 2016) GPU like GTX 1050 Ti + Quadro P400 (2017) or similar </br>
+Nvidia driver 416.xx allows to select PhysX GPU, but does Not work, with Batman Arkham Asylum v1.1 </br>
 
 At the beginning of the game, there is a tunnel with steam falling. </br>
 IF you activate PhysX HIGH setting in Linux or Windows,  </br>
@@ -43,25 +43,33 @@ CPU PhysX works Windows & Linux. </br>
 Linux 470 driver Default: PhysX CPU. </br>
 *haven't tested Linux 390.xx / 340.xx drivers </br>
 
-Win8.1x64 Nvidia driver 416.xx allows to select GPU as PhysX, but does Not work. </br>
-
 to make PhysX work with GPU HW in Windows: </br>
-Requires installing an older GPU from (2009-2015) </br>
+Requires installing an older GPU from (2008-2016 Q1) </br>
 
 ### Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
 
-GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 (2010), Quadro M2000 (April 8th 2016) </br>
+GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 (2010) </br>
+Quadro M6000 24GB (March 5th, 2016-Q1) Works OK, </br>
+Quadro M6000 12GB (2015) should work ok. </br>
+Quadro M2000 (April 8th, 2016-Q2)
 Probably work: </br>
 GTX 680, GTX Titan 6GB, GTX Titan Black, Quadro K6000, K5200 or similar </br>
+2016-Q2
+
+Unkwonw 2016-Q3 </br>
 
 ### Don't work: </br>
-Quadro M6000 24GB (March 5th, 2016) does Not work </br>
-BUT... M6000 12GB (2015) should work ok. </br>
+GTX 1050 Ti (October 25th, 2016-Q4), P400 (2017) </br>
 
-### people with mini-ATX boards / 1x PCIe x16 slot: </br>
-the perfect GPU to play 32-Bit PhysX games are: </br>
-GTX 590, GTX 690, or Titan Z. </br>
-All should work the same with Vsync=On. </br>
+Seems NVIDIA Christmas Gift for December of 2016 was Deleting 32-Bit PhysX. </br>
+
+### people with mini-ATX boards "1x PCIe x16 slot": </br>
+Dual-GPU´s for 32-Bit PhysX are: </br>
+[GTX 590 (2011)](https://www.techpowerup.com/gpu-specs/geforce-gtx-590.c281), [GTX 690 (2012)](https://www.techpowerup.com/gpu-specs/geforce-gtx-690.c361), or [Titan Z (2014)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan-z.c2575) </br>
+should work "the same" with Vsync=On. </br>
+Nvidia driver 416.xx for Win8.1x64, allows to force Video GPU + PhysX Dedicated, </br>
+A Fast GPU´s from 2015-2016-Q1/Q2 with 32-Bit PhysX, can be Forced to use Video + PhysX on the same GPU, works Ok </br>
+No need for Dual-GPU´s. </br>
 
 2011-2015 Server GPU´s depends on [drivers](https://www.nvidia.com/en-us/drivers/) Could Work, Untested.</br>
 *3D printed Fan duct required from Thingiverse or similar. </br> 
@@ -321,7 +329,7 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 * [GTX Titan 6GB (2013)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan.c1996) = [Quadro K6000 12GB (2013)](https://www.nvidia.com/content/PDF/data-sheet/NV_DS_Quadro_K6000_OCT13_NV_US_LR.pdf) = [GTX 780 3GB (2013)](https://www.techpowerup.com/gpu-specs/geforce-gtx-780.c1701) = [GTX 970 4GB (2014)](https://www.techpowerup.com/gpu-specs/geforce-gtx-970.c2620)  = [GTX 1650 4GB (2019)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1650.c3366) </br>
 * [Titan Black 6GB (2014)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan-black.c2549)  = [GTX 1060 6GB (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1060-6-gb.c2862) = [GTX 780Ti 3GB (2013)](https://www.techpowerup.com/gpu-specs/geforce-gtx-780-ti.c2512) </br>
 * [Titan X Maxwell 12GB (2015)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan-x.c2632) = [Quadro M6000 12GB (2015)](https://images.nvidia.com/content/pdf/quadro/data-sheets/NV_DS_Quadro_M6000_FEB15_NV_US_FNL_HR.pdf) </br>
-* [Quadro M6000 24GB (2016)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) = [GTX 980Ti 6GB (2015)](https://www.techpowerup.com/gpu-specs/geforce-gtx-980-ti.c2724) = [GTX 1070 (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1070.c2840) = [RTX 3050 8GB (2022)](https://www.techpowerup.com/gpu-specs/geforce-rtx-3050-8-gb.c3858) </br>
+* [Quadro M6000 24GB (2016-Q1)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) = [GTX 980Ti 6GB (2015)](https://www.techpowerup.com/gpu-specs/geforce-gtx-980-ti.c2724) = [GTX 1070 (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1070.c2840) = [RTX 3050 8GB (2022)](https://www.techpowerup.com/gpu-specs/geforce-rtx-3050-8-gb.c3858) </br>
 * [GTX 1070Ti 8GB (2017)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1070-ti.c3010) = [Quadro RTX 4000 8GB (2019)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/quadro-rtx-4000-datasheet.pdf) </br>
 * [Titan X Pascal 12GB (2016)](https://www.techpowerup.com/gpu-specs/titan-x-pascal.c2863) = [Quadro P6000 24GB (2016)](https://images.nvidia.com/content/pdf/quadro/data-sheets/192152-NV-DS-Quadro-P6000-US-12Sept-NV-FNL-WEB.pdf) = [GTX 1080Ti 11GB (2017)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877) = [Quadro RTX 5000 16GB (2018)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/quadro-rtx-5000-data-sheet-us-nvidia-704120-r4-web.pdf) = [RTX 3060Ti 8GB (2020)](https://www.techpowerup.com/gpu-specs/geforce-rtx-3060-ti.c3681) </br>
 
@@ -329,7 +337,7 @@ GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with weird name, some cla
 ¿works with driver 470 ? probably Not, most likely requires driver 5xx </br>
 ¿works with 32-Bit Legacy LibGL1 / Mesa v21.6 ? most likely requires OS 22.04 LTS or 24.04 LTS with Newer LibGL1 </br>
 
-M6000 24GB (2016) works with driver 470-propietary, havent tested Server-470 driver, at 50fps there is No improvement vs. GTX 1050 Ti, with PhysX HIGH. </br>
+M6000 24GB (2016-Q1) works with driver 470-propietary on Linux but Not PhysX, havent tested Server-470 driver, at 50fps there is No improvement vs. GTX 1050 Ti, with CPU PhysX HIGH. </br>
 its safe to assume cards [from 2016](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2016&sort=name) work with driver 470, exept cards from [2010](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2010&sort=name) that require driver 390. </br>
 from [2011](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2011&sort=name), [2012](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2012&sort=name), [2013](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2013&sort=name), [2014](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2014&sort=name), [2015](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2015&sort=name) maybe, [2017](https://www.techpowerup.com/gpu-specs/?released=2017&sort=name), [2018](https://www.techpowerup.com/gpu-specs/?released=2018&sort=name), [2019](https://www.techpowerup.com/gpu-specs/?released=2019&sort=name), [2020](https://www.techpowerup.com/gpu-specs/?released=2020&sort=name),[2021](https://www.techpowerup.com/gpu-specs/?released=2021&sort=name) </br>
 probably wont work with GPU's from [2022](https://www.techpowerup.com/gpu-specs/?released=2022&sort=name), [2023](https://www.techpowerup.com/gpu-specs/?released=2023&sort=name), [2024](https://www.techpowerup.com/gpu-specs/?released=2024&sort=name), [2025](https://www.techpowerup.com/gpu-specs/?released=2025&sort=name) </br>
@@ -350,10 +358,10 @@ P400 is inferior vs. 1050 Ti, but faster vs. recommended GPU´s GTX 260 + 9800 G
 ![Screenshot_20250711_110606](https://github.com/user-attachments/assets/610e1ccf-5a89-49af-a40e-d87459641599) </br>
 ![Screenshot_20250711_110808](https://github.com/user-attachments/assets/c42f4984-9755-449a-ba37-e73374ea6296) </br>
 
-HW Accelerated PhysX: </br>
+CPU PhysX: </br>
 there is No improvement in dropped frames </br>
 15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB twice faster! "GTX 980Ti / 1070"  </br>
-1920x800 windowed vs. 3440x1440 Full screen, same. </br>
+1920x800 Windowed vs. 3440x1440 Full screen, same. </br>
 
 [CUDA 12.' Toolkit removed 32-Bit](https://nvidia.custhelp.com/app/answers/detail/a_id/5615/) </br>
 
@@ -405,8 +413,10 @@ but Dual GPU PhysX does Not work, 0% load on the 2nd GPU. </br>
 Game recommends: </br>
 [GTX 260 (2008)](https://www.techpowerup.com/gpu-specs/geforce-gtx-260.c217) + [9800 GTX (2008)](https://www.techpowerup.com/gpu-specs/geforce-9800-gtx.c207).[+(2009)](https://www.techpowerup.com/gpu-specs/geforce-9800-gtx.c237) similar [+3%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-260-vs-Nvidia-GeForce-9800-GTX/3160vsm8342) </br>
 GTX 1050 Ti (2016) its 300% faster, </br>
-M6000 24GB (2016) is 900% faster, but has severe frame drops in some parts of the game with PhysX HIGH </br>
+M6000 24GB (2016-Q1) is 900% faster, but has severe frame drops in some parts of the game, with CPU PhysX HIGH </br>
 IF game does Not detect 2x GPU with PhysX HIGH, falls back to 32-Bit CPU SSE instructions to emulate the 2nd GPU with CPU. </br>
+Problem with CPU PhysX is that requires 1x Fast Single-core CPU, does Not have Multi-Threads, 1-Core has 100% CPU Load. </br>
+<img width="1720" height="720" alt="PhysX CPU 100% Load" src="https://github.com/user-attachments/assets/73158c23-381e-4ef1-ba88-40f54d17b4a6" />
 
 2011 fastest 4-core/8-thread intel CPU X5687 vs. i3-12100 (2022) is [+100%](https://gadgetversus.com/processor/intel-xeon-x5687-vs-intel-core-i3-12100/) ~ [+122%](https://technical.city/en/cpu/Xeon-X5687-vs-Core-i3-12100) but still has frame drops!</br>
 2012 fastest 4-core AMD CPU [Opteron 6308 (2012)](https://www.techpowerup.com/cpu-specs/opteron-6308.c3731) & [8-core 6328](https://www.techpowerup.com/cpu-specs/opteron-6328.c3729) - [vs. 7600x](https://www.cpubenchmark.net/compare/1982vs5033vs4687vs4609/AMD-Opteron-6328-vs-AMD-Ryzen-5-7600X-vs-Intel-i3-12100-vs-Intel-i7-12700K), same, </br>
