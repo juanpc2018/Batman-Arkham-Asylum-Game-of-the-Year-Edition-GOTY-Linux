@@ -369,9 +369,10 @@ outdated [Legacy CUDA Compute Capability](https://developer.nvidia.com/cuda-lega
 older OpenGL version, [RTX cards "Newer" Compute capability](https://developer.nvidia.com/cuda-gpus) </br>
 Advantage is compatibility with 32-Bits. </br>
 
-[Quadro P400 2GB (2017)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/productspage/quadro/quadro-desktop/quadro-pascal-p400-data-sheet-us-nv-704503-r1.pdf) works with driver 470, but barely at 3440x1440x50 13 fps to 15 fps, All Max. + PhysX </br>
-P400 works at 1920x1080x60 at 100% GPU load. </br>
-P400 is inferior vs. 1050 Ti, but faster vs. recommended GPU´s GTX 260 + 9800 GTX </br>
+[Quadro P400 2GB (2017)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/productspage/quadro/quadro-desktop/quadro-pascal-p400-data-sheet-us-nv-704503-r1.pdf) works with driver 470, </br>
+at 3440x1440x50 13 fps to 15 fps, All Max. + PhysX HIGH </br>
+P400 works at 1920x1080x60 100% GPU load, PhysX Normal. </br>
+P400 is inferior vs. GTX 1050 Ti, but faster vs. recommended GPU´s GTX 260 + 9800 GTX </br>
 ![Screenshot_20250709_140924](https://github.com/user-attachments/assets/b9fd9a31-76d9-4202-9185-cbf5bf58e95f) </br>
 ![Screenshot_20250705_191843](https://github.com/user-attachments/assets/65611782-bb87-4d63-b91e-b372af7ee25d) </br>
 ![Screenshot_20250711_124838](https://github.com/user-attachments/assets/ac0648fc-9948-4b34-bc75-bc02c863b2f5) </br>
@@ -383,13 +384,12 @@ there is No improvement in dropped frames </br>
 15fps vs. 16fps, using GTX 1050Ti vs. M6000 24GB twice faster! "GTX 980Ti / 1070"  </br>
 1920x800 Windowed vs. 3440x1440 Full screen, same. </br>
 
-[CUDA 12.' Toolkit removed 32-Bit](https://nvidia.custhelp.com/app/answers/detail/a_id/5615/) </br>
+[CUDA 12 Toolkit removed 32-Bit](https://nvidia.custhelp.com/app/answers/detail/a_id/5615/) </br>
 
-Original [PhysX used X87 instructions](https://www.geeks3d.com/20100711/cpu-physx-x87-sse-and-physx-sdk-3-0/) after Nvidia purchasing the companay, re-wrote the code for [CUDA & SSE](https://web.archive.org/web/20170719105146/http://physxinfo.com/news/3391/physx-x87-and-sse/) </br>
-32-Bit PhysX is [limited by CPU](https://hothardware.com/reviews/nvidia-sheds-light-on-lack-of-physx-cpu-optimizations) 32-Bit SSE instructions. </br>
+Original [PhysX used X87 instructions](https://www.geeks3d.com/20100711/cpu-physx-x87-sse-and-physx-sdk-3-0/) after Nvidia purchasing the company, re-wrote the code for [CUDA & SSE](https://web.archive.org/web/20170719105146/http://physxinfo.com/news/3391/physx-x87-and-sse/) </br>
+32-Bit PhysX is [Limited by CPU](https://hothardware.com/reviews/nvidia-sheds-light-on-lack-of-physx-cpu-optimizations) 32-Bit SSE instructions. </br>
 The game was designed to require 2x GPU's with PhysX HIGH setting. </br>
 
-Anyway... </br>
 intel Z790 i3-12100 CPU is Twice faster in 32-Bit vs. AMD 7600x + X670E, using Rebirth 338 v2.1 Benchmark,</br>
 Server boards have more PCIe lanes, but CPU's are slower, GPU's improve with faster CPU. </br>
 
@@ -422,8 +422,9 @@ Single-core tests: [2003](https://web.archive.org/web/*/http://http.maxon.net/pu
 Nvidia propietary driver 470 detects Both GPU's NVIDIA X Control </br>
 > /usr/bin/nvidia-settings 
 
-but Linux driver does Not have PhysX option as Windows, </br>
-to [select 1 GPU for PhysX](https://hardforum.com/threads/nvidia-rtx50-series-doesnt-support-gpu-physx-for-32-bit-games.2039832/) </br>
+but Linux driver does Not have PhysX option as Windows, to select 1x GPU for PhysX </br>
+<img width="1024" height="742" alt="2025-07-24_15-23-24" src="https://github.com/user-attachments/assets/1bf753b7-3c66-4cba-b496-6d981e10e8d8" />
+
 
 > /usr/games/lutris
 
