@@ -63,9 +63,36 @@ the perfect GPU to play 32-Bit PhysX games are: </br>
 GTX 590, GTX 690, or Titan Z. </br>
 All should work the same with Vsync=On. </br>
 
-Server GPU´s with 3D printed Fan duct could also work </br>
+Server GPU´s <//br>
+*3D printed Fan duct required </br> 
+** [MXM to PCIe adapter](https://github.com/a-little-wifi/mxm-immobilizer) required. </br>
 Tesla GPU´s: </br>
-
+2011 </br>
+[C2050](https://www.techpowerup.com/gpu-specs/tesla-c2050.c923) </br>
+[C2070](https://www.techpowerup.com/gpu-specs/tesla-c2070.c924) </br>
+[C2075](https://www.techpowerup.com/gpu-specs/tesla-c2075.c563) </br>
+[C2090](https://www.techpowerup.com/gpu-specs/tesla-c2090.c2317) </br>
+[M2050](https://www.techpowerup.com/gpu-specs/tesla-m2050.c1534) *</br>
+[M2070](https://www.techpowerup.com/gpu-specs/tesla-m2070.c1535) *</br>
+[M2070-Q](https://www.techpowerup.com/gpu-specs/tesla-m2070-q.c1536) *</br>
+[M2075](https://www.techpowerup.com/gpu-specs/tesla-m2075.c2025) *</br>
+[M2090](https://www.techpowerup.com/gpu-specs/tesla-m2090.c1537) *</br>
+[X2070](https://www.techpowerup.com/gpu-specs/tesla-x2070.c2024) **</br>
+[X2090](https://www.techpowerup.com/gpu-specs/tesla-x2090.c1887) **</br>
+2012 </br>
+[K10](https://www.techpowerup.com/gpu-specs/tesla-k10.c918) *</br>
+[K20X](https://www.techpowerup.com/gpu-specs/tesla-k20x.c2315) *</br>
+[K20Xm](https://www.techpowerup.com/gpu-specs/tesla-k20xm.c1884) *</br>
+[K20Xc](https://www.techpowerup.com/gpu-specs/tesla-k20c.c564) </br>
+2013: </br>
+[GRID K520](https://www.techpowerup.com/gpu-specs/grid-k520.c2312) *</br>
+[GRID K2](https://www.techpowerup.com/gpu-specs/grid-k2.c1700) *</br>
+[GRID K1](https://www.techpowerup.com/gpu-specs/grid-k1.c1699) *</br>
+[Tesla K20m](https://www.techpowerup.com/gpu-specs/tesla-k20m.c2029) *</br>
+[Tesla K20s](https://www.techpowerup.com/gpu-specs/tesla-k20s.c2044) *</br>
+[Tesla K40c](https://www.techpowerup.com/gpu-specs/tesla-k40c.c2505) </br>
+[Tesla K40d](https://www.techpowerup.com/gpu-specs/tesla-k40d.c3402) </br>
+[Tesla K40m](https://www.techpowerup.com/gpu-specs/tesla-k40m.c2529) *</br>[]() </br>[]() </br>[]() </br>[]() </br>[]() </br>[]() </br>[]() </br>[]() </br>
 32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps,  </br>
 CPU's are slower in 32-Bit </br>
 installing the fastest GPU from (2016) CPU PhysX only increase to 16fps. </br>
