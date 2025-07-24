@@ -63,50 +63,32 @@ the perfect GPU to play 32-Bit PhysX games are: </br>
 GTX 590, GTX 690, or Titan Z. </br>
 All should work the same with Vsync=On. </br>
 
-Server GPU´s <//br>
-*3D printed Fan duct required </br> 
+2011-2015 Server GPU´s depends on [drivers](https://www.nvidia.com/en-us/drivers/) Could Work, Untested.</br>
+*3D printed Fan duct required from Thingiverse or similar. </br> 
 ** [MXM to PCIe adapter](https://github.com/a-little-wifi/mxm-immobilizer) required. </br>
-Tesla GPU´s: </br>
 2011: </br>
-[C2050](https://www.techpowerup.com/gpu-specs/tesla-c2050.c923) </br>
-[C2070](https://www.techpowerup.com/gpu-specs/tesla-c2070.c924) </br>
-[C2075](https://www.techpowerup.com/gpu-specs/tesla-c2075.c563) </br>
-[C2090](https://www.techpowerup.com/gpu-specs/tesla-c2090.c2317) </br>
-[M2050](https://www.techpowerup.com/gpu-specs/tesla-m2050.c1534) *</br>
-[M2070](https://www.techpowerup.com/gpu-specs/tesla-m2070.c1535) *</br>
-[M2070-Q](https://www.techpowerup.com/gpu-specs/tesla-m2070-q.c1536) *</br>
-[M2075](https://www.techpowerup.com/gpu-specs/tesla-m2075.c2025) *</br>
-[M2090](https://www.techpowerup.com/gpu-specs/tesla-m2090.c1537) *</br>
-[X2070](https://www.techpowerup.com/gpu-specs/tesla-x2070.c2024) **</br>
-[X2090](https://www.techpowerup.com/gpu-specs/tesla-x2090.c1887) **</br>
+[C2050](https://www.techpowerup.com/gpu-specs/tesla-c2050.c923) | [C2070](https://www.techpowerup.com/gpu-specs/tesla-c2070.c924) | [C2075](https://www.techpowerup.com/gpu-specs/tesla-c2075.c563) | [C2090](https://www.techpowerup.com/gpu-specs/tesla-c2090.c2317) </br>
+[M2050](https://www.techpowerup.com/gpu-specs/tesla-m2050.c1534) | [M2070](https://www.techpowerup.com/gpu-specs/tesla-m2070.c1535) | [M2070-Q](https://www.techpowerup.com/gpu-specs/tesla-m2070-q.c1536) | [M2075](https://www.techpowerup.com/gpu-specs/tesla-m2075.c2025) | [M2090](https://www.techpowerup.com/gpu-specs/tesla-m2090.c1537) *</br>
+[X2070](https://www.techpowerup.com/gpu-specs/tesla-x2070.c2024) ** | [X2090](https://www.techpowerup.com/gpu-specs/tesla-x2090.c1887) **</br>
+[Tesla S2050](https://www.techpowerup.com/gpu-specs/tesla-s2050.c1538) *</br>
 2012: </br>
 [K10](https://www.techpowerup.com/gpu-specs/tesla-k10.c918) *</br>
 [K20X](https://www.techpowerup.com/gpu-specs/tesla-k20x.c2315) *</br>
 [K20Xm](https://www.techpowerup.com/gpu-specs/tesla-k20xm.c1884) *</br>
 [K20Xc](https://www.techpowerup.com/gpu-specs/tesla-k20c.c564) </br>
 2013: </br>
-[GRID K520](https://www.techpowerup.com/gpu-specs/grid-k520.c2312) *</br>
-[GRID K2](https://www.techpowerup.com/gpu-specs/grid-k2.c1700) *</br>
-[GRID K1](https://www.techpowerup.com/gpu-specs/grid-k1.c1699) *</br>
-[Tesla K20m](https://www.techpowerup.com/gpu-specs/tesla-k20m.c2029) *</br>
-[Tesla K20s](https://www.techpowerup.com/gpu-specs/tesla-k20s.c2044) *</br>
-[Tesla K40c](https://www.techpowerup.com/gpu-specs/tesla-k40c.c2505) </br>
-[Tesla K40d](https://www.techpowerup.com/gpu-specs/tesla-k40d.c3402) </br>
-[Tesla K40m](https://www.techpowerup.com/gpu-specs/tesla-k40m.c2529) *</br>
-[Tesla K40s](https://www.techpowerup.com/gpu-specs/tesla-k40s.c2528) </br>
-[Tesla K40st](https://www.techpowerup.com/gpu-specs/tesla-k40st.c2530) </br>
-[Tesla K40t](https://www.techpowerup.com/gpu-specs/tesla-k40t.c3403) </br>
+[GRID K520](https://www.techpowerup.com/gpu-specs/grid-k520.c2312) * | [GRID K2](https://www.techpowerup.com/gpu-specs/grid-k2.c1700) * | [GRID K1](https://www.techpowerup.com/gpu-specs/grid-k1.c1699) *</br>
+[Tesla K20m](https://www.techpowerup.com/gpu-specs/tesla-k20m.c2029) * | [Tesla K20s](https://www.techpowerup.com/gpu-specs/tesla-k20s.c2044) * | [Tesla K40c](https://www.techpowerup.com/gpu-specs/tesla-k40c.c2505) | [Tesla K40d](https://www.techpowerup.com/gpu-specs/tesla-k40d.c3402) | [Tesla K40m](https://www.techpowerup.com/gpu-specs/tesla-k40m.c2529) | [Tesla K40s](https://www.techpowerup.com/gpu-specs/tesla-k40s.c2528) | [Tesla K40st](https://www.techpowerup.com/gpu-specs/tesla-k40st.c2530) | [Tesla K40t](https://www.techpowerup.com/gpu-specs/tesla-k40t.c3403) </br>
 2014: </br>
 [GRID K500](https://www.techpowerup.com/gpu-specs/grid-k500.c2597) </br>
-[Tesla K8](https://www.techpowerup.com/gpu-specs/tesla-k8.c2619) </br>
-[Tesla K80](https://www.techpowerup.com/gpu-specs/tesla-k80.c2616) *</br>
+[Tesla K8](https://www.techpowerup.com/gpu-specs/tesla-k8.c2619) | [Tesla K80](https://www.techpowerup.com/gpu-specs/tesla-k80.c2616) *</br>
 2015: </br>
-[]() </br>
-[]() </br>
+[GRID M6-8Q](https://www.techpowerup.com/gpu-specs/grid-m6-8q.c3052) ** | [GRID M60](https://www.techpowerup.com/gpu-specs/grid-m60-1q.c3087) </br>
+[Tesla M4 LowProfile](https://www.techpowerup.com/gpu-specs/tesla-m4.c2770) * | [Tesla M40](https://www.techpowerup.com/gpu-specs/tesla-m40.c2771) * | [Tesla M40 24GB](https://www.techpowerup.com/gpu-specs/tesla-m40-24-gb.c3838) * | [Tesla M6](https://www.techpowerup.com/gpu-specs/tesla-m6-mobile.c2818) [x2](https://www.techpowerup.com/gpu-specs/tesla-m6-x2-mobile.c4123) ** | [Tesla M60](https://www.techpowerup.com/gpu-specs/tesla-m60.c2760) *</br>
 
-32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps,  </br>
+32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps.  </br>
 CPU's are slower in 32-Bit </br>
-installing the fastest GPU from (2016) CPU PhysX only increase to 16fps. </br>
+installing the fastest GPU from (2016) with CPU PhysX only increase to 16fps. </br>
 
 Quadro 6000 (2010) "GTX 470" drops to 30fps + Quadro P400 (2017) as Main-GPU in Win8.1x64 at FullHD 1920x1080 </br>
 Quadro P400 works as main-GPU, FullHD, 100% GPU load, requires other card for PhysX </br> 
