@@ -67,7 +67,7 @@ Server GPU´s <//br>
 *3D printed Fan duct required </br> 
 ** [MXM to PCIe adapter](https://github.com/a-little-wifi/mxm-immobilizer) required. </br>
 Tesla GPU´s: </br>
-2011 </br>
+2011: </br>
 [C2050](https://www.techpowerup.com/gpu-specs/tesla-c2050.c923) </br>
 [C2070](https://www.techpowerup.com/gpu-specs/tesla-c2070.c924) </br>
 [C2075](https://www.techpowerup.com/gpu-specs/tesla-c2075.c563) </br>
@@ -79,7 +79,7 @@ Tesla GPU´s: </br>
 [M2090](https://www.techpowerup.com/gpu-specs/tesla-m2090.c1537) *</br>
 [X2070](https://www.techpowerup.com/gpu-specs/tesla-x2070.c2024) **</br>
 [X2090](https://www.techpowerup.com/gpu-specs/tesla-x2090.c1887) **</br>
-2012 </br>
+2012: </br>
 [K10](https://www.techpowerup.com/gpu-specs/tesla-k10.c918) *</br>
 [K20X](https://www.techpowerup.com/gpu-specs/tesla-k20x.c2315) *</br>
 [K20Xm](https://www.techpowerup.com/gpu-specs/tesla-k20xm.c1884) *</br>
@@ -92,7 +92,18 @@ Tesla GPU´s: </br>
 [Tesla K20s](https://www.techpowerup.com/gpu-specs/tesla-k20s.c2044) *</br>
 [Tesla K40c](https://www.techpowerup.com/gpu-specs/tesla-k40c.c2505) </br>
 [Tesla K40d](https://www.techpowerup.com/gpu-specs/tesla-k40d.c3402) </br>
-[Tesla K40m](https://www.techpowerup.com/gpu-specs/tesla-k40m.c2529) *</br>[]() </br>[]() </br>[]() </br>[]() </br>[]() </br>[]() </br>[]() </br>[]() </br>
+[Tesla K40m](https://www.techpowerup.com/gpu-specs/tesla-k40m.c2529) *</br>
+[Tesla K40s](https://www.techpowerup.com/gpu-specs/tesla-k40s.c2528) </br>
+[Tesla K40st](https://www.techpowerup.com/gpu-specs/tesla-k40st.c2530) </br>
+[Tesla K40t](https://www.techpowerup.com/gpu-specs/tesla-k40t.c3403) </br>
+2014: </br>
+[GRID K500](https://www.techpowerup.com/gpu-specs/grid-k500.c2597) </br>
+[Tesla K8](https://www.techpowerup.com/gpu-specs/tesla-k8.c2619) </br>
+[Tesla K80](https://www.techpowerup.com/gpu-specs/tesla-k80.c2616) *</br>
+2015: </br>
+[]() </br>
+[]() </br>
+
 32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps,  </br>
 CPU's are slower in 32-Bit </br>
 installing the fastest GPU from (2016) CPU PhysX only increase to 16fps. </br>
