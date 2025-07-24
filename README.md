@@ -50,12 +50,12 @@ Requires installing an older GPU from (2009-2015) </br>
 
 ### Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
 
-GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000, Quadro M2000 </br>
+GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 (2010), Quadro M2000 (April 8th 2016) </br>
 Probably work: </br>
 GTX 680, GTX Titan 6GB, GTX Titan Black, Quadro K6000, K5200 or similar </br>
 
 ### Don't work: </br>
-Quadro M6000 24GB (2016) does Not work, </br>
+Quadro M6000 24GB (March 5th, 2016) does Not work </br>
 BUT... M6000 12GB (2015) should work ok. </br>
 
 ### people with mini-ATX boards / 1x PCIe x16 slot: </br>
@@ -66,6 +66,16 @@ All should work the same with Vsync=On. </br>
 2011-2015 Server GPU´s depends on [drivers](https://www.nvidia.com/en-us/drivers/) Could Work, Untested.</br>
 *3D printed Fan duct required from Thingiverse or similar. </br> 
 ** [MXM to PCIe adapter](https://github.com/a-little-wifi/mxm-immobilizer) required. </br>
+2008: </br>
+[FX-3600m](https://www.techpowerup.com/gpu-specs/quadro-fx-3600m.c1440) ** | [FX-3800m](https://www.techpowerup.com/gpu-specs/quadro-fx-3800m.c1392) ** | </br>
+[Quadro CX](https://www.techpowerup.com/gpu-specs/quadro-cx.c1326) | [FX-4700x2](https://www.techpowerup.com/gpu-specs/quadro-fx-4700-x2.c1337) | [Quadro FX-4800 PC](https://www.techpowerup.com/gpu-specs/quadro-fx-4800.c1320) [Mac Edition](https://www.techpowerup.com/gpu-specs/quadro-fx-4800-mac-edition.c1322) | [FX-5800](https://www.techpowerup.com/gpu-specs/quadro-fx-5800.c1319) </br>
+[Tesla M1060](https://www.techpowerup.com/gpu-specs/tesla-m1060.c1888) </br>
+[S1070](https://www.techpowerup.com/gpu-specs/tesla-s1070.c1540) * | [S1075](https://www.techpowerup.com/gpu-specs/tesla-s1075.c1541) *</br>
+2009: </br>
+[FX 580](https://www.techpowerup.com/gpu-specs/quadro-fx-580.c1324) | [FX 3800](https://www.techpowerup.com/gpu-specs/quadro-fx-3800.c1321) </br>
+[Tesla C1060](https://www.techpowerup.com/gpu-specs/tesla-c1060.c1539) | [Tesla C1080](https://www.techpowerup.com/gpu-specs/tesla-c1080.c2449) </br>
+2010: </br>
+[NVS-5100m](https://www.techpowerup.com/gpu-specs/nvs-5100m.c1466) ** | [Quadro FX-880m](https://www.techpowerup.com/gpu-specs/quadro-fx-880m.c1394) **</br>
 2011: </br>
 [C2050](https://www.techpowerup.com/gpu-specs/tesla-c2050.c923) | [C2070](https://www.techpowerup.com/gpu-specs/tesla-c2070.c924) | [C2075](https://www.techpowerup.com/gpu-specs/tesla-c2075.c563) | [C2090](https://www.techpowerup.com/gpu-specs/tesla-c2090.c2317) </br>
 [M2050](https://www.techpowerup.com/gpu-specs/tesla-m2050.c1534) | [M2070](https://www.techpowerup.com/gpu-specs/tesla-m2070.c1535) | [M2070-Q](https://www.techpowerup.com/gpu-specs/tesla-m2070-q.c1536) | [M2075](https://www.techpowerup.com/gpu-specs/tesla-m2075.c2025) | [M2090](https://www.techpowerup.com/gpu-specs/tesla-m2090.c1537) *</br>
