@@ -423,7 +423,7 @@ Nvidia propietary driver 470 detects Both GPU's NVIDIA X Control </br>
 > /usr/bin/nvidia-settings 
 
 but Linux driver does Not have PhysX option as Windows, to select 1x GPU for PhysX </br>
-<img width="1024" height="742" alt="2025-07-24_15-23-24" src="https://github.com/user-attachments/assets/1bf753b7-3c66-4cba-b496-6d981e10e8d8" />
+<img width="768" height="555" alt="2025-07-24_15-23-24" src="https://github.com/user-attachments/assets/1bf753b7-3c66-4cba-b496-6d981e10e8d8" />
 
 
 > /usr/games/lutris
