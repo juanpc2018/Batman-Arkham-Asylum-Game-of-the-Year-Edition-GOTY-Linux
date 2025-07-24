@@ -475,17 +475,15 @@ Solution : (posted on filenetworks)
 v1.0 PhysX is missing from the BmLauncher.exe Configuration menu.
 
 1. Browse to directory C:\Users\YOURNAME\Documents\Eidos\Batman Arkham Asylum\BmGameConfig
-2. Open UserEngine.ini file with a text editor such as Notepad.
+2. Open UserEngine.ini file with a text editor.
 3. Change the line PhysXLevel=0 so that it reads
-PhysXLevel=1 = NORMAL
-PhysXLevel=2 = HIGH
+PhysXLevel=1 "NORMAL"
+PhysXLevel=2 "HIGH"
+*do Not include "Normal" / "High"
 4. Save & close. Run the game
 ````
-BUT...
-Win8.1x64 has defailt Nvidia driver 416.34 for GTX 1050 Ti and similar </br>
-PhysX=2 works ok with CPU, but GPU does Not have smoke / steam, invastigating the issue. </br>
-v1.1 installs PhysX 9.09, but does Not work in Win8.1x64, could be PhysX version. </br>
-PhysX 9.19 also does Not work. </br>
+
+v1.1 updater installs PhysX 9.09, but does Not work in Win8.1x64 </br>
 
 -----------------------------------
 
