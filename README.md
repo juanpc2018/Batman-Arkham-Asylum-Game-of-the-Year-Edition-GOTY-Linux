@@ -39,15 +39,14 @@ IF you activate PhysX HIGH setting in Linux or Windows,  </br>
 Only works using CPU, </br>
 problem with using PhysX on CPU is that frames drop to 15fps using a modern i3-12100 or 7600x </br>
 
-CPU PhysX works both Windows & Linux. </br>
-Linux Default is PhysX to CPU. </br>
+CPU PhysX works Windows & Linux. </br>
+Linux 470 driver Default: PhysX CPU. </br>
+*haven't tested Linux 390.xx / 340.xx drivers </br>
 
 Win8.1x64 Nvidia driver 416.xx allows to select GPU as PhysX, but does Not work. </br>
 
 to make PhysX work with GPU HW in Windows: </br>
 Requires installing an older GPU from (2009-2015) </br>
-that requires Windows driver 377.xx to 416.xx </br>
-haven't tested Linux 390.xx / 340.xx drivers </br>
 
 ### Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
 
@@ -63,6 +62,9 @@ BUT... M6000 12GB (2015) should work ok. </br>
 the perfect GPU to play 32-Bit PhysX games are: </br>
 GTX 590, GTX 690, or Titan Z. </br>
 All should work the same with Vsync=On. </br>
+
+Server GPU´s with 3D printed Fan duct could also work </br>
+Tesla GPU´s: </br>
 
 32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps,  </br>
 CPU's are slower in 32-Bit </br>
