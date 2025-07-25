@@ -40,7 +40,8 @@ IF you activate PhysX HIGH setting in Linux or Windows,  </br>
 Only works using CPU. </br>
 problem using PhysX on CPU is that frames drop to 15fps using a modern i3-12100 or 7600x </br>
 Requires 1-core, 100% CPU load, CPU PhysX does Not have Multi-Thread. </br>
-but CPU PhysX works Windows & Linux. </br>
+Modern CPU´s are slower in 32-Bit </br>
+but CPU PhysX works, Windows & Linux. </br>
 
 *haven't tested Linux 390.xx / 340.xx drivers </br>
 
