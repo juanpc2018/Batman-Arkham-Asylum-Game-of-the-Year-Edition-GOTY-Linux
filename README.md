@@ -136,16 +136,16 @@ Quadro P400 works as main-GPU, FullHD, 100% GPU load, requires other card for Ph
 WQHD monitors 3440x1440x50fps require faster main-GPU: Quadro P1000, M2000, or GTX 1050Ti </br>
 Quadro P600 as main-GPU probably works at 2560x1440x30. </br>
 
-### Recommended: </br>
-Main-GPU (2016 or better):  </br>
-1920x1080x60 Quadro P400 "full size bracket" Win8.1 or better  </br>
-3440x1440x50 Quadro P1000 or better, GTX 1050Ti </br>
+### Main-GPU: </br>
+(2016 or better):  </br>
+1920x1080x60 Quadro P400 "Full size bracket" Win8.1 or better  </br>
+3440x1440x50 Quadro P1000 or better < GTX 1050Ti </br>
 #### PhysX GPU: (2009-2015) </br>
+GTX 280 or 9800 GTX or better should work ok. </br>
 GTX 580 </br>
 Quadro M2000 </br>
-GTX 280 or 9800 GTX or better should work ok. </br>
 #### Single GPU PhysX High+Video: (2009-2016) </br>
-Quadro M2000 (2016-Q2) works ok at FullHD 50fps </br>
+Quadro M2000 (2016-Q2) works ok FullHD 50fps </br>
 3440x1440x50 single GPU + PhysX requires Better GPU. </br>
 
 Batman Arkham Asylum v1.1 GPU load is low: 20% 3D & 10% PhysX on GTX 1050 Ti + Quadro M2000. </br>
@@ -357,6 +357,9 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 * [Quadro M6000 24GB (2016-Q1)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/NV-DS-Quadro-M6000-24GB-US-NV-fnl-HR.pdf) = [GTX 980Ti 6GB (2015)](https://www.techpowerup.com/gpu-specs/geforce-gtx-980-ti.c2724) = [GTX 1070 (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1070.c2840) = [RTX 3050 8GB (2022)](https://www.techpowerup.com/gpu-specs/geforce-rtx-3050-8-gb.c3858) </br>
 * [GTX 1070Ti 8GB (2017)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1070-ti.c3010) = [Quadro RTX 4000 8GB (2019)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/quadro-rtx-4000-datasheet.pdf) </br>
 * [Titan X Pascal 12GB (2016)](https://www.techpowerup.com/gpu-specs/titan-x-pascal.c2863) = [Quadro P6000 24GB (2016)](https://images.nvidia.com/content/pdf/quadro/data-sheets/192152-NV-DS-Quadro-P6000-US-12Sept-NV-FNL-WEB.pdf) = [GTX 1080Ti 11GB (2017)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877) = [Quadro RTX 5000 16GB (2018)](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/quadro-rtx-5000-data-sheet-us-nvidia-704120-r4-web.pdf) = [RTX 3060Ti 8GB (2020)](https://www.techpowerup.com/gpu-specs/geforce-rtx-3060-ti.c3681) </br>
+
++/-7% </br>
+Quadro P1000 (2017) > GTX 580 (2010) > Quadro M2000 (2016-Q2) </br>
 
 GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with weird name, some claim [+17%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-1650-vs-Nvidia-GTX-1050-Ti/4039vs3649) some [+24%](https://technical.city/en/video/GeForce-GTX-1050-Ti-vs-GeForce-GTX-1650), </br>
 ¿works with driver 470 ? probably Not, most likely requires driver 5xx </br>
