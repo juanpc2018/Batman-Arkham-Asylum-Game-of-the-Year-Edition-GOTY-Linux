@@ -10,7 +10,7 @@ incl. [Phys](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) [X]
 but... Dual GPU PhysX does Not work, only 1x GPU. </br>
 Hardware Accelerated PhysX: </br>
 NORMAL does Not show flags on the ceiling. </br>
-HIGH shows all, but requires 2x GPU or very fast CPU. </but>
+HIGH shows all, but requires very fast CPU. </but>
 
 [X] VSync in the game. </br>
 [X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
@@ -28,19 +28,20 @@ Windows driver allows to select PhysX mode: </br>
 CPU, GPU1 or GPU2 </br>
 GPU1 is main GPU used for video. </br>
 Linux Driver 470.xx does Not allow to select PhysX mode. </br>
+Linux 470 driver Default: PhysX CPU. </br>
 
-Problem is: </br>
+Problem: </br>
 Nvidia DELETED 32-Bit PhysX Hardware support since 2016-Q4, </br>
 if you install a (2016-Q4) GPU like GTX 1050 Ti + Quadro P400 (2017) or similar </br>
-Nvidia driver 416.xx allows to select PhysX GPU, but does Not work with Batman Arkham Asylum v1.1 </br>
+Nvidia driver 416.xx allows to select PhysX GPU, but does Not work, with Batman Arkham Asylum v1.1 </br>
 
 At the beginning of the game, there is a tunnel with steam falling. </br>
 IF you activate PhysX HIGH setting in Linux or Windows,  </br>
-Only works using CPU, </br>
+Only works using CPU. </br>
 problem using PhysX on CPU is that frames drop to 15fps using a modern i3-12100 or 7600x </br>
 Requires 1-core, 100% CPU load, CPU PhysX does Not have Multi-Thread. </br>
 but CPU PhysX works Windows & Linux. </br>
-Linux 470 driver Default: PhysX CPU. </br>
+
 *haven't tested Linux 390.xx / 340.xx drivers </br>
 
 to make PhysX work with GPU HW, in Windows: </br>
@@ -52,7 +53,7 @@ Requires installing an older GPU from (2008-2016-Q1/Q2) </br>
 GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 (2010) </br>
 Quadro M6000 24GB (March 5th, 2016-Q1) Works OK, </br>
 Quadro M6000 12GB (2015) should work ok. </br>
-Quadro M2000 (April 8th, 2016-Q2) </br>
+Quadro M2000 (April 8th, 2016-Q2) works ok. </br>
 Probably work: </br>
 GTX 680, GTX Titan 6GB, GTX Titan Black (2014), Quadro K6000 (2013), K5200 (2014) or similar </br>
 
@@ -70,6 +71,7 @@ all should work "the same" with Vsync=On. </br>
 Nvidia driver 416.xx for Win8.1x64, allows to force Video + PhysX Dedicated, </br>
 A Fast GPU from 2015-2016-Q1/Q2 with 32-Bit PhysX, can be Forced to use Video + PhysX on the same GPU, works Ok </br>
 No need for Dual-GPU´s. </br>
+Quadro M2000 (2016-Q2) works ok, PhysX High, single GPU, FullHD 50fps. </br>
 
 2011-2016-Q1/Q2 Server GPU´s depends on [drivers](https://www.nvidia.com/en-us/drivers/) Could Work, Untested.</br>
 *3D printed Fan duct required from Thingiverse or similar. </br> 
@@ -121,29 +123,32 @@ Q4 does Not work. </br>
 Unknown Release date: </br>
 [940MX](https://www.techpowerup.com/gpu-specs/geforce-940mx.c2797) ** | [GTX 950](https://www.techpowerup.com/gpu-specs/geforce-gtx-950-oem.c2817) | [GTX 965M](https://www.techpowerup.com/gpu-specs/geforce-gtx-965m.c2796) ** | [Jetson TX2](https://www.techpowerup.com/gpu-specs/jetson-tx2.c3231) </br>
 
-GTX 1070 & 1080 GPUs for PCIe were released on 2016-Q2 but Mobile MXM versions were released on 2016-Q3, </br>
+GTX 1070 & 1080 GPUs for PCIe were released on 2016-Q2, Mobile MXM versions were released on 2016-Q3, </br>
 Uknown if 2016-Q3 Mobile could work, has similar GP, MXM has GP B, could work. </br>
 
 32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps.  </br>
 CPU's are slower in 32-Bit </br>
 installing the fastest GPU from (2016) with CPU PhysX only increase to 16fps. </br>
 
-Quadro 6000 (2010) "GTX 470" drops to 30fps + Quadro P400 (2017) as Main-GPU in Win8.1x64 at FullHD 1920x1080 </br>
+Quadro 6000 (2010) "GTX 470" drops to 30fps + Quadro P400 (2017) as Main-GPU in Win8.1x64 at FullHD 1920x1080x50fps </br>
 Quadro P400 works as main-GPU, FullHD, 100% GPU load, requires other card for PhysX </br> 
 
 WQHD monitors 3440x1440x50fps require faster main-GPU: Quadro P1000, M2000, or GTX 1050Ti </br>
 Quadro P600 as main-GPU probably works at 2560x1440x30. </br>
 
-#### Recommended: </br>
+### Recommended: </br>
 Main-GPU (2016 or better):  </br>
 1920x1080x60 Quadro P400 "full size bracket" Win8.1 or better  </br>
 3440x1440x50 Quadro P1000 or better, GTX 1050Ti </br>
 #### PhysX GPU: (2009-2015) </br>
 GTX 580 </br>
 Quadro M2000 </br>
-but GTX 280 or 9800 GTX should work ok. </br>
+GTX 280 or 9800 GTX or better should work ok. </br>
+#### Single GPU PhysX High+Video: (2009-2016) </br>
+Quadro M2000 (2016-Q2) works ok at FullHD 50fps </br>
+3440x1440x50 single GPU + PhysX requires Better GPU. </br>
 
-Batman Arkham Asylum v1.1 GPU load is low: 20% 3D & 20% PhysX on GTX 1050 Ti + Quadro M2000. </br>
+Batman Arkham Asylum v1.1 GPU load is low: 20% 3D & 10% PhysX on GTX 1050 Ti + Quadro M2000. </br>
 Windows Nvidia driver allows PhysX to be activated to the Main GPU "Only 1x GPU" </br>
 GPU load increase a lot more = fan noise, but "fps" does Not drop as much as CPU PhysX High. </br>
 
