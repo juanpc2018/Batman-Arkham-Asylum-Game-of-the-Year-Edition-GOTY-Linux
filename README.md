@@ -10,7 +10,7 @@ incl. [Phys](https://en.wikipedia.org/wiki/Category:Video_games_using_PhysX) [X]
 but... Dual GPU PhysX does Not work, only 1x GPU. </br>
 Hardware Accelerated PhysX: </br>
 NORMAL does Not show flags on the ceiling. </br>
-HIGH shows all, but requires very fast CPU. </but>
+HIGH shows all, but requires very fast CPU. </br>
 The only way to play CPU PhysX is using NORMAL setting, on i3-12100 or 7600x CPU's. </br>
 
 [X] VSync in the game. </br>
