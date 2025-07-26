@@ -374,6 +374,8 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 
 +/-7% </br>
 Quadro P1000 (2017) > GTX 580 (2010) > Quadro M2000 (2016-Q2) </br>
+Quadro K6000 (2013) specs. = GTX Titan Black (2014) but K6000 is underclocked & Titan are Overclocked</br>
+Quadro K6000 performance = GTX Titan 6GB (2013). </br>
 
 GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with weird name, some claim [+17%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-1650-vs-Nvidia-GTX-1050-Ti/4039vs3649) some [+24%](https://technical.city/en/video/GeForce-GTX-1050-Ti-vs-GeForce-GTX-1650), </br>
 ¿works with driver 470 ? probably Not, most likely requires driver 5xx </br>
