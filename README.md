@@ -477,6 +477,10 @@ i3-1200 "Hyper-Threading Enabled.</br>
 7600x No-SMT "No-HyperThreading"</br>
 64-Bits vs. 32-Bits .exe has "26.08%" limit on single-core 32-bits.</br>
 ![7600x-NoSMT-x64](https://github.com/user-attachments/assets/a44dc51e-1779-4813-83df-3fe53bdda2d0)![7600x-NoSMT-x32](https://github.com/user-attachments/assets/d9084ee4-4b9b-40f8-810d-e20356aed869) </br>
+7600x SMT "HyperThreading=On"</br>
+64-Bits vs. 32-Bits .exe has "26.27%" limit on single-core 32-bits.</br>
+![7600x-SMT-x64](https://github.com/user-attachments/assets/c0c25a49-72af-40f2-a101-121b86aa9973)![7600x-SMT-x32](https://github.com/user-attachments/assets/f53dcbd3-55ec-4969-a945-af2e75910962) </br>
+
 
 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe gives ~60% of the 64-bit result, does Not matter CPU brand or Wine version or OS. </br>
 Linux or Win8.1x64 has a ~60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
