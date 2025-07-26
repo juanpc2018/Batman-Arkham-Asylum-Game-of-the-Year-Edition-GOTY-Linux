@@ -63,17 +63,17 @@ Requires installing an older GPU from (2008-2016-Q1/Q2) </br>
 
 ### Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
 
-GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 (2010) </br>
-Quadro M6000 24GB (March 5th, 2016-Q1) Works OK, </br>
-Quadro M6000 12GB (2015) should work ok. </br>
-Quadro M2000 (April 8th, 2016-Q2) works ok. </br>
+* GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 (2010) </br>
+* Quadro M6000 24GB (March 5th, 2016-Q1) Works OK, </br>
+* Quadro M6000 12GB (2015) should work ok. </br>
+* Quadro M2000 (April 8th, 2016-Q2) works ok. </br>
 Probably work: </br>
-GTX 680, GTX Titan 6GB, GTX Titan Black (2014), Quadro K6000 (2013), K5200 (2014) or similar </br>
+* GTX 680, GTX Titan 6GB, GTX Titan Black (2014), Quadro K6000 (2013), K5200 (2014) or similar </br>
 
 Unknown: 2016-Q3 </br>
 
 ### Don't work: </br>
-GTX 1050 Ti (October 25th, 2016-Q4), P400 (2017) </br>
+* GTX 1050 Ti (October 25th, 2016-Q4), P400 (2017) </br>
 
 Seems NVIDIA Christmas Gift for December of 2016 was Deleting 32-Bit PhysX. </br>
 
