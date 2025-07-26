@@ -11,6 +11,7 @@ but... Dual GPU PhysX does Not work, only 1x GPU. </br>
 Hardware Accelerated PhysX: </br>
 NORMAL does Not show flags on the ceiling. </br>
 HIGH shows all, but requires very fast CPU. </but>
+The only way to play CPU PhysX is using NORMAL setting, on i3-12100 or 7600x CPU's. </br>
 
 [X] VSync in the game. </br>
 [X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
@@ -155,7 +156,6 @@ GPU load increase a lot more = fan noise, but "fps" does Not drop as much as CPU
 
 2016 or Newer GPUs have higher HDMI resoution, more power efficient = Lower fan noise. </br>
 
-The only way to play CPU PhysX is using NORMAL setting, on i3-12100 or 7600x CPU's. </br>
 
 There is PhysX [v3.2.x](https://developer.nvidia.com/rdp/physx-downloads), [v3.3.x](https://github.com/yangzhengxing/PhysX-3.3), [v3.4.x](https://github.com/NVIDIAGameWorks/PhysX-3.4), [v4.x](https://github.com/NVIDIAGameWorks/PhysX), & [v5.x](https://github.com/NVIDIA-Omniverse/PhysX) for Linux </br>
 Unknown why Linux 470 driver does Not have PhysX option. </br>
@@ -470,7 +470,12 @@ Cinebench [R10](https://archive.org/download/cinebench_201907) has 32-bit .exe &
 Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine x32, x64, Lutris UMU Proton-GE 8.4 x64 </br>
 [CPU-Z v2.16 .ZIP](https://www.cpuid.com/softwares/cpu-z.html) also has x32 & x64 .exe same strange result, x32 has lower score. </br>
 Real Windows8.1x64 has 40% "39.37%" limit on 32-bits. </br>
+i3-1200 </br>
+64-Bits vs. 32-Bits .exe </br>
 ![i3-12100-vs-i7-7700k](https://github.com/user-attachments/assets/18618cec-c32e-412b-b18a-c6aaff4972c5)![cpu-zx32](https://github.com/user-attachments/assets/95628498-f41c-40b2-b67c-664ff236c2ed) </br>
+7600x No-SMT "No HyperThreading"</br>
+64-Bits vs. 32-Bits .exe </br>
+![7600x-NoSMT-x64](https://github.com/user-attachments/assets/a44dc51e-1779-4813-83df-3fe53bdda2d0)![7600x-NoSMT-x32](https://github.com/user-attachments/assets/d9084ee4-4b9b-40f8-810d-e20356aed869) </br>
 
 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe gives ~60% of the 64-bit result, does Not matter CPU brand or Wine version or OS. </br>
 Linux or Win8.1x64 has a ~60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
