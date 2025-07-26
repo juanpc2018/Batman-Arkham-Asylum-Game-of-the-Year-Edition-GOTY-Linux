@@ -144,18 +144,18 @@ Quadro P600 as main-GPU probably works at 2560x1440x30. </br>
 3440x1440x50 Quadro P1000 or better < GTX 1050Ti </br>
 #### PhysX GPU: (2009-2015) </br>
 GTX 280 or 9800 GTX or better should work ok. </br>
-GTX 580 </br>
-Quadro M2000 </br>
-#### Single GPU PhysX High+Video: (2009-2016) </br>
+GTX 480, GTX 580 (2011), GTX 680, GTX 780 </br>
+Quadro K1200 (2015), Quadro M2000 (2016-Q2) </br>
+#### Single GPU: PhysX High+Video (2009-2016) </br>
 Quadro M2000 (2016-Q2) works ok FullHD 50fps </br>
-3440x1440x50 single GPU + PhysX High requires Better GPU, like M6000 or GTX 980. </br>
+3440x1440x50 single GPU + PhysX High requires Better GPU, probably: M4000, M6000 or GTX 980. </br>
 
 Batman Arkham Asylum v1.1 GPU load is low: 20% 3D & 10% PhysX on GTX 1050 Ti + Quadro M2000. </br>
 Windows Nvidia driver allows PhysX to be activated to the Main GPU "Only 1x GPU" </br>
 GPU load increase a lot more = fan noise, but "fps" does Not drop as much as CPU PhysX High. </br>
 
-2016 or Newer GPUs have higher HDMI resoution, more power efficient = Lower fan noise. </br>
-
+2016 or Newer GPUs are recomended for Main GPU: </br>
+have higher HDMI resolution, more power efficient = Lower fan noise. </br>
 
 There is PhysX [v3.2.x](https://developer.nvidia.com/rdp/physx-downloads), [v3.3.x](https://github.com/yangzhengxing/PhysX-3.3), [v3.4.x](https://github.com/NVIDIAGameWorks/PhysX-3.4), [v4.x](https://github.com/NVIDIAGameWorks/PhysX), & [v5.x](https://github.com/NVIDIA-Omniverse/PhysX) for Linux </br>
 Unknown why Linux 470 driver does Not have PhysX option. </br>
