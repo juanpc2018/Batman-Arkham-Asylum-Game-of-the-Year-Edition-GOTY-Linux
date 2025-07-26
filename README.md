@@ -147,7 +147,7 @@ GTX 580 </br>
 Quadro M2000 </br>
 #### Single GPU PhysX High+Video: (2009-2016) </br>
 Quadro M2000 (2016-Q2) works ok FullHD 50fps </br>
-3440x1440x50 single GPU + PhysX requires Better GPU. </br>
+3440x1440x50 single GPU + PhysX High requires Better GPU, like M6000 or GTX 980. </br>
 
 Batman Arkham Asylum v1.1 GPU load is low: 20% 3D & 10% PhysX on GTX 1050 Ti + Quadro M2000. </br>
 Windows Nvidia driver allows PhysX to be activated to the Main GPU "Only 1x GPU" </br>
@@ -174,6 +174,19 @@ PhysX CPU works without adding / Not needed anymore:
 > gamemoderun DXVK_ASYNC=1 PROTON_ENABLE_NVAPI=1
 
 --------------------------
+
+To Disable intro movies Much Faster vs. Press Enter or Click to Skip.
+> C:\Users\NAME\Documents\Eidos\Batman Arkham Asylum\BmGame\Config\UserEngine.ini
+add a minus at the end.
+````
+[FullScreenMovie]
++StartupMovies=baa_logo_run_v5_h264-
++StartupMovies=UTlogo-
++StartupMovies=Legal-
++StartupMovies=Install-
+````
+
+-------------------------
 
 GPU: Nvidia [GTX 1050Ti 4GB (2016)](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) </br>
 
