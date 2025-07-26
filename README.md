@@ -77,33 +77,33 @@ Quadro M2000 (2016-Q2) works ok, PhysX High, single GPU, FullHD 50fps. </br>
 2011-2016-Q1/Q2 Server GPU´s depends on [drivers](https://www.nvidia.com/en-us/drivers/) Could Work, Untested.</br>
 | * 3D printed Fan duct required from Thingiverse or similar. </br> 
 | ** [MXM to PCIe adapter](https://github.com/a-little-wifi/mxm-immobilizer) required. </br>
-#### 2008: </br>
+#### [2008:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2008&sort=name) </br>
 [FX-3600m](https://www.techpowerup.com/gpu-specs/quadro-fx-3600m.c1440) ** | [FX-3800m](https://www.techpowerup.com/gpu-specs/quadro-fx-3800m.c1392) ** | </br>
 [Quadro CX](https://www.techpowerup.com/gpu-specs/quadro-cx.c1326) | [FX-4700x2](https://www.techpowerup.com/gpu-specs/quadro-fx-4700-x2.c1337) | [Quadro FX-4800 PC](https://www.techpowerup.com/gpu-specs/quadro-fx-4800.c1320) [Mac Edition](https://www.techpowerup.com/gpu-specs/quadro-fx-4800-mac-edition.c1322) | [FX-5800](https://www.techpowerup.com/gpu-specs/quadro-fx-5800.c1319) </br>
 [Tesla M1060](https://www.techpowerup.com/gpu-specs/tesla-m1060.c1888) </br>
 [S1070](https://www.techpowerup.com/gpu-specs/tesla-s1070.c1540) * | [S1075](https://www.techpowerup.com/gpu-specs/tesla-s1075.c1541) *</br>
-#### 2009: </br>
+#### [2009:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2009&sort=name) </br>
 [FX 580](https://www.techpowerup.com/gpu-specs/quadro-fx-580.c1324) | [FX 3800](https://www.techpowerup.com/gpu-specs/quadro-fx-3800.c1321) </br>
 [Tesla C1060](https://www.techpowerup.com/gpu-specs/tesla-c1060.c1539) | [Tesla C1080](https://www.techpowerup.com/gpu-specs/tesla-c1080.c2449) </br>
-#### 2010: </br>
+#### [2010:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2010&sort=name) </br>
 [NVS-5100m](https://www.techpowerup.com/gpu-specs/nvs-5100m.c1466) ** | [Quadro FX-880m](https://www.techpowerup.com/gpu-specs/quadro-fx-880m.c1394) **</br>
-#### 2011: </br>
+#### [2011:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2011&sort=name) </br>
 [C2050](https://www.techpowerup.com/gpu-specs/tesla-c2050.c923) | [C2070](https://www.techpowerup.com/gpu-specs/tesla-c2070.c924) | [C2075](https://www.techpowerup.com/gpu-specs/tesla-c2075.c563) | [C2090](https://www.techpowerup.com/gpu-specs/tesla-c2090.c2317) </br>
 [M2050](https://www.techpowerup.com/gpu-specs/tesla-m2050.c1534) | [M2070](https://www.techpowerup.com/gpu-specs/tesla-m2070.c1535) | [M2070-Q](https://www.techpowerup.com/gpu-specs/tesla-m2070-q.c1536) | [M2075](https://www.techpowerup.com/gpu-specs/tesla-m2075.c2025) | [M2090](https://www.techpowerup.com/gpu-specs/tesla-m2090.c1537) *</br>
 [X2070](https://www.techpowerup.com/gpu-specs/tesla-x2070.c2024) ** | [X2090](https://www.techpowerup.com/gpu-specs/tesla-x2090.c1887) **</br>
 [Tesla S2050](https://www.techpowerup.com/gpu-specs/tesla-s2050.c1538) *</br>
-#### 2012: </br>
+#### [2012:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2012&sort=name) </br>
 [K10](https://www.techpowerup.com/gpu-specs/tesla-k10.c918) *</br>
 [K20X](https://www.techpowerup.com/gpu-specs/tesla-k20x.c2315) *</br>
 [K20Xm](https://www.techpowerup.com/gpu-specs/tesla-k20xm.c1884) *</br>
 [K20Xc](https://www.techpowerup.com/gpu-specs/tesla-k20c.c564) </br>
-#### 2013: </br>
+#### [2013:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2013&sort=name) </br>
 [GRID K520](https://www.techpowerup.com/gpu-specs/grid-k520.c2312) * | [GRID K2](https://www.techpowerup.com/gpu-specs/grid-k2.c1700) * | [GRID K1](https://www.techpowerup.com/gpu-specs/grid-k1.c1699) *</br>
 [Tesla K20m](https://www.techpowerup.com/gpu-specs/tesla-k20m.c2029) * | [Tesla K20s](https://www.techpowerup.com/gpu-specs/tesla-k20s.c2044) * | [Tesla K40c](https://www.techpowerup.com/gpu-specs/tesla-k40c.c2505) | [Tesla K40d](https://www.techpowerup.com/gpu-specs/tesla-k40d.c3402) | [Tesla K40m](https://www.techpowerup.com/gpu-specs/tesla-k40m.c2529) | [Tesla K40s](https://www.techpowerup.com/gpu-specs/tesla-k40s.c2528) | [Tesla K40st](https://www.techpowerup.com/gpu-specs/tesla-k40st.c2530) | [Tesla K40t](https://www.techpowerup.com/gpu-specs/tesla-k40t.c3403) </br>
-#### 2014: </br>
+#### [2014:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2014&sort=name) </br>
 [GRID K500](https://www.techpowerup.com/gpu-specs/grid-k500.c2597) </br>
 [Tesla K8](https://www.techpowerup.com/gpu-specs/tesla-k8.c2619) | [Tesla K80](https://www.techpowerup.com/gpu-specs/tesla-k80.c2616) *</br>
-#### 2015: </br>
+#### [2015:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2015&sort=name) </br>
 [GRID M6-8Q](https://www.techpowerup.com/gpu-specs/grid-m6-8q.c3052) ** | [GRID M60](https://www.techpowerup.com/gpu-specs/grid-m60-1q.c3087) </br>
 [Tesla M4 LowProfile](https://www.techpowerup.com/gpu-specs/tesla-m4.c2770) * | [Tesla M40](https://www.techpowerup.com/gpu-specs/tesla-m40.c2771) * | [Tesla M40 24GB](https://www.techpowerup.com/gpu-specs/tesla-m40-24-gb.c3838) * | [Tesla M6](https://www.techpowerup.com/gpu-specs/tesla-m6-mobile.c2818) [x2](https://www.techpowerup.com/gpu-specs/tesla-m6-x2-mobile.c4123) ** | [Tesla M60](https://www.techpowerup.com/gpu-specs/tesla-m60.c2760) *</br>
 #### [2016:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2016&sort=name) </br>
