@@ -469,20 +469,20 @@ DDR3-1333 / 1600 vs. DDR5-5600 XMP1, same. </br>
 PCIe v2 vs. PCIe v3 v4 v5 </br>
 ### ¿where is the problem? </br>
 Cinebench [R10](https://archive.org/download/cinebench_201907) has 32-bit .exe & 64-Bit .exe </br>
-Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine x32, x64, Lutris UMU Proton-GE 8.4 x64 </br>
 [CPU-Z v2.16 .ZIP](https://www.cpuid.com/softwares/cpu-z.html) also has x32 & x64 .exe same strange result, x32 has lower score. </br>
-Real Windows8.1x64 has 40% "39.37%" limit on 32-bits. </br>
-i3-1200 </br>
-64-Bits vs. 32-Bits .exe </br>
+Real Windows8.1x64: </br>
+i3-1200 "Hyper-Threading Enabled.</br>
+64-Bits vs. 32-Bits .exe has "37.58%" limit on single-core 32-bits.</br>
 ![i3-12100-vs-i7-7700k](https://github.com/user-attachments/assets/18618cec-c32e-412b-b18a-c6aaff4972c5)![cpu-zx32](https://github.com/user-attachments/assets/95628498-f41c-40b2-b67c-664ff236c2ed) </br>
-7600x No-SMT "No HyperThreading"</br>
-64-Bits vs. 32-Bits .exe </br>
+7600x No-SMT "No-HyperThreading"</br>
+64-Bits vs. 32-Bits .exe has "26.08%" limit on single-core 32-bits.</br>
 ![7600x-NoSMT-x64](https://github.com/user-attachments/assets/a44dc51e-1779-4813-83df-3fe53bdda2d0)![7600x-NoSMT-x32](https://github.com/user-attachments/assets/d9084ee4-4b9b-40f8-810d-e20356aed869) </br>
 
 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe gives ~60% of the 64-bit result, does Not matter CPU brand or Wine version or OS. </br>
 Linux or Win8.1x64 has a ~60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
 other people also have [Strange Results](https://commons.m.wikimedia.org/wiki/File:Cinebench_R10_%E2%80%93_Benchmark_Intel_Core_i9-9900K,_Gigabyte_GeForce_RTX%E2%84%A2_3090_EAGLE_OC_24G_2024-04-03_08_24_34-Greenshot_CROP02.png) </br>
 OpenGL No change, same result. </br>
+Runing Cinebench [R10](https://archive.org/download/cinebench_201907) .exe on different Wine versions: [PlayOnLinux 4.3.4](https://www.playonlinux.com/script_files/PlayOnLinux/4.3.4/PlayOnLinux_4.3.4.deb) + POL Wine x32, x64, Lutris UMU Proton-GE 8.4 x64 </br>
 
 Batman was released in 2009, requires DirectX 9 "from 2009", GOTY v1.1 requires VC 2015 </br>
 Cinebench R10 released 5 April 2007 </br>
