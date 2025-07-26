@@ -75,8 +75,8 @@ No need for Dual-GPU´s. </br>
 Quadro M2000 (2016-Q2) works ok, PhysX High, single GPU, FullHD 50fps. </br>
 
 2011-2016-Q1/Q2 Server GPU´s depends on [drivers](https://www.nvidia.com/en-us/drivers/) Could Work, Untested.</br>
-*_3D printed Fan duct required from Thingiverse or similar. </br> 
-** [MXM to PCIe adapter](https://github.com/a-little-wifi/mxm-immobilizer) required. </br>
+> * 3D printed Fan duct required from Thingiverse or similar. </br> 
+> ** [MXM to PCIe adapter](https://github.com/a-little-wifi/mxm-immobilizer) required. </br>
 #### 2008: </br>
 [FX-3600m](https://www.techpowerup.com/gpu-specs/quadro-fx-3600m.c1440) ** | [FX-3800m](https://www.techpowerup.com/gpu-specs/quadro-fx-3800m.c1392) ** | </br>
 [Quadro CX](https://www.techpowerup.com/gpu-specs/quadro-cx.c1326) | [FX-4700x2](https://www.techpowerup.com/gpu-specs/quadro-fx-4700-x2.c1337) | [Quadro FX-4800 PC](https://www.techpowerup.com/gpu-specs/quadro-fx-4800.c1320) [Mac Edition](https://www.techpowerup.com/gpu-specs/quadro-fx-4800-mac-edition.c1322) | [FX-5800](https://www.techpowerup.com/gpu-specs/quadro-fx-5800.c1319) </br>
