@@ -11,7 +11,17 @@ but... Dual GPU PhysX does Not work, only 1x GPU. </br>
 Hardware Accelerated PhysX: </br>
 NORMAL does Not show flags on the ceiling. </br>
 HIGH shows all, but requires very fast CPU. </br>
-The only way to play CPU PhysX is using NORMAL setting, on i3-12100 or 7600x CPU's. </br>
+
+32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps.  </br>
+CPU's are slower in 32-Bit </br>
+installing the fastest GPU with CPU PhysX only increase to 16fps. </br>
+The only way to play with CPU PhysX is using NORMAL setting. </br>
+
+#### HW tested: </br>
+AMD 7600x </br>
+[ASRock X670E PG](https://pg.asrock.com/mb/AMD/X670E%20PG%20Lightning/index.asp) UEFI v2.10 </br>
+intel i3-12100 </br>
+[ASRock Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) UEFI v9.04 </br>
 
 [X] VSync in the game. </br>
 [X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
@@ -25,23 +35,24 @@ The only way to play CPU PhysX is using NORMAL setting, on i3-12100 or 7600x CPU
 ### Mistery Solved: </br>
 
 2x GPU does Not work, Not Win8.1 x64, Not Linux 20.04.4 LTS. </br>
+
 Windows driver allows to select PhysX mode: </br>
 CPU, GPU1 or GPU2 </br>
-GPU1 is main GPU used for video. </br>
+
 Linux Driver 470.xx does Not allow to select PhysX mode. </br>
 Linux 470 driver Default: PhysX CPU. </br>
 
-Problem: </br>
+## Problem: </br>
 Nvidia DELETED 32-Bit PhysX Hardware support since 2016-Q4, </br>
 if you install a (2016-Q4) GPU like GTX 1050 Ti + Quadro P400 (2017) or similar </br>
 Nvidia driver 416.xx allows to select PhysX GPU, but does Not work, with Batman Arkham Asylum v1.1 </br>
 
 At the beginning of the game, there is a tunnel with steam falling. </br>
-IF you activate PhysX HIGH setting in Linux or Windows,  </br>
-Only works using CPU. </br>
-problem using PhysX on CPU is that frames drop to 15fps using a modern i3-12100 or 7600x </br>
+IF activate PhysX HIGH setting in Linux or Windows BMlauncher.exe  </br>
+Only works using CPU PhysX. </br>
+problem using PhysX on CPU is that frames drop to 15fps on a modern i3-12100 or 7600x </br>
 Requires 1-core, 100% CPU load, CPU PhysX does Not have Multi-Thread. </br>
-Modern CPU´s are slower in 32-Bit </br>
+CPU´s are slower in 32-Bit </br>
 but CPU PhysX works, Windows & Linux. </br>
 
 *haven't tested Linux 390.xx / 340.xx drivers </br>
@@ -127,10 +138,6 @@ Unknown Release date: </br>
 
 GTX 1070 & 1080 GPUs for PCIe were released on 2016-Q2, Mobile MXM versions were released on 2016-Q3, </br>
 Unknown if 2016-Q3 Mobile could work, has similar GP, MXM has GP B, could work. </br>
-
-32-Bit PhysX on CPU Requires the fastest CPU on the planet, or will drop to 15fps.  </br>
-CPU's are slower in 32-Bit </br>
-installing the fastest GPU from (2016) with CPU PhysX only increase to 16fps. </br>
 
 Quadro 6000 (2010) "GTX 470" drops to 30fps + Quadro P400 (2017) as Main-GPU in Win8.1x64 at FullHD 1920x1080x50fps </br>
 Quadro P400 works as main-GPU, FullHD, 100% GPU load, requires other card for PhysX </br> 
@@ -287,12 +294,6 @@ if Tropics works, Batman works. </br>
 it´s a mixed 32/64-Bit Benchmark </br>
 If OS is 64-Bit & Heaven-4 works, does Not test if Batman will. </br>
 can be forced to run 32-Bit in 64-Bit OS. </br>
-
-#### HW tested: </br>
-AMD 7600x </br>
-[ASRock X670e PG](https://pg.asrock.com/mb/AMD/X670E%20PG%20Lightning/index.asp) UEFI v2.10 </br>
-intel i3-12100 </br>
-[ASRock Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) UEFI v9.04 </br>
 
 -------------------
 
