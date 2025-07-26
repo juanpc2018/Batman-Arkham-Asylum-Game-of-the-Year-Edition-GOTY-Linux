@@ -494,6 +494,13 @@ Batman was released in 2009, requires DirectX 9 "from 2009", GOTY v1.1 requires 
 Cinebench R10 released 5 April 2007 </br>
 seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org/wiki/Visual_Studio#History) and error was minimized in later versions. </br>
 
+Cinebench 2003 it´s pure 32-Bit, does Not have 32/64-Bit .exe </br>
+there is No way to test if has "the problem", Results seem consistent: </br>
+older 2005 CPUs single-core give less than [<300 cb points](https://www.computerbase.de/news/prozessoren/idf-benchmarks-von-sossaman-und-yonah.14009/) </br>
+2011 CPU´s overclocked to 6GHz with N2 & Dry Ice, give less than <1000 cb points single-core. </br>
+2020-2022 Low-end CPU´s give 1200-1500 cb points single-core, stock speed. </br>
+Ultra 9 285K 5.5Ghz gives [2171 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/5791499) </br>
+
 Original game DVD (2009) v1.0 requires MS Live account instead of EAapp to save the game, has PhysX v9.04, if install v12 on POL breaks the system, </br>
 does Not have PhysX menu like v1.1, Default: Disabled, No PhysX. </br>
 64-Bit POL Wine 4.0.4, PhysX Needs manual configuration or installing v1.1 update </br>
