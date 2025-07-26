@@ -183,8 +183,8 @@ PhysX CPU works without adding / Not needed anymore:
 --------------------------
 
 To Disable intro movies Much Faster vs. Press Enter or Click to Skip.
-> C:\Users\NAME\Documents\Eidos\Batman Arkham Asylum\BmGame\Config\UserEngine.ini
-add a minus at the end.
+> C:\Users\NAME\Documents\Eidos\Batman Arkham Asylum\BmGame\Config\UserEngine.ini </br>
+add a minus at the end. </br>
 ````
 [FullScreenMovie]
 +StartupMovies=baa_logo_run_v5_h264-
