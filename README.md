@@ -284,8 +284,9 @@ it's a pure 32-Bit benchmark, </br>
 if Tropics works, Batman works. </br>
 
 [Heaven-4.0](https://benchmark.unigine.com/heaven) [.run](https://assets.unigine.com/d/Unigine_Heaven-4.0.run) </br>
-its a 64-Bit Benchmark </br>
-If Heaven-4 works, does Not test if Batman will. </br>
+it´s a mixed 32/64-Bit Benchmark </br>
+If OS is 64-Bit & Heaven-4 works, does Not test if Batman will. </br>
+can be forced to run 32-Bit in 64-Bit OS. </br>
 
 #### HW tested: </br>
 AMD 7600x </br>
