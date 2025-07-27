@@ -79,7 +79,9 @@ Seems NVIDIA Christmas Gift for December of 2016 was Deleting 32-Bit PhysX. </br
 
 ### people with mini-ATX boards "1x PCIe x16 slot": </br>
 Dual-GPU´s for 32-Bit PhysX are: </br>
-[9800 GX2 (2008)](https://www.techpowerup.com/gpu-specs/geforce-9800-gx2.c208), [FX-4700 X2 (2008)](https://www.techpowerup.com/gpu-specs/quadro-fx-4700-x2.c1337), [GTX 285 X2 (2009)](https://www.techpowerup.com/gpu-specs/geforce-gtx-285-x2.c4140), [GTX 295 Single pcb (2009)](https://www.techpowerup.com/gpu-specs/geforce-gtx-295-single-pcb.c4141), [GTX 295 dual pcb (2009)](https://www.techpowerup.com/gpu-specs/geforce-gtx-295.c239), [GTX 590 (2011)](https://www.techpowerup.com/gpu-specs/geforce-gtx-590.c281), [GTX 690 (2012)](https://www.techpowerup.com/gpu-specs/geforce-gtx-690.c361), or [Titan Z (2014)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan-z.c2575) </br>
+[9800 GX2 (2008)](https://www.techpowerup.com/gpu-specs/geforce-9800-gx2.c208), [FX-4700 X2 (2008)](https://www.techpowerup.com/gpu-specs/quadro-fx-4700-x2.c1337) </br>
+[GTX 285 X2 (2009)](https://www.techpowerup.com/gpu-specs/geforce-gtx-285-x2.c4140), [GTX 295 Single pcb (2009)](https://www.techpowerup.com/gpu-specs/geforce-gtx-295-single-pcb.c4141), [GTX 295 dual pcb (2009)](https://www.techpowerup.com/gpu-specs/geforce-gtx-295.c239) </br>
+[GTX 590 (2011)](https://www.techpowerup.com/gpu-specs/geforce-gtx-590.c281), [GTX 690 (2012)](https://www.techpowerup.com/gpu-specs/geforce-gtx-690.c361), or [Titan Z (2014)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan-z.c2575) </br>
 all should work "the same" with Vsync=On. </br>
 
 A Fast GPU from 2015-2016-Q1/Q2 with 32-Bit PhysX, can be Forced: Video + PhysX on the same GPU, works Ok </br>
