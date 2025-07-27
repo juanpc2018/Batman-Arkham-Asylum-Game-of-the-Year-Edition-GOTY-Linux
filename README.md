@@ -319,14 +319,11 @@ $ sudo apt install --install-recommends winehq-stable
 
 ------------------------
 
-Game complains twice that 1050 Ti is Not recommended when activating PhysX, because that GPU did Not exist, </br>
+Game complains twice that 1050 Ti is Not recommended when activating PhysX, </br>
 but works Flawless 99% of the time with PhysX NORMAL setting. </br>
-All GPU's i've tested have frame drops "10fps" in some parts of the game with PhysX set to HIGH "Requires 2x GPU's" </br>
+All GPU's i've tested have frame drops "10fps" in some parts of the game with PhysX HIGH "Requires 2x GPU's" </br>
 at the beggining, steam falling, and outside the asylum 4% of the Game, has severe frame drops with HIGH 1x GPU, but works ok with PhysX Normal. </br>
 No matter what GPU, performance drops. </br>
-
-[AMD HD 7950](https://www.techpowerup.com/gpu-specs/radeon-hd-7950.c307) = [GTX 1050 Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) but... when PhysX is Enabled, 1050-Ti is Far better. </br>
-without PhysX removes [Smoke/Fog & particles](https://www.youtube.com/watch?v=ceD4bFi-zk0&t=9s) </br>
 
 Running the game without Vsync is pointless, unless its a Benchmark. </br>
 generates more fps = consumes more energy = more heat = louder fans but monitor cannot display. </br>
@@ -383,6 +380,8 @@ installing that driver in 20.04.4 LTS is Tricky. </br>
 Quadro P1000 (2017) > GTX 580 (2010) > Quadro M2000 (2016-Q2) </br>
 Quadro K6000 (2013) specs. = GTX Titan Black (2014) but K6000 is underclocked & Titan are Overclocked</br>
 Quadro K6000 performance = GTX Titan 6GB (2013). </br>
+[AMD HD 7950](https://www.techpowerup.com/gpu-specs/radeon-hd-7950.c307) performance = [GTX 1050 Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) No PhysX </br>
+No PhysX removes [Smoke/Fog & particles](https://www.youtube.com/watch?v=ceD4bFi-zk0&t=9s) </br>
 
 GTX 1650 4GB (2019) is an improved > GTX 1050Ti (2016) with weird name, some claim [+17%](https://gpu.userbenchmark.com/Compare/Nvidia-GTX-1650-vs-Nvidia-GTX-1050-Ti/4039vs3649) some [+24%](https://technical.city/en/video/GeForce-GTX-1050-Ti-vs-GeForce-GTX-1650), </br>
 ¿works with driver 470 ? probably Not, most likely requires driver 5xx </br>
@@ -488,7 +487,6 @@ i3-12100 "Hyper-Threading Enabled."</br>
 64-Bits vs. 32-Bits .exe has "26.27%" limit on single-core 32-bits.</br>
 ![7600x-SMT-x64](https://github.com/user-attachments/assets/c0c25a49-72af-40f2-a101-121b86aa9973)![7600x-SMT-x32](https://github.com/user-attachments/assets/f53dcbd3-55ec-4969-a945-af2e75910962) </br>
 
-
 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) .exe gives ~60% of the 64-bit result, does Not matter CPU brand or Wine version or OS. </br>
 Linux or Win8.1x64 has a ~60% CPU limit on 32-Bit Cinebench [R10](https://archive.org/download/cinebench_201907) </br>
 other people also have [Strange Results](https://commons.m.wikimedia.org/wiki/File:Cinebench_R10_%E2%80%93_Benchmark_Intel_Core_i9-9900K,_Gigabyte_GeForce_RTX%E2%84%A2_3090_EAGLE_OC_24G_2024-04-03_08_24_34-Greenshot_CROP02.png) </br>
@@ -516,11 +514,12 @@ Old Voodoo GPU´s from 1990-2000 can be emulated using PCem & 86Box, but modern 
 
 Original game DVD (2009) v1.0 requires MS Live account instead of EAapp to save the game, has PhysX v9.04, if install v12 on POL breaks the system, </br>
 does Not have PhysX menu like v1.1, Default: Disabled, No PhysX. </br>
-64-Bit POL Wine 4.0.4, PhysX Needs manual configuration or installing v1.1 update </br>
+64-Bit POL Wine 4.0.4, PhysX Needs installing v1.1 update </br>
 Win8.1x64 Requires [xlib.dll 3.5.88.0](https://www.dll-files.com/xlive.dll.html) in: </br>
 C:\Windows\System32 </br>
 C:\Program Files (x86)\Eidos\Batman Arkham Asylum\Binaries </br>
-Requires v1.1 update to have PhysX menu in BmLauncher.exe </br>
+Update v1.1 adds PhysX menu in BmLauncher.exe </br>
+also installs PhysX v9.09, but v9.09 does Not work in Win8.1x64, requires Newer. </br>
 Links: </br>
 [1](https://www.gamepressure.com/download/batman-arkham-asylum-v11-eng-patch/z3625f).[2](https://www.moddb.com/games/batman-arkham-asylum/downloads/patch-1-1-11).[3](https://www.patches-scrolls.com/batman_arkham_asylum.php).[3a](https://www.patches-scrolls.com/dl.php?file=batmanaa_gtx480and470_physx_patch.zip).[3b](https://www.patches-scrolls.com/dl.php?file=batman_tu_v1.1_efigs.zip).[4](https://en.ds-servers.com/gf/batman-arkham-asylum/official-patches/batman-arkham-asylum-v1-1-patch.html).[5](https://www.nexusmods.com/batmanarkhamasylum/mods/16).[6](https://www.nexusmods.com/batmanarkhamasylum/mods/16).[]().[]().[]() </br>
 
@@ -538,8 +537,6 @@ PhysXLevel=2 "HIGH"
 *do Not include "Normal" / "High"
 4. Save & close. Run the game
 ````
-
-v1.1 updater installs PhysX 9.09, but does Not work in Win8.1x64 </br>
 
 -----------------------------------
 
@@ -573,7 +570,6 @@ installing older Legacy PhysX 9.12 at same time, with Wine Control Panel inside 
 Batman does Not work. </br>
 ![Screenshot_20250711_201123](https://github.com/user-attachments/assets/fa8e3a01-ade9-42af-8d74-c90f81004d95) </br>
 ![Screenshot_20250711_202119](https://github.com/user-attachments/assets/454e3b6f-9e11-45d2-9a41-e46f3f55d4e6) </br>
-
 installing PhysX as another program, creates an individual dos_c drive, isolated from Batman dos_c drive. </br>
 
 Lutris has a nice GUI, easy to navigate / easy to use, more minimalistic vs. PlayOnLinux 4.3.4 </br>
