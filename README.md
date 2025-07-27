@@ -63,7 +63,7 @@ Requires installing an older GPU from (2008-2016-Q1/Q2) </br>
 
 ### Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
 
-* GTX 260, 9800 GTX, GTX 280, GTX 470, GTX 580, Quadro 6000 (2010) </br>
+* GTX 260, 9800 GTX, GTX 280, [GTX 275](https://www.techpowerup.com/gpu-specs/geforce-gtx-275-physx-edition.c1951), GTX 470, GTX 580, Quadro 6000 (2010) </br>
 * Quadro M6000 24GB (March 5th, 2016-Q1) Works OK, </br>
 * Quadro M6000 12GB (2015) should work ok. </br>
 * Quadro M2000 (April 8th, 2016-Q2) works ok. </br>
@@ -81,7 +81,10 @@ Seems NVIDIA Christmas Gift for December of 2016 was Deleting 32-Bit PhysX. </br
 Dual-GPU´s for 32-Bit PhysX are: </br>
 [9800 GX2 (2008)](https://www.techpowerup.com/gpu-specs/geforce-9800-gx2.c208), [FX-4700 X2 (2008)](https://www.techpowerup.com/gpu-specs/quadro-fx-4700-x2.c1337) </br>
 [GTX 285 X2 (2009)](https://www.techpowerup.com/gpu-specs/geforce-gtx-285-x2.c4140), [GTX 295 Single pcb (2009)](https://www.techpowerup.com/gpu-specs/geforce-gtx-295-single-pcb.c4141), [GTX 295 dual pcb (2009)](https://www.techpowerup.com/gpu-specs/geforce-gtx-295.c239) </br>
-[GTX 590 (2011)](https://www.techpowerup.com/gpu-specs/geforce-gtx-590.c281), [GTX 690 (2012)](https://www.techpowerup.com/gpu-specs/geforce-gtx-690.c361), or [Titan Z (2014)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan-z.c2575) </br>
+[GTX 590 (2011)](https://www.techpowerup.com/gpu-specs/geforce-gtx-590.c281) </br>
+[GTX 690 (2012)](https://www.techpowerup.com/gpu-specs/geforce-gtx-690.c361) </br>
+[GTX 760 X2 (2013)](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-x2.c2521) </br>
+[Titan Z (2014)](https://www.techpowerup.com/gpu-specs/geforce-gtx-titan-z.c2575) </br>
 all should work "the same" with Vsync=On. </br>
 
 A Fast GPU from 2015-2016-Q1/Q2 with 32-Bit PhysX, can be Forced: Video + PhysX on the same GPU, works Ok </br>
