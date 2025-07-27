@@ -91,7 +91,7 @@ Quadro M2000 (2016-Q2) works ok, PhysX High, single GPU, FullHD 50fps. </br>
 | ** [MXM to PCIe adapter](https://github.com/a-little-wifi/mxm-immobilizer) required. </br>
 #### [2008:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2008&sort=name) </br>
 [FX-3600m](https://www.techpowerup.com/gpu-specs/quadro-fx-3600m.c1440) ** | [FX-3800m](https://www.techpowerup.com/gpu-specs/quadro-fx-3800m.c1392) ** | </br>
-[Quadro CX](https://www.techpowerup.com/gpu-specs/quadro-cx.c1326) | [FX-4700x2](https://www.techpowerup.com/gpu-specs/quadro-fx-4700-x2.c1337) | [Quadro FX-4800 PC](https://www.techpowerup.com/gpu-specs/quadro-fx-4800.c1320) [Mac Edition](https://www.techpowerup.com/gpu-specs/quadro-fx-4800-mac-edition.c1322) | [FX-5800](https://www.techpowerup.com/gpu-specs/quadro-fx-5800.c1319) </br>
+[Quadro CX](https://www.techpowerup.com/gpu-specs/quadro-cx.c1326) | [FX-4700x2](https://www.techpowerup.com/gpu-specs/quadro-fx-4700-x2.c1337) | [Quadro FX-4800 PC](https://www.techpowerup.com/gpu-specs/quadro-fx-4800.c1320) / [Mac Edition](https://www.techpowerup.com/gpu-specs/quadro-fx-4800-mac-edition.c1322) | [FX-5800](https://www.techpowerup.com/gpu-specs/quadro-fx-5800.c1319) </br>
 [Tesla M1060](https://www.techpowerup.com/gpu-specs/tesla-m1060.c1888) </br>
 [S1070](https://www.techpowerup.com/gpu-specs/tesla-s1070.c1540) * | [S1075](https://www.techpowerup.com/gpu-specs/tesla-s1075.c1541) *</br>
 #### [2009:](https://www.techpowerup.com/gpu-specs/?mfgr=NVIDIA&released=2009&sort=name) </br>
