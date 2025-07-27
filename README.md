@@ -500,7 +500,14 @@ older 2005 CPUs single-core give less than [<300 cb points](https://www.computer
 2011 intel CPU´s overclocked to 6GHz with N2 & Dry Ice, single-core give less than [<1000 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/3355052) </br>
 2011 AMD CPU´s, Top of the line Opteron 63xx stock speed give less than [<500 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/3923229) </br>
 2020-2022 Low-end CPU´s i3-12100 & 7600x give 1200-1500 cb points single-core, stock. </br>
+7700x gives [1333 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/5252595) </br>
+9800X3D at 6GHz gives: [1474 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/5816111) </br>
+12900K at 5.3GHz gives: [1864 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/4979175) </br> 
 Ultra 9 285K 5.5Ghz gives [2171 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/5791499) </br>
+
+is 285K single-core enough to emulate a GPU? 1000 shaders, 100 TMU, 100 SMX? </br>
+probably Not. </br>
+Old Voodoo GPU´s from 1990-2000 can be emulated using PCem & 86Box, but modern GPU´s are far more complex. </br>
 
 Original game DVD (2009) v1.0 requires MS Live account instead of EAapp to save the game, has PhysX v9.04, if install v12 on POL breaks the system, </br>
 does Not have PhysX menu like v1.1, Default: Disabled, No PhysX. </br>
