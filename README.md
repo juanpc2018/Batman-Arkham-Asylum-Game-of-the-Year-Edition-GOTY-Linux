@@ -136,10 +136,17 @@ Q3 Unknown: </br>
 [Titan X Pascal "Not Xp"](https://www.techpowerup.com/gpu-specs/titan-x-pascal.c2863) </br>
 [Tesla P4](https://www.techpowerup.com/gpu-specs/tesla-p4.c2879) | [Tesla P10](https://www.techpowerup.com/gpu-specs/tesla-p10.c3750) | [Tesla P40](https://www.techpowerup.com/gpu-specs/tesla-p40.c2878) </br>
 Q4 does Not work. </br>
-[GTX 760](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-oem.c3743) | [GTX 1050 2GB](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050.c2875) | [GTX 1050 Ti 4GB](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) </br>
+[GTX 1050 2GB](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050.c2875) | [GTX 1050 Ti 4GB](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) </br>
 [Quadro GP100](https://www.techpowerup.com/gpu-specs/quadro-gp100.c2994) | [Quadro P5000](https://www.techpowerup.com/gpu-specs/quadro-p5000.c2864) | [Quadro P6000](https://www.techpowerup.com/gpu-specs/quadro-p6000.c2865) |  </br>
 Unknown Release date: </br>
 [940MX](https://www.techpowerup.com/gpu-specs/geforce-940mx.c2797) ** | [GTX 950](https://www.techpowerup.com/gpu-specs/geforce-gtx-950-oem.c2817) | [GTX 965M](https://www.techpowerup.com/gpu-specs/geforce-gtx-965m.c2796) ** | [Jetson TX2](https://www.techpowerup.com/gpu-specs/jetson-tx2.c3231) </br>
+GTX 760 was released in 2013 & re-released in 2016, Unknown if 2016 version works with PhysX, probably, looks the same. </br>
+[GTX 760 2013](https://www.techpowerup.com/gpu-specs/geforce-gtx-760.c1857) </br>
+[GTX 760 X2 (2013)](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-x2.c2521) </br>
+[GTX 760 OEM 2013](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-oem.c2455) </br>
+[GTX 760 rebrand 2013](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-oem-rebrand.c2454) </br>
+[GTX 760 OEM 2016](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-oem.c3743) </br>
+
 
 GTX 1070 & 1080 GPUs for PCIe were released on 2016-Q2, Mobile MXM versions were released on 2016-Q3, </br>
 Unknown if 2016-Q3 Mobile could work, has similar GP, MXM has GP B, could work. </br>
