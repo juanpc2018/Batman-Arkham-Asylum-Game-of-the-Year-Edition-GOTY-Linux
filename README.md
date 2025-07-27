@@ -140,14 +140,15 @@ Q4 does Not work. </br>
 [Quadro GP100](https://www.techpowerup.com/gpu-specs/quadro-gp100.c2994) | [Quadro P5000](https://www.techpowerup.com/gpu-specs/quadro-p5000.c2864) | [Quadro P6000](https://www.techpowerup.com/gpu-specs/quadro-p6000.c2865) |  </br>
 Unknown Release date: </br>
 [940MX](https://www.techpowerup.com/gpu-specs/geforce-940mx.c2797) ** | [GTX 950](https://www.techpowerup.com/gpu-specs/geforce-gtx-950-oem.c2817) | [GTX 965M](https://www.techpowerup.com/gpu-specs/geforce-gtx-965m.c2796) ** | [Jetson TX2](https://www.techpowerup.com/gpu-specs/jetson-tx2.c3231) </br>
-GTX 760 was released in 2013 & re-released in 2016, Unknown if 2016 version works with PhysX, </br>
-GTX 760 2016 is like a "GTX 760 Ti" better vs. GTX 760 2013, but Not as good as [GTX 770 2013](https://www.techpowerup.com/gpu-specs/geforce-gtx-770.c1856) </br>
+GTX 760 was released in 2013 & re-released in 2016-Q4, Unknown if 2016 version works with PhysX, probably works</br>
+GTX 760 2016 looks like GTX 760 Ti 2013, better vs. GTX 760 2013, but Not as good as [GTX 770 2013](https://www.techpowerup.com/gpu-specs/geforce-gtx-770.c1856) </br>
 [GTX 760 2013](https://www.techpowerup.com/gpu-specs/geforce-gtx-760.c1857) </br>
 [GTX 760 X2 (2013)](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-x2.c2521) </br>
 [GTX 760 OEM 2013](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-oem.c2455) </br>
 [GTX 760 rebrand 2013](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-oem-rebrand.c2454) </br>
+[GTX 760 Ti OEM 2013](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-ti-oem.c2491) </br>
+[GTX 760 Ti OEM Rebrand 2013](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-ti-oem-rebrand.c2453) </br>
 [GTX 760 OEM 2016](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-oem.c3743) </br>
-
 
 GTX 1070 & 1080 GPUs for PCIe were released on 2016-Q2, Mobile MXM versions were released on 2016-Q3, </br>
 Unknown if 2016-Q3 Mobile could work, has similar GP, MXM has GP B, could work. </br>
