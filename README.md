@@ -495,10 +495,10 @@ Cinebench R10 released 5 April 2007 </br>
 seems there is a problem with [Visual Studio 2005-2008](https://en.wikipedia.org/wiki/Visual_Studio#History) and error was minimized in later versions. </br>
 
 Cinebench 2003 it´s pure 32-Bit, does Not have 32/64-Bit .exe </br>
-there is No way to test if has "the problem", Results seem consistent: </br>
+there is No way to test if has "the problem", but Results seem consistent: </br>
 older 2005 CPUs single-core give less than [<300 cb points](https://www.computerbase.de/news/prozessoren/idf-benchmarks-von-sossaman-und-yonah.14009/) </br>
-2011 intel CPU´s overclocked to 6GHz with N2 & Dry Ice, single-copre give less than [<1000 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/3355052) </br>
-2011 AMD CPU´s, Top of the line Opteron 63xx stock speed give [less than 500 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/3923229) </br>
+2011 intel CPU´s overclocked to 6GHz with N2 & Dry Ice, single-core give less than [<1000 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/3355052) </br>
+2011 AMD CPU´s, Top of the line Opteron 63xx stock speed give less than [<500 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/3923229) </br>
 2020-2022 Low-end CPU´s i3-12100 & 7600x give 1200-1500 cb points single-core, stock. </br>
 Ultra 9 285K 5.5Ghz gives [2171 cb points](https://hwbot.org/benchmarks/cinebench_-_2003/submissions/5791499) </br>
 
