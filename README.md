@@ -151,7 +151,7 @@ GTX 760 2016 looks like GTX 760 Ti 2013, better vs. GTX 760 2013, but Not as goo
 [GTX 760 OEM 2016](https://www.techpowerup.com/gpu-specs/geforce-gtx-760-oem.c3743) </br>
 
 GTX 1070 & 1080 GPUs for PCIe were released on 2016-Q2, Mobile MXM versions were released on 2016-Q3, </br>
-Unknown if 2016-Q3 Mobile could work, has similar GP, MXM has GP B, could work. </br>
+Unknown if 2016-Q3 Mobile could work, has similar GP, MXM has GP B </br>
 
 Quadro 6000 (2010) "GTX 470" drops to 30fps + Quadro P400 (2017) as Main-GPU in Win8.1x64 at FullHD 1920x1080x50fps </br>
 Quadro P400 works as main-GPU, FullHD, 100% GPU load, requires other card for PhysX </br> 
