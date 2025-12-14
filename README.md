@@ -496,7 +496,7 @@ i3-12100 "Hyper-Threading Enabled."</br>
 64-Bits vs. 32-Bits .exe has "26.27%" limit on single-core 32-bits.</br>
 ![7600x-SMT-x64](https://github.com/user-attachments/assets/c0c25a49-72af-40f2-a101-121b86aa9973)![7600x-SMT-x32](https://github.com/user-attachments/assets/f53dcbd3-55ec-4969-a945-af2e75910962) </br>
 
-#### Older CPU-Z "Vintage" No 64-Bit ver. 1.04.0.w9x
+#### CPU-Z "Vintage" No 64-Bit ver. 1.04.0.w9x
 ![Screenshot_20251214_150818](https://github.com/user-attachments/assets/ec440872-bfdf-4160-bfb5-b5f6fef8e1e3)
 
 -----------------------
