@@ -34,7 +34,12 @@ intel i3-12100 </br>
 [ASRock Z790 LiveMixer](https://www.asrock.com/mb/Intel/Z790%20LiveMixer/Specification.asp) UEFI v9.04 </br>
 
 [X] VSync in the game. </br>
-[X] Vsync in NVIDIA X Settings. *Optional, Not Required. </br>
+[X] Vsync in NVIDIA X Settings. </br>
+
+Generating more FPS than the monitor can display is wasting Energy & Heat. </br>
+WQHD monitors like [LG 34GP64A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) are 3440x1440 x 50fps using HDMI & 160fps DisplayPort Only. </br>
+HDMI is Uncompressed image "Higher Quality" vs. DisplayPort v2.1 h.264 at 160fps </br>
+Lower Resolution with High-FPS vs. High-Resolution at 50fps, High-Resolution looks Nicer. </br>
 
 [Steam GOTY](https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/) </br>
 [GOG GOTY](https://www.gog.com/en/game/batman_arkham_asylum_goty).[(2009)](https://www.gog.com/dreamlist/game/batman-arkham-asylum-2009) </br>
