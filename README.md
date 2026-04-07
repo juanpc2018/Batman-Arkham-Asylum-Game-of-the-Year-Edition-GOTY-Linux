@@ -51,7 +51,7 @@ Lower Resolution with High-FPS vs. High-Resolution at 50fps, High-Resolution loo
 
 ### Mistery Solved: </br>
 
-2x GPU does Not work, Not Win8.1 x64, Not Linux 20.04.4 LTS. </br>
+2x GPU does Not work. </br>
 
 Windows driver allows to select PhysX mode: </br>
 CPU, GPU1 or GPU2 </br>
@@ -62,11 +62,12 @@ Linux 470 driver Requires 1x GPU that supports 32-Bit PhysX. </br>
 ## Problem: </br>
 Nvidia DELETED 32-Bit PhysX Hardware support since 2016-Q4, </br>
 if you install a (2016-Q4) GPU like GTX 1050 Ti + Quadro P400 (2017) or similar </br>
-Nvidia driver 416.xx allows to select PhysX GPU, but does Not work, with Batman Arkham Asylum v1.1 </br>
+Nvidia driver 416.xx for Win8.1x64 allows to select PhysX GPU, but does Not work with Batman Arkham Asylum v1.1 </br>
 
 At the beginning of the game, there is a tunnel with steam falling. </br>
-IF activate PhysX HIGH setting in Linux or Windows BMlauncher.exe  </br>
-Only works using CPU PhysX. </br>
+IF active PhysX HIGH setting in Linux or Windows BMlauncher.exe  </br>
+works using CPU PhysX. </br>
+
 problem using PhysX on CPU is that frames drop to 15fps on a modern i3-12100 or 7600x </br>
 Requires 1-core, 100% CPU load, CPU PhysX does Not have Multi-Thread. </br>
 CPU´s are slower in 32-Bit </br>
@@ -74,8 +75,8 @@ but CPU PhysX works, Windows & Linux. </br>
 
 *haven't tested Linux 390.xx / 340.xx drivers </br>
 
-to make PhysX work with GPU HW, in Windows: </br>
-Requires installing an older GPU from (2008-2016-Q1/Q2) </br>
+to make PhysX work with GPU in Windows: </br>
+Requires installing an older GPU (2008-2016-Q1/Q2) </br>
 2016-Q3 Unknown. </br>
 
 ### Confirmed GPU´s working with 32-Bit PhysX HW / on GPU die: </br>
