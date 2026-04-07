@@ -57,7 +57,7 @@ Windows driver allows to select PhysX mode: </br>
 CPU, GPU1 or GPU2 </br>
 
 Linux Driver 470.xx does Not allow to select PhysX mode. </br>
-Linux 470 driver Default: PhysX CPU. </br>
+Linux 470 driver Requires 1x GPU that supports 32-Bit PhysX. </br>
 
 ## Problem: </br>
 Nvidia DELETED 32-Bit PhysX Hardware support since 2016-Q4, </br>
