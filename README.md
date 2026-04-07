@@ -26,7 +26,7 @@ but NVIDIA 470 driver is required for Older 32-Bit games like Batman Arkham Asyl
 GPU's between 2016 Q4 "Oct-Nov-Dec" & RTX 40x0, like [GTX 1050 Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) do Not support 32-Bit PhysX. </br>
 
 very old GPUs: [Quadro 6000 (2010)](https://www.techpowerup.com/gpu-specs/quadro-6000.c896), [GTX 470](https://www.techpowerup.com/gpu-specs/geforce-gtx-470.c267), [GTX 275](https://www.techpowerup.com/gpu-specs/geforce-gtx-275-physx-edition.c1951) Require driver 390.xx </br>
-[GTX 580 (Q4 2010](https://www.techpowerup.com/gpu-specs/geforce-gtx-580.c270), [Rev.2 (Q1 2011)](https://www.techpowerup.com/gpu-specs/geforce-gtx-580-rev-2.c3009), [GTX 590 (2011)](https://www.techpowerup.com/gpu-specs/geforce-gtx-590.c281) feel better vs. [GTX 680](https://www.techpowerup.com/gpu-specs/geforce-gtx-680.c342) & [GTX 690](https://www.techpowerup.com/gpu-specs/geforce-gtx-690.c361) </br>
+[GTX 580 (Q4 2010](https://www.techpowerup.com/gpu-specs/geforce-gtx-580.c270), [Rev.2 (2011)](https://www.techpowerup.com/gpu-specs/geforce-gtx-580-rev-2.c3009), [GTX 590 (2011)](https://www.techpowerup.com/gpu-specs/geforce-gtx-590.c281) feel better vs. [GTX 680](https://www.techpowerup.com/gpu-specs/geforce-gtx-680.c342) & [GTX 690](https://www.techpowerup.com/gpu-specs/geforce-gtx-690.c361) </br>
 on games like: [Need For Speed - The Run (Q4 2011)](https://en.wikipedia.org/wiki/Need_for_Speed%3A_The_Run) but... lacks Newer DirectX instructions, for Newer Games. </br> 
 
 #### HW tested: </br>
