@@ -39,7 +39,7 @@ intel i3-12100 </br>
 [X] Vsync in NVIDIA X Settings. </br>
 
 Generating more FPS than the monitor can display is wasting Energy & Heat. </br>
-WQHD monitors like [LG 34GP64A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) are 3440x1440 x 50fps using HDMI & 160fps DisplayPort Only. </br>
+WQHD monitors like [LG 34GP64A](https://www.lg.com/us/monitors/lg-34gp63a-b-gaming-monitor) are 3440x1440 x 50fps using HDMI & 160fps DisplayPort. </br>
 HDMI is Uncompressed image "Higher Quality" vs. DisplayPort v2.1 h.264 at 160fps </br>
 Lower Resolution with High-FPS vs. High-Resolution at 50fps, High-Resolution looks Nicer. </br>
 
