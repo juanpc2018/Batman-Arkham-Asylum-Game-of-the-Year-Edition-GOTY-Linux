@@ -22,7 +22,7 @@ The only way to play with CPU PhysX is using NORMAL setting, lacks some PhysX. <
 470: Lutris 0.5.18 / DXVK Complains is too old. </br>
 but NVIDIA 470 driver is required for Older 32-Bit games like Batman Arkham Asylum 32-Bit PhysX </br>
 
-32-Bit PhysX requires GPUs from 2010 Q1 to 2016 Q3, or latest RTX 50x0 </br>
+32-Bit PhysX requires GPUs from 2010 to 2016 Q3, or latest RTX 50x0 </br>
 GPU's between 2016 Q4 "Oct-Nov-Dec" & RTX 40x0, like [GTX 1050 Ti](https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885) do Not support 32-Bit PhysX. </br>
 
 very old GPUs: [Quadro 6000 (2010)](https://www.techpowerup.com/gpu-specs/quadro-6000.c896), [GTX 470](https://www.techpowerup.com/gpu-specs/geforce-gtx-470.c267), [GTX 275](https://www.techpowerup.com/gpu-specs/geforce-gtx-275-physx-edition.c1951) Require driver 390.xx </br>
