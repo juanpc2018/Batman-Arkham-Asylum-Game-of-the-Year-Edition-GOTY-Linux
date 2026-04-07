@@ -10,12 +10,12 @@ incl. 32-Bit [Phys](https://en.wikipedia.org/wiki/Category:Video_games_using_Phy
 but... Dual GPU PhysX does Not work, only 1x GPU. </br>
 Hardware Accelerated PhysX: </br>
 NORMAL does Not show flags on the ceiling. </br>
-HIGH shows all, but requires very fast CPU. </br>
+HIGH shows all. </br>
 
 32-Bit PhysX on CPU Requires the fastest Single-Core CPU on the planet, or will drop to 15fps. </br>
 CPU's are slower in 32-Bit </br>
-installing the fastest GPU + CPU PhysX mode, only increase to 16fps. </br>
-The only way to play with CPU PhysX is using NORMAL setting, lacks some effects. </br>
+installing the fastest GPU + CPU PhysX, only increase to 16fps. </br>
+The only way to play with CPU PhysX is using NORMAL setting, lacks some PhysX. </br>
 
 ### NVIDIA Driver 
 570 is the latest for Ubuntu [20.04.4 LTS](https://archive.org/details/pearOS_Monterey_64bit-12-beta-2021.07.01) </br>
